@@ -1,0 +1,59 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Office temporary files
+~$*
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# MATLAB
+*.asv
+*.autosave
+slprj/
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.fmt
+*.fot
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.xdv
+
+# Large generated temporary outputs
+*.bak
+*.swp
+*.swo
+*.cache
+*.lock
+*.pid
+*.part
+*.crdownload
+*.download
+
+# Local export scratch areas
+exports/latest/tmp/
+exports/final/tmp/
