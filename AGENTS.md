@@ -1,65 +1,65 @@
-# Project Guidance for Codex
+# Codex 项目指导
 
-## Project Identity
+## 项目身份
 
-- Project: undergraduate thesis repository
-- Thesis topic: Commercial Building HVAC Dynamic Demand Response
-- Primary writing language for thesis content: Chinese
-- Primary source format: Markdown
-- Export formats: Word and PDF for review and submission
+- 项目类型：本科毕业论文协同写作仓库
+- 论文题目：《商业建筑HVAC系统动态需求响应》
+- 论文正文语言：中文
+- 主要源文件格式：Markdown
+- 导出格式：用于审阅和提交的 Word、PDF
 
-## Role Division
+## 角色分工
 
-- Author:
-  - owns all substantive academic decisions
-  - confirms scope, claims, structure, and final wording direction
-  - uploads source materials and approves important changes
-- Web ChatGPT:
-  - supports discussion, review, critique, and option generation
-  - helps evaluate structure, wording, and argument quality
-  - does not replace source control or repository execution
-- Codex:
-  - applies confirmed repository changes
-  - organizes files, rules, notes, and source documents
-  - maintains branch discipline and updates tracked project records
-- GitHub:
-  - stores version history
-  - supports branch-based work and pull request review
-  - acts as the audit trail for repository evolution
+- 作者：
+  - 负责所有实质性学术判断；
+  - 确认研究范围、论点、结构和最终写作方向；
+  - 上传源材料，并批准重要变更。
+- Web ChatGPT：
+  - 用于讨论、审阅、批判性检查和生成备选方案；
+  - 辅助评估结构、措辞和论证清晰度；
+  - 不替代 GitHub 版本管理和仓库执行。
+- Codex：
+  - 根据已确认的要求修改仓库；
+  - 整理文件、规则、笔记和 Markdown 源文档；
+  - 维护分支纪律，并更新可追溯的项目记录。
+- GitHub：
+  - 保存版本历史；
+  - 支持分支开发和 Pull Request 审阅；
+  - 作为仓库演进的审计记录。
 
-## Non-Fabrication Rules
+## 禁止编造规则
 
-Codex must not fabricate:
+Codex 不得编造：
 
-- data
-- figures
-- references
-- experimental results
-- simulation outputs
-- citations
-- academic claims
-- literature conclusions
+- 数据；
+- 图表；
+- 参考文献；
+- 实验结果；
+- 仿真输出；
+- 引文；
+- 学术观点；
+- 文献结论。
 
-If information is missing, Codex should leave placeholders, templates, or explicit open questions instead of inventing content.
+如果信息缺失，Codex 应保留占位、模板或明确的开放问题，而不是补写不存在的内容。
 
-## Writing Boundaries
+## 写作边界
 
-- Codex must not directly translate the IEEE TSTE paper into Chinese thesis text as a substitute for original thesis writing.
-- Codex may help map, compare, summarize, or organize source materials when explicitly requested.
-- Substantive thesis writing should happen inside `thesis_source/`.
-- Project notes, process records, and writing decisions should live inside `notes/`.
-- Notes should support writing, not silently become thesis text.
+- Codex 不得将 IEEE TSTE 论文直接翻译成中文论文正文，不能用直接翻译替代本科毕业论文写作。
+- Codex 可以在明确要求下帮助整理、比较、映射或概括材料。
+- 实质性论文写作应放在 `thesis_source/` 中。
+- 项目笔记、过程记录和写作决策应放在 `notes/` 中。
+- `notes/` 用于支持写作，不应在未确认的情况下变成论文正文。
 
-## Change Tracking Rules
+## 变更记录规则
 
-- Important repository changes should update `notes/change_log.md`.
-- Confirmed writing or structural decisions should be recorded in `notes/writing_decisions.md` when relevant.
-- Review feedback from Web ChatGPT or human reviewers should be recorded in `notes/review_comments.md` when it affects future work.
+- 重要仓库变更应更新 `notes/change_log.md`。
+- 已确认的写作或结构决策，应在相关时记录到 `notes/writing_decisions.md`。
+- Web ChatGPT 或人工审阅意见如果会影响后续工作，应记录到 `notes/review_comments.md`。
 
-## Branch and PR Policy
+## 分支和 PR 规则
 
-- Do not write directly on `main` for substantive writing or structure changes.
-- Use focused branches for meaningful work units.
-- Prefer pull requests for substantive writing tasks, large reorganizations, reference changes, figure selection changes, or workflow policy updates.
-- Keep commits scoped and descriptive.
-- Before merging substantive changes, ensure the Markdown source remains the authoritative content base.
+- 不要直接在 `main` 上进行实质性写作或结构修改。
+- 有明确工作单元时使用独立分支。
+- 对实质性写作、大规模重组、参考文献调整、图表选择或工作流规则更新，优先通过 Pull Request 审阅。
+- commit 应保持范围清晰、信息明确。
+- 合并实质性变更前，应确认 Markdown 仍是权威源文件。

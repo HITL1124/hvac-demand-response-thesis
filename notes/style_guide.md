@@ -1,5 +1,7 @@
-# Style Guide
+# 写作风格指南
 
-This file is a placeholder.
+本文件是占位文件。
 
-It will later summarize writing rules learned from high-quality Chinese master's and doctoral theses, together with school templates and formal formatting requirements.
+后续将根据高质量中文硕士、博士论文，学校模板和正式格式要求，总结适用于本论文的写作规则。
+
+当前不填写具体写作结论。

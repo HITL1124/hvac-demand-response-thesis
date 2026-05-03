@@ -1,5 +1,5 @@
-# Chinese Literature Candidates
+# 中文文献候选
 
-Placeholder file for tracking candidate Chinese-language literature.
+本文件用于后续记录候选中文文献。
 
-Only add verified sources. Do not add invented references.
+只添加已经核验的真实来源。不得添加编造的参考文献。

@@ -1,6 +1,6 @@
-# Review Comments
+# 审阅意见记录
 
-## Review Record
+## 审阅记录
 
-| Date | Reviewer | Source | Target | Comment Summary | Required Action | Status | Notes |
+| 日期 | 审阅人 | 来源 | 对象 | 意见摘要 | 需要采取的行动 | 状态 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- | --- |

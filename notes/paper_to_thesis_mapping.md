@@ -1,15 +1,15 @@
-# Paper to Thesis Mapping
+# 论文材料映射
 
-Placeholder template for mapping the IEEE TSTE paper to the undergraduate thesis workflow.
+本文件是将 IEEE TSTE 论文材料映射到本科毕业论文工作流的占位模板。当前不填写最终映射关系。
 
-## Source Paper Metadata
+## 源论文元信息
 
-## Reusable Material Categories
+## 可复用材料类别
 
-## Thesis Sections Potentially Informed by the Paper
+## 可能受源论文启发的毕业论文部分
 
-## Material That Requires Rewriting or Reframing
+## 需要重写或重新表述的材料
 
-## Material That Must Not Be Reused Directly
+## 不得直接复用的材料
 
-## Open Mapping Questions
+## 开放映射问题
