@@ -20,16 +20,16 @@
 
 ## 仓库区域
 
-- `requirements/`：后续上传学校要求、模板和示例。
+- `requirements/`：学校要求、模板和示例，其中 `school/`、`templates/`、`examples/` 按用途区分。
 - `style_samples/`：用于学习写作风格的优秀论文或论文样本。
 - `journal_paper/`：与 IEEE TSTE 论文及其图表、参考材料相关的文件。
-- `research_materials/`：仿真代码、数据和研究过程材料。
+- `research_materials/`：研究过程材料，其中 `code/`、`data/`、`figures/` 分别管理代码、数据和研究阶段图表。
 - `thesis_source/`：后续论文 Markdown 源文档。
-- `figures/` 和 `tables/`：论文图表候选、入选和导出文件。
+- `assets/`：论文资产目录，统一管理 `figures/` 和 `tables/`。
 - `references/`：参考文献、候选文献和引用说明。
 - `notes/`：项目范围、写作流程、决策、审阅意见和变更记录。
-- `exports/`：后续生成的审阅稿或提交稿。
-- `scripts/`：导出、图表处理等辅助脚本。
+- `exports/`：后续生成的审阅稿或提交稿，其中 `review/` 和 `submission/` 按用途区分。
+- `scripts/`：导出、图表处理等辅助脚本，对应 `export/` 和 `figures/`。
 
 ## 当前阶段
 
