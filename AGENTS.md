@@ -90,14 +90,14 @@ GitHub 负责：
 
 ```text
 requirements/        学校指南、模板、范例
-samples/             优秀硕博论文和可学习的写作样本
-paper/               IEEE TSTE 小论文材料，包括 PDF、tex、图表、bib
-materials/           MATLAB、Python、Dymola、原始数据、候选结果图
-thesis/              毕业论文 Markdown 源文件
-figures/             最终入文图、候选图和图源文件
+style_samples/       优秀硕博论文和可学习的写作样本
+journal_paper/       IEEE TSTE 小论文材料，包括 PDF、tex、图表、参考材料
+research_materials/  研究代码、数据、候选结果图和仿真记录
+thesis_source/       毕业论文 Markdown 源文件
+assets/              最终入文图表、候选图表和图源文件
 references/          references.bib、中文文献候选、引用说明
 notes/               项目范围、流程、映射、图表登记、决策、审阅、日志
-exports/             Word/PDF 导出稿
+exports/             审阅稿和提交稿
 scripts/             导出、图表处理、辅助检查脚本
 ```
 
@@ -105,7 +105,7 @@ scripts/             导出、图表处理、辅助检查脚本
 
 ## 6. Markdown 与 Word/PDF 的关系
 
-- `thesis/` 或 `thesis_source/` 下的 Markdown 是论文内容源文件。
+- `thesis_source/` 下的 Markdown 是论文内容源文件。
 - `exports/` 下的 Word/PDF 是导出稿，不是权威源文件。
 - 从 Word/PDF 中发现的内容问题，应回流到 Markdown 中修改。
 - 不要在 Word 中长期维护另一套正文版本。
