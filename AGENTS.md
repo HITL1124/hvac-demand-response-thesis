@@ -99,6 +99,7 @@ references/          references.bib、中文文献候选、引用说明
 notes/               项目范围、流程、映射、图表登记、决策、审阅、日志
 exports/             审阅稿和提交稿
 scripts/             导出、图表处理、辅助检查脚本
+archive/             暂时不用但不确定是否可删除的历史文件
 ```
 
 如果仓库中存在测试阶段留下的临时文件或过细目录，Codex 可以在作者确认后提出整理方案，但不要擅自删除原始材料。
@@ -143,9 +144,9 @@ Codex 不得编造：
 Codex 应先执行或等价完成：
 
 ```bash
-git checkout main
-git pull origin main
-git checkout -b draft/<short-task-name>
+git switch main
+git pull --ff-only origin main
+git switch -c <branch-type>/<short-task-name>
 ```
 
 ### 分支规则
@@ -153,6 +154,13 @@ git checkout -b draft/<short-task-name>
 - 每个分支只解决一个明确任务。
 - 正文修改、结构调整、规则更新、图表登记、参考文献调整应优先使用独立分支。
 - 不要在 `main` 上直接进行实质性写作或结构修改。
+- 分支类型应根据任务性质选择：
+  - `docs/`：说明文档、工作流、规则、notes 模板等文档修改；
+  - `cleanup/`：目录清理、结构重组、无正文内容的整理任务；
+  - `test/`：工具链、导出链路、格式检查等测试任务；
+  - `draft/`：经作者确认后的论文草稿或正文相关写作任务；
+  - `fix/`：修复错误、链接、格式、路径或说明不一致问题；
+  - `export/`：生成或调整 Word/PDF 导出稿、导出脚本和导出配置。
 
 ### commit 规则
 
@@ -172,11 +180,13 @@ git checkout -b draft/<short-task-name>
 
 - 日期；
 - 分支或任务名；
+- 变更类型；
+- 是否涉及正文；
 - 修改文件；
 - 修改摘要；
-- 是否涉及正文内容；
+- 是否已 push / PR；
 - 是否需要作者审阅；
-- 是否已 push / PR。
+- 后续事项。
 
 已确认的写作或结构决策，应记录到 `notes/writing_decisions.md`。Web ChatGPT 或人工审阅意见如果会影响后续工作，应记录到 `notes/review_comments.md`。
 
