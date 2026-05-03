@@ -1,3 +1,5 @@
-# Simulation Notes
+# 仿真笔记
 
-Placeholder file for simulation environment notes, run tracking, and material organization.
+本文件用于后续记录仿真环境、运行过程和研究材料整理情况。
+
+当前不填写仿真结果，不编造数据，也不记录未经确认的研究结论。

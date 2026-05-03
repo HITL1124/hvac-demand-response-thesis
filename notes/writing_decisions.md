@@ -1,6 +1,6 @@
-# Writing Decisions
+# 写作决策记录
 
-## Decision Log
+## 决策日志
 
-| Date | Topic | Decision | Reason | Confirmed By | Related Files | Status | Notes |
+| 日期 | 主题 | 决策 | 原因 | 确认人 | 相关文件 | 状态 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- | --- |

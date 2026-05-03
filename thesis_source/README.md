@@ -1,9 +1,9 @@
-# Thesis Source
+# 论文源文件
 
-This directory will contain the thesis source files in Markdown.
+本目录用于保存后续论文写作的 Markdown 源文件。
 
-- `front_matter/` is for front matter source files.
-- `chapters/` is for substantive thesis chapters when drafting begins.
-- `appendices/` is for appendix source files when needed.
+- `front_matter/`：用于保存封面、摘要、目录等前置部分的源文件。
+- `chapters/`：用于后续正式开始写作时保存论文主体章节源文件。
+- `appendices/`：用于在需要时保存附录源文件。
 
-Do not treat exports as the source of truth. Markdown remains the authoritative content source.
+不要把 Word 或 PDF 导出稿当作源文件。Markdown 始终是论文内容的权威来源。

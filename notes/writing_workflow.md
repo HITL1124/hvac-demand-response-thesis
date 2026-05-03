@@ -1,26 +1,26 @@
-# Writing Workflow
+# 写作工作流
 
-## Core Flow
+## 核心流程
 
-1. Web ChatGPT is used to discuss ideas, review drafts, test argument clarity, and surface revision suggestions.
-2. The author confirms decisions on scope, structure, claims, and wording direction.
-3. Codex applies the confirmed repository changes and updates the tracked Markdown sources or notes.
-4. GitHub stores version history and supports branch-based review of meaningful changes.
+1. Web ChatGPT 用于讨论想法、审阅草稿、检查论证清晰度并提出修改建议。
+2. 作者确认研究范围、文章结构、论点边界和写作方向。
+3. Codex 根据已确认的要求修改仓库，并更新受版本控制的 Markdown 源文件或笔记。
+4. GitHub 保存版本历史，并通过分支和 Pull Request 支持重要修改的审阅。
 
-## Source and Export Rules
+## 源文件和导出规则
 
-- Markdown is the source of truth for thesis writing and project records.
-- Word and PDF files are export artifacts for review, formatting checks, and submission packaging.
-- Export files should not become the only location of updated content.
+- Markdown 是论文写作和项目记录的源文件。
+- Word 和 PDF 是用于审阅、格式检查和提交包装的导出稿。
+- 导出文件不应成为唯一保存最新内容的位置。
 
-## Review Feedback Loop
+## 审阅反馈闭环
 
-- Review comments from Web ChatGPT or human reviewers must flow back into the Markdown source or project notes.
-- If a review leads to a confirmed change in direction, record the decision in `notes/writing_decisions.md`.
-- If a review materially changes the repository state or workflow, update `notes/change_log.md`.
+- Web ChatGPT 或人工审阅意见必须回流到 Markdown 源文件或项目笔记中。
+- 如果审阅导致写作方向发生已确认变化，应记录到 `notes/writing_decisions.md`。
+- 如果审阅导致仓库状态或工作流发生实质变化，应更新 `notes/change_log.md`。
 
-## Operational Principle
+## 操作原则
 
-- Discussion can happen anywhere.
-- Confirmed decisions should be captured in the repository.
-- Substantive writing should remain traceable through version control.
+- 讨论可以发生在仓库外。
+- 已确认的决策应沉淀到仓库中。
+- 实质性写作应通过版本控制保持可追溯。

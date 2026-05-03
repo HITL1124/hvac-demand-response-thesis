@@ -1,3 +1,5 @@
-# Citation Notes
+# 引用说明
 
-Placeholder file for citation decisions, source quality checks, and reference follow-up items.
+本文件用于后续记录引用决策、来源质量检查和参考文献待办事项。
+
+当前不补充具体文献结论，不编造引用依据。

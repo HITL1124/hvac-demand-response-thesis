@@ -1,19 +1,19 @@
-# Project Scope
+# 项目范围
 
-## Thesis Title
+## 论文题目
 
-## Research Background
+## 研究背景
 
-## Relationship to IEEE TSTE Paper
+## 与 IEEE TSTE 论文的关系
 
-## Materials Available
+## 已有材料
 
-## Materials Not Yet Organized
+## 尚未整理的材料
 
-## Dymola Platform Status
+## Dymola 平台状态
 
-## What the Thesis Should Do
+## 论文应该完成的工作
 
-## What the Thesis Should Not Do
+## 论文不应该做的工作
 
-## Open Questions
+## 开放问题

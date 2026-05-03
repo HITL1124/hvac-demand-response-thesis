@@ -1,3 +1,5 @@
-# Journal Paper Notes
+# 期刊论文笔记
 
-Placeholder file for notes related to the IEEE TSTE paper and associated materials.
+本文件用于后续记录与 IEEE TSTE 论文及其相关材料有关的整理笔记。
+
+当前不填写论文结论，不直接翻译源论文内容，也不把源论文直接改写为毕业论文正文。

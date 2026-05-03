@@ -1,4 +1,4 @@
-# Figure Registry
+# 图表登记表
 
-| Figure ID | Candidate filename | Source | Original paper figure? | Candidate thesis location | Supported claim | Data/script source | Needs redrawing? | Status | Notes |
+| 图编号 | 候选文件名 | 来源 | 是否为原论文图 | 候选论文位置 | 支撑的论述 | 数据/脚本来源 | 是否需要重绘 | 状态 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

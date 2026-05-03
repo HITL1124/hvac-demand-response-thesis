@@ -1,15 +1,15 @@
-# Thesis Positioning
+# 论文定位
 
-Placeholder template for later positioning work.
+本文件是后续论文定位工作的占位模板。当前不填写技术结论。
 
-## Problem Framing
+## 问题界定
 
-## Intended Contribution Level
+## 预期贡献层级
 
-## Relationship to Existing Materials
+## 与已有材料的关系
 
-## Expected Emphasis
+## 预期重点
 
-## Boundaries
+## 边界
 
-## Open Questions
+## 开放问题
