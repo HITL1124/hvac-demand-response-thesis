@@ -86,7 +86,7 @@ Codex commit 并 push 到 GitHub
 当前仓库采用以下长期目录结构。文件夹名和文件名使用英文，说明文档和论文正文主要使用中文。
 
 ```text
-requirements/        学校要求和模板
+requirements/        学校要求、写作指南、格式范例和模板文件
 style_samples/       可参考的优秀硕博论文样本
 journal_paper/       IEEE TSTE 小论文材料，统一存放
 research_materials/  仿真项目、Dymola 材料和研究过程记录
@@ -101,15 +101,14 @@ archive/             暂时不用但不确定是否可删除的历史文件
 
 ### `requirements/`
 
-用于存放学校层面的写作要求和格式材料。
+用于直接存放学校层面的写作要求、写作指南、格式范例和模板文件。
 
 ```text
 requirements/
-  school/       学校论文写作指南、格式说明、提交要求
-  templates/    学校 Word 模板、封面模板、格式模板
+  <school-requirement-files>
 ```
 
-这个目录回答的问题是：学校要求论文应该写成什么样、排版成什么样、提交什么格式。
+这个目录回答的问题是：学校要求论文应该写成什么样、排版成什么样、提交什么格式。当前不再继续拆分子目录，避免学校文件层级过深。
 
 ### `style_samples/`
 
