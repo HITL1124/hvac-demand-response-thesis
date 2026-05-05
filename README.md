@@ -86,10 +86,10 @@ Codex commit 并 push 到 GitHub
 当前仓库采用以下长期目录结构。文件夹名和文件名使用英文，说明文档和论文正文主要使用中文。
 
 ```text
-requirements/        学校要求、模板和格式示例
-style_samples/       优秀学位论文和可学习的写作样本
-journal_paper/       IEEE TSTE 小论文材料
-research_materials/  研究代码、数据、仿真材料和候选结果图
+requirements/        学校要求和模板
+style_samples/       可参考的优秀硕博论文样本
+journal_paper/       IEEE TSTE 小论文材料，统一存放
+research_materials/  仿真项目、Dymola 材料和研究过程记录
 thesis_source/       毕业论文 Markdown 源文件
 assets/              论文写作阶段使用的图表资产
 references/          参考文献、中文文献候选和引用说明
@@ -107,58 +107,47 @@ archive/             暂时不用但不确定是否可删除的历史文件
 requirements/
   school/       学校论文写作指南、格式说明、提交要求
   templates/    学校 Word 模板、封面模板、格式模板
-  examples/     学校提供的范例论文或格式示例
 ```
 
 这个目录回答的问题是：学校要求论文应该写成什么样、排版成什么样、提交什么格式。
 
 ### `style_samples/`
 
-用于存放可供学习的优秀论文样本。
+用于直接存放你认为值得参考的优秀硕士/博士论文样本。
 
 ```text
 style_samples/
-  theses/       优秀硕士/博士学位论文样本
-  papers/       可参考的中文或英文论文样本
+  <sample-thesis-files>
 ```
 
-这些文件用于学习章节组织、中文学术表达、图表说明、结果分析和摘要/结论写法。后续从样本中提炼出的写作规则，应整理到 `notes/style_guide.md`。
+这些文件用于学习章节组织、中文学术表达、图表说明、结果分析和摘要/结论写法。这个目录不再按论文类型继续细分；后续从样本中提炼出的写作规则，应整理到 `notes/style_guide.md`。
 
 ### `journal_paper/`
 
-用于存放已经完成或正在投稿准备中的 IEEE TSTE 小论文材料。
+用于统一存放已经完成或正在投稿准备中的 IEEE TSTE 小论文材料。
 
 ```text
 journal_paper/
-  pdf/          小论文 PDF 版本
-  tex/          小论文 LaTeX 源文件
-  figures/      小论文中使用过的图
-  tables/       小论文中使用过的表
-  refs/         小论文 BibTeX 或参考文献文件
   notes.md      小论文材料说明
+  <paper-files>
 ```
 
-这个目录是毕业论文的重要技术基础，但毕业论文正文不应从这里逐句翻译生成。
+这个目录是毕业论文的重要技术基础，但毕业论文正文不应从这里逐句翻译生成。小论文材料不再强制按文件类型拆分；尤其是小论文中的表格主要跟随 LaTeX 源文件或论文材料本身管理，不单独建立表格子目录。
 
 ### `research_materials/`
 
-用于存放研究过程中产生的原始材料、代码、数据和候选结果。
+用于存放研究过程中产生的仿真项目、Dymola 材料和研究过程记录。
 
 ```text
 research_materials/
-  code/
-    dymola/     Dymola 平台相关材料
-    matlab/     MATLAB 代码
-    python/     Python 代码
-  data/
-    raw/        原始数据
-    processed/  处理后数据
-  figures/
-    candidates/ 候选结果图、补充图、未入小论文的图
+  simulation/    后续整体放入整理完成的仿真 cleanroom 项目
+  dymola/        Dymola 平台、模型或原始导出材料
   simulation_notes.md
 ```
 
 这个目录回答的问题是：论文中的模型、结果、图表和结论可以追溯到哪些代码、数据和仿真材料。
+
+后续导入 `99-paper-sim-cleanroom` 时，应整体放入 `research_materials/simulation/`，保持其内部 `run/`、`export/`、`plot/`、`src/`、`data/`、`docs/`、`paper/`、`origin/`、`archive/` 等自包含结构，不再按编程语言拆分。
 
 ### `thesis_source/`
 
