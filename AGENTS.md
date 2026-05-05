@@ -89,10 +89,10 @@ GitHub 负责：
 推荐的简化仓库结构如下：
 
 ```text
-requirements/        学校指南、模板、范例
-style_samples/       优秀硕博论文和可学习的写作样本
-journal_paper/       IEEE TSTE 小论文材料，包括 PDF、tex、图表、参考材料
-research_materials/  研究代码、数据、候选结果图和仿真记录
+requirements/        学校指南和模板
+style_samples/       直接存放可参考的优秀硕博论文样本
+journal_paper/       IEEE TSTE 小论文材料，统一存放
+research_materials/  仿真 cleanroom、Dymola 材料和仿真记录
 thesis_source/       毕业论文 Markdown 源文件
 assets/              最终入文图表、候选图表和图源文件
 references/          references.bib、中文文献候选、引用说明
@@ -101,6 +101,8 @@ exports/             审阅稿和提交稿
 scripts/             导出、图表处理、辅助检查脚本
 archive/             暂时不用但不确定是否可删除的历史文件
 ```
+
+`research_materials/simulation/` 应作为混合语言仿真项目的整体存放位置，后续导入时保持项目内部 `run/`、`export/`、`plot/`、`src/`、`data/`、`docs/` 等结构，不再按编程语言拆分。Dymola 平台或模型材料单独放入 `research_materials/dymola/`。
 
 如果仓库中存在测试阶段留下的临时文件或过细目录，Codex 可以在作者确认后提出整理方案，但不要擅自删除原始材料。
 
