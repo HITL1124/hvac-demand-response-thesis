@@ -10,6 +10,21 @@
 
 `research_materials/dymola/` 用于单独存放 Dymola 平台、模型或原始导出材料。
 
+## Dymola 材料
+
+当前已纳入一组与 `ASHP_guohe.AHU_datareverse.D20241201_20250301` 相关的 Dymola 材料：
+
+- `research_materials/dymola/ASHP_guohe.mo`
+- `research_materials/dymola/GuoHeV1/Project/data/20241201-20250301/`
+- `research_materials/dymola/GuoHeV1/AHU/IntGains_perturbed.mat`
+
+其中，`D20241201_20250301` 当前直接依赖的关键输入包括：
+
+- `processed_data/20241201-20250301_Data.mat`
+- `AHU/IntGains_perturbed.mat`
+
+当前仓库中的 `.mo` 文件仍保留原始绝对路径。本次工作只做材料归档和依赖保留，不做路径改写，也不保证仓库副本可以直接脱离原 Dymola 工作空间独立运行。
+
 ## cleanroom 仿真流程理解
 
 根据作者本地 `99-paper-sim-cleanroom` 当前结构，仿真项目应作为一个自包含工程整体管理，不再按编程语言拆分。其内部职责大致如下：
