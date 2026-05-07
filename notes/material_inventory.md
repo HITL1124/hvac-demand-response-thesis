@@ -6,16 +6,16 @@
 
 ## 2. 总体结论
 
-当前仓库的写作基础设施已经基本齐全，工作流说明、风格指南、导出链路说明、任务模板和变更记录均已入库。IEEE TSTE 小论文材料已经基本齐全，cleanroom 主线仿真材料、Dymola 基础材料以及中期阶段过程材料也已入库，可用于后续材料映射、图表证据链整理和结果追溯。
+当前仓库的写作基础设施已经基本齐全，工作流说明、风格指南、导出链路说明、任务模板和变更记录均已入库。IEEE TSTE 小论文材料已经基本齐全，cleanroom 主线仿真材料、Dymola 基础材料、中期阶段过程材料和学位论文风格样本也已入库，可用于后续材料映射、图表证据链整理、结果追溯和写作风格参照。
 
-当前仍明显不足的部分主要是：风格样本尚未导入、中文文献候选仍待补充、若干写作控制文件仍处于模板阶段、正式章节结构和正文源文件尚未展开。基于现有材料，仓库已经可以进入 `project_scope.md` 讨论和 `paper_to_thesis_mapping.md` 梳理阶段。
+当前仍明显不足的部分主要是：中文文献候选仍待补充、若干写作控制文件仍处于模板阶段、正式章节结构和正文源文件尚未展开。基于现有材料，仓库已经可以进入 `project_scope.md` 讨论和 `paper_to_thesis_mapping.md` 梳理阶段。
 
 ## 3. 材料分类总表
 
 | 材料类别 | 仓库位置 | 当前已有内容 | 后续用途 | 完整性判断 | 待补充事项 |
 | --- | --- | --- | --- | --- | --- |
 | 学校要求与模板 | `requirements/` | 3 个学校写作指南、书写范例与书写要求文件 | 用于格式要求核对和写作规范约束 | 基本齐全 | 后续如有学校正式模板，可继续补充 |
-| 学位论文风格样本 | `style_samples/` | 当前仅有 `.gitkeep` 占位 | 用于 `style_guide.md` 和风格复核 | 明显不足 | 需补充优质硕博论文样本 |
+| 学位论文风格样本 | `style_samples/` | 已导入 9 篇样本 PDF，并新增 `style_samples/README.md` | 用于 `style_guide.md` 和风格复核 | 已形成基础样本集 | 后续可按需要继续补充样本，并沉淀长期规则到 `notes/style_guide.md` |
 | IEEE TSTE 小论文材料 | `journal_paper/` | `v31_TSTE.tex`、`v31_TSTE.pdf`、`tse_bibliography.bib`、`fig1` 到 `fig14`、`notes.md` | 用于材料映射、公式与图表追溯、英文文献基础整理 | 基本齐全 | 如需更多历史版本或配套文件，可后续补充 |
 | 仿真代码与数据 | `research_materials/` | `simulation/` cleanroom 主线项目、`dymola/` 基础模型与数据、`simulation_notes.md` | 用于结果可追溯、图表候选、仿真设置说明和结果分析支撑 | 主线材料已入库 | 后续如需独立运行或补充更多配套材料，仍需进一步整理 |
 | 阶段性研究过程材料 | `research_materials/progress_reports/` | 中期报告 `.doc` 和中期答辩 `.pptx` 已入库 | 用于补充 `project_scope`、Dymola/N4SID/CQR 定位、章节结构设计和完整工作量梳理 | 已形成基础材料 | 仍需由 Web GPT 提炼可参考内容边界 |
@@ -38,14 +38,25 @@
 
 ## 5. 学位论文风格样本
 
-`style_samples/` 当前只有 `.gitkeep`，说明风格样本目录已经预留，但尚未实际导入参考样本。
+`style_samples/` 当前已纳入：
 
-这些材料后续应主要用于：
+- `style_samples/README.md`
+- `quadrotor_control_system_jiang_2014.pdf`
+- `high_power_high_speed_pmsm_xu_2024.pdf`
+- `grid_forming_energy_storage_frequency_support_zheng_2025.pdf`
+- `controllable_commutation_freewheeling_bldcm_wei_2016.pdf`
+- `cnn_bearing_fault_diagnosis_zhang_2017.pdf`
+- `data_model_driven_converter_admittance_identification.pdf`
+- `predictive_pmsm_fast_response_servo_control_li_2024.pdf`
+- `renewable_uncertainty_power_system_risk_assessment_zhang_2025.pdf`
+- `renewable_station_storage_market_li_2025.pdf`
 
-- 支撑 `notes/style_guide.md` 的持续完善
-- 为章节语言风格、结构密度和表达习惯提供复核参照
+这些样本后续主要用于：
 
-当前这一类材料仍需补充。
+- 支撑 `notes/style_guide.md` 的持续完善；
+- 为章节语言风格、结构密度、摘要组织、文献综述逻辑、结果分析表述和结论写法提供形式层面的复核参照。
+
+需要强调的是，这些样本只用于形式参考，不复用其中的具体研究内容、数据、图表、结论或原创观点。
 
 ## 6. IEEE TSTE 小论文材料
 
@@ -151,7 +162,6 @@
 - `project_scope.md` 仍需正式填充
 - `paper_to_thesis_mapping.md` 仍需正式填充
 - `figure_registry.md` 仍需开始轻量登记
-- `style_samples/` 仍需补充实际风格样本
 - 中文参考文献候选仍需补充
 - 中期材料需要进一步提炼为可用于最终论文的内容边界
 - Dymola 材料虽已入库，但是否需要继续补充可独立运行所需配套文件仍待明确
