@@ -1,0 +1,144 @@
+﻿ASCII strings found in origin/figure1.opju that look relevant. This is weak evidence only; Origin binary links may be incomplete.
+
+CQR Upper
+CQR Lower
+h01_cost
+h02_cost
+h03_cost
+h04_cost
+h05_cost
+h06_cost
+h07_cost
+h08_cost
+h09_cost
+h10_cost
+h11_cost
+h12_cost
+h13_cost
+h14_cost
+h15_cost
+h16_cost
+h17_cost
+h18_cost
+h19_cost
+h20_cost
+h21_cost
+h22_cost
+h23_cost
+h24_cost
+h22_cost,
+h17_cost"
+h21_cost*
+h16_cost 
+h24_cost0
+h20_cost(
+h19_cost&
+h23_cost.
+h18_cost$
+Virtual Power Plants Dynamic ModeG
+4">control</
+Reserve
+Reserve (kW)
+Virtual Power Plants Dynamic 
+Reserve (kW)]]
+Netcost ()]]
+LEwlYU0EQKjb8r4F4QNAFDvGt7pwBECILo25RFIGQAgi3pHa0gZAPJMdANuYBkCk26Ni5jYHQOjOtIqiOwlAyJM3Jv8bBkAwTMFCuvYBQODaBr3DQvk/lmvcd1Ej7j80YuJdrNO/P5hUxCNtNKE/4Dq+VS/Jq`%
+Netcost ($)
+!Regulation Reserve Capacity (kW)
+CQR upper boundary
+CQR upper margin
+CQR lower boundary
+CQR lower margin
+Gaussian upper boundary
+Gaussian upper margin
+Gaussian lower boundary
+Gaussian lower margin
+4">cqr_vs_gau</H
+coop HP Power
+coop Fan Power
+coop Total Power
+fix42 HP Power
+fix42 Fan Power
+fix42 Total Power
+FasnPowerCompare
+HP Power (kW)
+HPPowerCompare
+4">fig_reserve_ma</J
+4">fig_reserve_Ts</J
+4">fig_reserve_T</I
+4">fig_credible_vs_max_reserve_red</[
+4">fig_coop_vs_fix_control_temp</X
+4">fig_tempereture_under_reserve</Y
+4">fig_control_compare</O
+4">fig_error</E
+4">fig_R_Ts_ma</G
+4">fig_credible_reserve</P
+Cost ($)
+4">fig_cost_curve</J
+0.8CQR
+0.85CQR
+0.9CQR
+0.95CQR
+CQR - 
+60 - CQR - 
+4">fig_CQR_4_beta</J
+CQR Risk
+4">fig_controA
+r4">fig_9
+4">fig_cost_surface</L
+=TGAu
+zrqOJilav3CjO7O9IYk/SHLo4+aKqj/oOHLUwWzCP6RED9YEmtE/+HlLrpCR4D9QAGqlVpXqP1CRVmgrS/Y/MLJeq0QRAkCwKHD+tNUOQBggEPzPPRlADKspzFllIkA4rgbgZkUnQCCIiYwAvSpALlvEA89+K0BwLHie/PcpQMx35WLW9iVAkNchZ5kuIECwJwatprwTQPBZfGvi3wNAgFEBgaUZ8j9Am9bqNMfiPyClf+nVxNc/YMVnyEZ8yz/g2VmLEhW6P4Dkc7lKzpg/gPO1gqiZhb/g98+tldqTv2CqypmnsY+/kJQ4A6Wb4j6wsrc30hXGvri7wDdlkwm/QMhAZG85Or+YbYi0ZMmAP7i3GvKpIqU/gC3TWj8bvz+gu/WHYa7QP1BT43uJkeA/sMtwu+766z/QeJUED6L3P5AsSB+GuQNA+JQnkiJfEUBg8dHzNOwcQJCgaaUCGCVAmCahDXWeKkBkf7Ao0zsuQJhosP89KS9AHkF7sTOrLUCsSeV+uzopQGTW9d1koyJA8Ak8gRi2FkCAY90loSoGQGA77hGfR/I/wD/4sw4u4T9A/VCcthTVP0CVtSph88g/YMbcgxNRtz+AwJdvCEOXP4DHJ46WmnG/4LP/Jd1WhL/AW4YyhYBhv5DY/nsczA8/AMfT8RuYpj4ALE+SAWPKPgDQ51paR5I+ULc+GIlKaT+AIMqzImWcPxhorDTMn7g/GEvdYYqczz/gvAzc/KrePyATsfNjdOs/AL/6XCw4+D/wzLobuJUu*
+UBZ2rrP4CQrdQasxNAEDAdQiHvKkCgvaHqblc3QHDUy+JsC0BA0FukuEpSNkB7xtdKUs8xQMBb2Bc8YTVADJIdwK4EQEBQgTOp6kdAQPBHPBu1jDdAUB10oT7yLUCgBYu3Gs0fQMASxKohTwVAgKCbdPbF2
+4">fig_credible_vs_max_reserve_blue</\
+<export_hourly_feasible_cost_curves_for_origin_all_beta.xlsx
+H\2026-04\export_hourly_feasible_cost_curves_for_origin_all_beta.xlsx
+;export_hourly_feasible_cost_curves_for_origin_all_beta.xlsx
+\xwechat_files\wxid_b0qc2h9s4owl22_07bd\msg\file\2026-04\export_hourly_feasible_cost_curves_for_origin_all_beta.xlsx
+">export_hourly_feasible_cost_curves_for_o
+_all_beta.xlsx</X
+4">fig_cost_wall</I
+Cost ($)]]
+4">fig_input</E
+4">fig_cost_curve_of_H10_H12</U
+Reserve Capacity of H12 (kW)
+Reserve Capacity of H10 (kW)
+!HPPowerCompare - 
+39 - HPPowerCompare - 
+4">fig7_Q
+\l(1.1) HP Power (Proposed)    \l(2.1) Fan Power (Proposed)    \l(1.3) Total Power (Proposed)
+\l(1.2) HP Power (Benchmark)   \l(2.2) Fan Power (Benchmark)   \l(1.4) Total Power (Benchmark)
+4">fig6_control_compare</P
+4">fig5_cqr_vs_gau</K
+figure1
+00 CQR
+02 CQR
+">fig5_cqr_vs_gau</filename><hint_fname _XF_VAR_IO="0" _XF_VAR_TYPE="1" Label="
+: fig5_cqr_vs_gau"/><path _XF_VAR_IO="0" _XF_VAR_TYPE="1" Label="
+">Fig9
+\Fig9
+.xlsx"/></OriginStorage
+ HP Power&quot;),(A&quot;Time&quot;,C&quot;coop Fan Power&quot;),(A&quot;Time&quot;,E&quot;fix42 HP Power&quot;),(A&quot;Time&q
+uot;,F&quot;fix42 Fan Power&quot;))</iy><list _XF_VAR_IO="0" _XF_VAR_TYPE="2" Label="
+!A&quot;Time&quot;:E&quot;fix42 Fan Power&quot;</rd></OriginStorage></PLOT_GINDEXED><PLOTVM><OriginStorage Label="plo
+">[XYZbeta0p90]Sheet1!(A&quot;Time&quot;,B&quot;R_kW&quot;,C&quot;cost&quot;)</input><output HideNodeName="1" _XF_VAR_IO="1"
+ot;h01_cost&quot;,D&quot;h02_cost&quot;,F&quot;h03_cost&quot;,H&quot;h04_cost&quot;,J&quot;h05_cost&quot;,L&quot;h06_cost&quot;
+,N&quot;h07_cost&quot;,P&quot;h08_cost&quot;,R&quot;h09_cost&quot;,T&quot;h10_cost&quot;,V&quot;h11_cost&quot;,X&quot;h12_cost&
+quot;,Z&quot;h13_cost&quot;,AB&quot;h14_cost&quot;,AD&quot;h15_cost&quot;,AF&quot;h16_cost&quot;,AH&quot;h17_cost&quot;,AJ&quot
+;h18_cost&quot;,AL&quot;h19_cost&quot;,AN&quot;h20_cost&quot;,AP&quot;h21_cost&quot;,AR&quot;h22_cost&quot;,AT&quot;h23_cost&qu
+ot;,AV&quot;h24_cost&quot;)</irng><method _XF_VAR_IO="0" _XF_VAR_TYPE="2" AuxDispInfo="0" Label="
+ HP Power":C"coop Fan Power"),(1,E"fix42 HP Power":F"fix42 Fan Power"))' DB_CTRL_ID="6002"><Range1 NodeID="53" Label="
+ Branch="0" RepeatID="128" _ACTION_OBJECT_ID="1001" Data='[Book9]Sheet1!(1,B"coop HP Power")' PlotObjUID="0" RangeType="0"><X N
+ Label="Y" DataID="52" _ACTION_OBJECT_ID="1004" Enable="1">[Book9]Sheet1!B&quot;coop HP Power&quot;</Y><ED NodeID="55" Label="Y
+4" _ACTION_OBJECT_ID="1001" Data='[Book9]Sheet1!(1,C"coop Fan Power")' PlotObjUID="0" RangeType="0"><X NodeID="55" Label="X" Da
+_ACTION_OBJECT_ID="1004" Enable="1">[Book9]Sheet1!C&quot;coop Fan Power&quot;</Y><ED NodeID="55" Label="Y 
+1001" Data='[Book9]Sheet1!(1,E"fix42 HP Power")' PlotObjUID="0" RangeType="0"><X NodeID="55" Label="X" DataID="51" _ACTION_OBJE
+4" Enable="1">[Book9]Sheet1!E&quot;fix42 HP Power&quot;</Y><ED NodeID="55" Label="Y 
+et1!(1,F"fix42 Fan Power")' PlotObjUID="0" RangeType="0"><X NodeID="55" Label="X" DataID="51" _ACTION_OBJECT_ID="1004" Show="0"
+Sheet1!F&quot;fix42 Fan Power&quot;</Y><ED NodeID="55" Label="Y 
+="52" _ACTION_OBJECT_ID="1004" Enable="1">[Book10]Sheet1!B&quot;coop HP Power&quot;</Y><ED NodeID="55" Label="Y 
+coop Fan Power&quot;</Y><ED NodeID="55" Label="Y 
+="52" _ACTION_OBJECT_ID="1004" Enable="1">[Book10]Sheet1!E&quot;fix42 HP Power&quot;</Y><ED NodeID="55" Label="Y 
+;fix42 Fan Power&quot;</Y><ED NodeID="55" Label="Y 
+et1!(A"Time",B"R_kW",C"cost")' DB_CTRL_ID="6003"><Range1 NodeID="54" Label="
+ID="1002" Data='[XYZbeta0p90]Sheet1!(A"Time",B"R_kW",C"cost")' PlotObjUID="0" RangeType="0"><X NodeID="55" Label="X" DataID="51
+ Enable="1">[XYZbeta0p90]Sheet1!C&quot;cost&quot;</Z></Range1></input><options NodeID="268435456" Label="
