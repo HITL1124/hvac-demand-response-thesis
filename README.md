@@ -139,14 +139,17 @@ journal_paper/
 
 ```text
 research_materials/
-  simulation/    后续整体放入整理完成的仿真 cleanroom 项目
+  simulation/        整理完成的仿真 cleanroom 项目
   dymola/        Dymola 平台、模型或原始导出材料
+  progress_reports/  开题、中期、阶段汇报等研究过程材料
   simulation_notes.md
 ```
 
 这个目录回答的问题是：论文中的模型、结果、图表和结论可以追溯到哪些代码、数据和仿真材料。
 
-后续导入 `99-paper-sim-cleanroom` 时，应整体放入 `research_materials/simulation/`，保持其内部 `run/`、`export/`、`plot/`、`src/`、`data/`、`docs/`、`paper/`、`origin/`、`archive/` 等自包含结构，不再按编程语言拆分。
+`progress_reports/` 用于存放中期报告、阶段汇报 PPT 等过程材料。这些材料用于追溯研究过程和辅助 `project_scope`、章节结构设计，但它们不是正文源文件，不能直接复制到 `thesis_source/`。
+
+`simulation/` 应整体保留 cleanroom 项目的自包含结构，包括 `run/`、`export/`、`plot/`、`src/`、`data/`、`docs/`、`paper/`、`origin/`、`archive/` 等内部目录，不再按编程语言拆分。
 
 ### `thesis_source/`
 
