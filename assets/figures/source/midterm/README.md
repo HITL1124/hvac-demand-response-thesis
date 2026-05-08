@@ -36,6 +36,12 @@
   - 可能用途：Dymola 校核图补充可编辑源文件
   - 当前状态：已归类到 MID-Dymola-Calib
 
+- 文件名：`midterm_dymola_calibration_error.png`
+  - 原始文件名：`回水温度误差变化图.png`
+  - 来源文件夹：`中期\\图表绘制\\2.1节`
+  - 可能用途：Dymola 模型校核误差变化补充图
+  - 当前状态：已归类到 MID-Dymola-Calib
+
 - 文件名：`midterm_data_input_module.svg`
   - 原始文件名：`外部输入.svg`
   - 来源文件夹：`中期\\图表绘制\\2.1节`
@@ -60,20 +66,8 @@
   - 可能用途：N4SID 验证集拟合效果图导出图片
   - 当前状态：已归类到 MID-N4SID-Fit
 
-- 文件名：`unclassified\\总绘图.vsdx`
+- 文件名：`midterm_all_figures_overview.vsdx`
   - 原始文件名：`总绘图.vsdx`
   - 来源文件夹：`中期\\图表绘制`
-  - 可能用途：待作者确认
-  - 当前状态：已放入 unclassified，待作者确认用途
-
-- 文件名：`unclassified\\Untitled.svg`
-  - 原始文件名：`Untitled.svg`
-  - 来源文件夹：`中期\\图表绘制\\2.1节`
-  - 可能用途：待作者确认
-  - 当前状态：已放入 unclassified，待作者确认用途
-
-- 文件名：`unclassified\\回水温度误差变化图.png`
-  - 原始文件名：`回水温度误差变化图.png`
-  - 来源文件夹：`中期\\图表绘制\\2.1节`
-  - 可能用途：待作者确认
-  - 当前状态：已放入 unclassified，待作者确认用途
+  - 可能用途：中期全部图表汇总的 Visio 可编辑源文件，可作为多个中期候选图的重画参考
+  - 当前状态：已从 unclassified 调整为汇总源文件，后续按具体图表用途调用

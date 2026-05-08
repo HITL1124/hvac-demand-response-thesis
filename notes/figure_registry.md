@@ -114,13 +114,13 @@
 | MID-Dymola-Struct | Dymola 高保真物理模型结构图 | 中期报告 图1；中期 PPT 相关模块页；`assets/figures/source/midterm/midterm_dymola_system_structure.svg` | 说明 Dymola 高保真模型总体结构，包括热源、水系统、AHU、建筑热区、边界数据驱动模块 | 参考原图重画 | 重点候选 / 需重画 | 可与 TSTE Fig1 共同整合为本科论文系统结构图 |
 | MID-Boundary-Inputs | 模型校核时段主要边界输入条件图 | 中期报告 图2；`assets/figures/source/midterm/midterm_boundary_inputs.png` | 说明 Dymola 校核所用室外温度、供水温度、辐照度等边界输入 | 视需要重画 | 候选 | 可能用于仿真基础或模型校核说明 |
 | MID-Internal-Gains | ASHRAE Guideline 14 典型内部得热时序设定 | 中期报告 图3 | 说明内部得热设定方式 | 视需要重画或改为文字说明 | 候选 | 当前未在图表绘制文件夹中识别到对应独立素材，待核对 |
-| MID-Dymola-Calib | 模型回水温度校核结果 | 中期报告 图4；中期 PPT 第8页；`assets/figures/source/midterm/midterm_dymola_calibration.png`; `assets/figures/source/midterm/midterm_dymola_calibration_source.fig`; `assets/figures/source/midterm/midterm_dymola_calibration_alt_source.fig` | 说明 Dymola 高保真模型与实测回水温度的一致性 | 重画或重新排版 | 重点候选 / 需重画 | 中期报告含 MAE、RMSE、CVRMSE、R2 等指标，数值是否最终采用需确认 |
-| MID-N4SID-Flow | N4SID 状态空间模型辨识流程图 | 中期报告 图5；中期 PPT 第10页 | 说明 N4SID 辨识流程 | 不优先作为正文图；如使用需简化 | 候选 / 非重点 | 当前未识别到独立素材；`assets/figures/source/midterm/unclassified/总绘图.vsdx` 待作者确认 |
+| MID-Dymola-Calib | 模型回水温度校核结果 | 中期报告 图4；中期 PPT 第8页；`assets/figures/source/midterm/midterm_dymola_calibration.png`; `assets/figures/source/midterm/midterm_dymola_calibration_source.fig`; `assets/figures/source/midterm/midterm_dymola_calibration_alt_source.fig`; `assets/figures/source/midterm/midterm_dymola_calibration_error.png` | 说明 Dymola 高保真模型与实测回水温度的一致性 | 重画或重新排版 | 重点候选 / 需重画 | 中期报告含 MAE、RMSE、CVRMSE、R2 等指标，数值是否最终采用需确认 |
+| MID-N4SID-Flow | N4SID 状态空间模型辨识流程图 | 中期报告 图5；中期 PPT 第10页；`assets/figures/source/midterm/midterm_all_figures_overview.vsdx` | 说明 N4SID 辨识流程 | 不优先作为正文图；如使用需简化 | 候选 / 非重点 | 当前未识别到独立导出图，可从汇总 Visio 源文件中提取或重画 |
 | MID-N4SID-Fit | N4SID 在验证集上的拟合效果图 | 中期报告 图6；中期 PPT 第11页；`assets/figures/source/midterm/midterm_n4sid_fit.pdf`; `assets/figures/source/midterm/midterm_n4sid_fit.png` | 说明状态空间主模型对室温变化的拟合效果 | 可重画 | 候选 | 可与 TSTE Fig4 功能重叠，后续需二选一或合并 |
-| MID-CQR-Flow | CQR 概率波动表征与鲁棒约束构造流程 | 中期 PPT 第12页 | 说明 CQR 从名义响应、分位学习、保形校准到鲁棒温度约束的流程 | 建议重画为论文技术流程图 | 重点候选 / 需重画 | 当前未识别到独立素材；`assets/figures/source/midterm/unclassified/总绘图.vsdx` 待作者确认 |
+| MID-CQR-Flow | CQR 概率波动表征与鲁棒约束构造流程 | 中期 PPT 第12页；`assets/figures/source/midterm/midterm_all_figures_overview.vsdx` | 说明 CQR 从名义响应、分位学习、保形校准到鲁棒温度约束的流程 | 建议重画为论文技术流程图 | 重点候选 / 需重画 | 当前未识别到独立导出图，可从汇总 Visio 源文件中提取或重画 |
 | MID-CQR-Coverage | 不同目标覆盖率下未来室温区间预测与经验覆盖率 | 中期 PPT 第13页 | 说明 CQR 区间宽度、覆盖率和预测步长之间的关系 | 可重画 | 候选 | 当前未在图表绘制文件夹中识别到对应独立素材，待核对 |
 | MID-Module-HeatSource | 热源及输配模块图 | 中期 PPT 第4页；`assets/figures/source/midterm/midterm_heat_source_module.png` | 说明热泵、水泵、供回水管道和边界连接 | 仅作为重画参考 | 候选素材 | 不建议直接作为独立论文图 |
-| MID-Module-Zone-AHU | 建筑热区模块图 | 中期 PPT 第5页 | 说明 Zone、AHU、盘管、风机、混风箱和回风结构 | 仅作为重画参考 | 候选素材 | 已放入 `assets/figures/source/midterm/unclassified/Untitled.svg`，待作者确认用途 |
+| MID-Module-Zone-AHU | 建筑热区模块图 | 中期 PPT 第5页；`assets/figures/source/midterm/midterm_all_figures_overview.vsdx` | 说明 Zone、AHU、盘管、风机、混风箱和回风结构 | 仅作为重画参考 | 候选素材 | 当前未识别到独立导出图，可从汇总 Visio 源文件中提取或重画 |
 | MID-Data-Input | 数据输入模块图 | 中期 PPT 第6页；`assets/figures/source/midterm/midterm_data_input_module.svg` | 说明分钟级气象/运行数据表、内部得热和单位转换 | 仅作为重画参考 | 候选素材 | 可辅助绘制数据流图 |
 | MID-Params-Table | 建筑热区模型主要参数表 | 中期报告 表2 | 说明 Dymola 建筑热区参数 | 是否入文待定 | 候选表 | 参数表可能较长，后续需压缩或选择关键参数 |
 
