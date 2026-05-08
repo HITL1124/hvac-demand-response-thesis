@@ -21,7 +21,7 @@
 | IEEE TSTE 小论文材料 | `journal_paper/` | `v31_TSTE.tex`、`v31_TSTE.pdf`、`tse_bibliography.bib`、`fig1` 到 `fig14`、`notes.md` | 用于材料映射、公式与图表追溯、英文文献基础整理 | 基本齐全 | 如需更多历史版本或配套文件，可后续补充 |
 | 仿真代码与数据 | `research_materials/` | `simulation/` cleanroom 主线项目、`dymola/` 基础模型与数据、`simulation_notes.md` | 用于结果可追溯、图表候选、仿真设置说明和结果分析支撑 | 主线材料已入库 | 后续如需独立运行或补充更多配套材料，仍需进一步整理 |
 | 阶段性研究过程材料 | `research_materials/progress_reports/` | 中期报告 `.doc` 和中期答辩 `.pptx` 已入库 | 用于补充 `project_scope`、Dymola/N4SID/CQR 定位、章节结构设计和完整工作量梳理 | 已形成基础材料 | 仍需由 Web GPT 提炼可参考内容边界 |
-| 图表与候选图 | `assets/`、`journal_paper/`、`research_materials/`、`notes/figure_registry.md` | `figure_registry.md` 已形成轻量候选图表池；TSTE 图、cleanroom 数据、中期材料候选图和待绘制示意图已初步登记；`assets/` 仍为目录骨架 | 用于后续筛选首批入文图、追踪来源、组织中文化和重画工作 | 候选池已建立，正式图源未建 | `assets/` 中正式中文化图源文件仍待建立，后续需随正文写作筛选首批入文图 |
+| 图表与候选图 | `assets/`、`journal_paper/`、`research_materials/`、`notes/figure_registry.md` | 已建立 `assets/figures/source/tste/`、`assets/figures/source/midterm/`、`assets/figures/working/`、`assets/figures/final/`；TSTE 小论文图表素材已复制到 `assets`；中期图表绘制文件夹中的已识别图和可编辑源文件已复制到 `assets`；`figure_registry.md` 已形成轻量候选图表池 | 用于后续筛选首批入文图、追踪来源、组织中文化和重画工作 | 候选池与素材目录已建立，最终入文图尚未形成 | 部分中期图表用途仍需作者确认；`working/` 和 `final/` 当前仍为空或待后续生成；后续需随正文写作筛选首批入文图 |
 | 参考文献 | `references/`、`journal_paper/` | `references.bib` 占位、中文文献候选说明、引用说明、`tse_bibliography.bib` | 用于中英文文献管理和引用决策记录 | 结构已建，英文基础已有 | 中文文献候选仍需补充，但当前可先进入第 2—5 章技术内容初稿写作；第 1 章正式写作前应补充中文文献 |
 | 论文正文源文件 | `thesis_source/` | `thesis_source/README.md` 已有；`thesis_source/chapters/` 下已创建五个章节模板；章节模板已明确各章功能、主线、输入材料、候选图表、待写内容、待确认问题和写作边界 | 用于后续逐章逐节正式正文写作 | 章节模板已建立，正式正文尚未逐节写入 | 后续按写作闭环逐节推进正文内容 |
 | 项目 notes | `notes/` | `project_scope.md`、`paper_to_thesis_mapping.md`、`figure_registry.md` 已形成 v0.1；`writing_workflow.md`、`style_guide.md`、`material_inventory.md`、`midterm_material_notes.md` 等已有实质内容；`writing_decisions.md` 本次补充关键决策 | 用于范围控制、映射管理、图表登记、决策沉淀和审阅协同 | 基本齐全 | 后续仍需随正文写作持续维护 |
@@ -116,8 +116,8 @@
 
 与图表相关的材料目前分散在三处：
 
-- `assets/`：当前有 `figures/` 和 `tables/` 的目录骨架，但尚无正式入库图表
-- `journal_paper/`：已有 `fig1` 到 `fig14` 主图文件
+- `assets/`：已建立 `assets/figures/source/tste/`、`assets/figures/source/midterm/`、`assets/figures/working/` 和 `assets/figures/final/`
+- `journal_paper/`：已有 `fig1` 到 `fig14` 主图文件，且当前已复制一份到 `assets/figures/source/tste/`
 - `research_materials/`：已有 cleanroom 检查图、导出图表材料，以及 Dymola 数据目录下的配套图表来源
 
 此外，`notes/figure_registry.md` 已形成轻量候选图表池，初步登记了：
@@ -127,7 +127,13 @@
 - 中期报告 / PPT 候选图
 - 可能需要新增绘制的示意图和流程图
 
-当前图表候选池已经建立，但 `assets/` 中尚未形成正式中文化图源文件。后续需要随着正文写作筛选首批入文图，并逐步建立正式图源和中文化版本。
+此外，本次已从本地中期图表绘制文件夹复制一批已识别图表素材和可编辑源文件到 `assets/figures/source/midterm/`，并将暂时无法稳妥归类的文件放入 `assets/figures/source/midterm/unclassified/`，等待作者后续确认用途。
+
+当前图表候选池和素材目录已经建立，但：
+
+- 尚未形成最终入文图；
+- `assets/figures/working/` 和 `assets/figures/final/` 当前仍为空或待后续生成；
+- 图表中文化、重画和最终取舍仍需随章节写作推进。
 
 ## 9. 参考文献材料
 
