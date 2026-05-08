@@ -25,6 +25,14 @@
 | `predictive_pmsm_fast_response_servo_control_li_2024.pdf` | 基于预测原理的永磁同步电机快响应伺服控制 | 李绍斌 | 伺服控制 | 建模/控制章节写法、结果分析语言、结论表达 |
 | `renewable_uncertainty_power_system_risk_assessment_zhang_2025.pdf` | 考虑新能源不确定性的电力系统实时运行风险评估 | 张庭祥 | 电力系统/风险评估 | 文献综述分类、问题定义写法、结论组织 |
 | `renewable_station_storage_market_li_2025.pdf` | 新能源场站配储规划与源储协同参与电力市场研究 | 李牧远 | 电力市场/储能规划 | 绪论展开方式、章节结构、总结与展望写法 |
+| `dab_single_stage_dc_ac_pv_microinverter_control_strategy.pdf` | 基于DAB型单级DC-AC变换器的光伏并网微型逆变器控制策略研究 | 谢佳彧 | 电力电子/并网控制 | 绪论组织、控制策略章节写法、结果分析衔接 |
+| `multi_condition_pmsm_electrical_parameter_identification.pdf` | 多工况下永磁同步电机电气参数辨识方法研究 | 王奇维 | 电机控制/参数辨识 | 建模与辨识章节结构、图表分析语言、本章小结 |
+| `intelligent_vehicle_local_trajectory_planning_tracking_control.pdf` | 智能车辆局部轨迹规划与跟踪控制算法研究 | 何慧玲 | 智能控制/轨迹规划 | 章节层级、方法章节展开、仿真结果组织 |
+| `pmsm_high_frequency_signal_injection_sensorless_low_speed_control.pdf` | 永磁同步电机高频信号注入无传感器低速运行自适应控制策略 | 毕广东 | 电机控制/无传感控制 | 模型说明、方法与验证衔接、结果分析表达 |
+| `vpp_multi_timescale_optimal_dispatch_with_power_energy_balance.pdf` | 考虑电力电量平衡的虚拟电厂多时间尺度优化调度策略研究 | 文件名未标注 | 电力系统/虚拟电厂 | 绪论层次、问题定义、结果分析过渡 |
+| `high_precision_servo_system_for_mechatronic_joints.pdf` | 面向机电一体化关节的高精度伺服系统关键技术研究 | 孙春旺 | 机电一体化/伺服系统 | 章节结构、方法展开方式、结论表达 |
+| `presubmission_thesis_sample_23s130524.pdf` | 预审样本（源文件名可追溯） | 不单独整理 | 学位论文预审样本 | 形式层面的写作参考 |
+| `presubmission_thesis_sample_23s130526.pdf` | 预审样本（源文件名可追溯） | 不单独整理 | 学位论文预审样本 | 形式层面的写作参考 |
 
 ## 3. 使用边界
 

@@ -15,7 +15,7 @@
 | 材料类别 | 仓库位置 | 当前已有内容 | 后续用途 | 完整性判断 | 待补充事项 |
 | --- | --- | --- | --- | --- | --- |
 | 学校要求与模板 | `requirements/` | 3 个学校写作指南、书写范例与书写要求文件 | 用于格式要求核对和写作规范约束 | 基本齐全 | 后续如有学校正式模板，可继续补充 |
-| 学位论文风格样本 | `style_samples/` | 已导入 9 篇样本 PDF，并新增 `style_samples/README.md` | 用于 `style_guide.md` 和风格复核 | 已形成基础样本集 | 后续可按需要继续补充样本，并沉淀长期规则到 `notes/style_guide.md` |
+| 学位论文风格样本 | `style_samples/` | 已导入 17 篇样本 PDF，并维护 `style_samples/README.md` | 用于 `style_guide.md` 和风格复核 | 已形成较完整的基础样本集 | 后续可按需要继续补充样本，并沉淀长期规则到 `notes/style_guide.md` |
 | IEEE TSTE 小论文材料 | `journal_paper/` | `v31_TSTE.tex`、`v31_TSTE.pdf`、`tse_bibliography.bib`、`fig1` 到 `fig14`、`notes.md` | 用于材料映射、公式与图表追溯、英文文献基础整理 | 基本齐全 | 如需更多历史版本或配套文件，可后续补充 |
 | 仿真代码与数据 | `research_materials/` | `simulation/` cleanroom 主线项目、`dymola/` 基础模型与数据、`simulation_notes.md` | 用于结果可追溯、图表候选、仿真设置说明和结果分析支撑 | 主线材料已入库 | 后续如需独立运行或补充更多配套材料，仍需进一步整理 |
 | 阶段性研究过程材料 | `research_materials/progress_reports/` | 中期报告 `.doc` 和中期答辩 `.pptx` 已入库 | 用于补充 `project_scope`、Dymola/N4SID/CQR 定位、章节结构设计和完整工作量梳理 | 已形成基础材料 | 仍需由 Web GPT 提炼可参考内容边界 |
@@ -50,6 +50,14 @@
 - `predictive_pmsm_fast_response_servo_control_li_2024.pdf`
 - `renewable_uncertainty_power_system_risk_assessment_zhang_2025.pdf`
 - `renewable_station_storage_market_li_2025.pdf`
+- `dab_single_stage_dc_ac_pv_microinverter_control_strategy.pdf`
+- `multi_condition_pmsm_electrical_parameter_identification.pdf`
+- `intelligent_vehicle_local_trajectory_planning_tracking_control.pdf`
+- `pmsm_high_frequency_signal_injection_sensorless_low_speed_control.pdf`
+- `vpp_multi_timescale_optimal_dispatch_with_power_energy_balance.pdf`
+- `high_precision_servo_system_for_mechatronic_joints.pdf`
+- `presubmission_thesis_sample_23s130524.pdf`
+- `presubmission_thesis_sample_23s130526.pdf`
 
 这些样本后续主要用于：
 
@@ -142,7 +150,7 @@
 
 | 文件 | 当前状态 | 用途 | 是否需要优先补充 |
 | --- | --- | --- | --- |
-| `notes/style_guide.md` | 已有实质内容 | 长期写作风格指南与语言规则沉淀 | 否，后续按需要持续扩充 |
+| `notes/style_guide.md` | 已有实质内容，且已扩展为更完整的长期写作风格指南 | 长期写作风格指南与语言规则沉淀 | 否，后续按需要持续扩充 |
 | `notes/writing_workflow.md` | 已有实质内容 | 记录 Web GPT、作者、Codex 与 GitHub 的执行闭环流程 | 否 |
 | `notes/project_scope.md` | 已有模板，待填充 | 约束论文写什么、不写什么和开放问题 | 是 |
 | `notes/paper_to_thesis_mapping.md` | 已有模板，待填充 | 梳理 TSTE 材料如何转化为本科论文材料 | 是 |
