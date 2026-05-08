@@ -69,20 +69,20 @@
 
 | 候选ID | 原图 | 文件或材料线索 | 数据/脚本来源 | 可能支撑内容 | 处理建议 | 状态 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TSTE-Fig1 | Fig1 水-空气耦合 HVAC 系统示意图 | `journal_paper/fig1_schematic.png` | 手工图，无 xlsx | 说明水侧、空气侧、盘管、建筑热区之间的耦合关系 | 重画中文版 | 重点候选 / 需重画 | 可与中期 Dymola 模型图共同参考 |
-| TSTE-Fig2 | Fig2 机理示意或旧图 | `fig2_mechanism.pdf` / `fig_mechanism.pdf` | 无 | 暂不使用 | 不登记为入文候选 | 暂不采用 | 已在 mapping 中排除 |
-| TSTE-Fig3 | Fig3 代表日输入与预测相关输入 | `fig3_input.pdf` | `export_stage1_cqr_prediction_intervals.xlsx`、`export_one_day_outdoor_temp_irradiance.xlsx` 等 | 说明代表日气象、输入剖面或 CQR 预测输入 | 中文化，是否保留待章节结构确定 | 候选 | 可能与中期边界输入图功能重叠 |
-| TSTE-Fig4 | Fig4 代表日真实室温、N4SID 点预测和 90% CQR 区间 | `fig4_Temperature_under_90_converge.pdf` | `export_stage1_cqr_prediction_intervals.xlsx`；上游 `Stage1Code_CQR.m`、`stage1_cqr.py` | 支撑 N4SID 点预测与 CQR 区间预测效果 | 中文化或重画 | 重点候选 | 可用于“预测模型与不确定性表征” |
-| TSTE-Fig5 | Fig5 CQR 与 Gaussian 风险边界/安全裕量对比 | `fig5_cqr_vs_gau.pdf` | `export_cqr_gaussian_risk_bounds_and_margins.xlsx`；上游 `stage1_cqr.py` | 说明 CQR 相比 Gaussian 风险边界的差异和必要性 | 中文化或重画 | 重点候选 | 若 CQR 作为重点方法展开，建议保留 |
-| TSTE-Fig6 | Fig6 协调策略与固定水侧 / air-only 基线控制对比 | `fig6_control_compare.pdf` | `export_baseline_fixedTs_vs_coop.xlsx`；上游 reserve scan 与 fixedTs suite | 支撑水-空气协调对室温、供水温度、风量等运行变量的影响 | 中文化或重画 | 重点候选 | 可用于工作点重构效果分析 |
-| TSTE-Fig7 | Fig7 功率分解对比 | `fig7_Power_breakdown.pdf` | `baseline_power_breakdown_compare_fixTs_vs_coord_all_beta.xlsx`、`export_baseline_fixedTs_vs_coop.xlsx` | 支撑协调策略对风机、热源或水泵等功率构成的影响 | 中文化或重画 | 候选 | 功率分解口径需后续核对 |
-| TSTE-Fig8 | Fig8 旧自然备用或对比图 | `fig8_nature_compare.pdf` | 可能与 `export_hourly_max_feasible_and_credible_reserve_all_beta.xlsx` 或旧表有关 | 可能支撑自然备用或备用对比 | 先不优先使用 | 待核对 | cleanroom 说明中判断可能是旧图或被 Fig9 替代 |
-| TSTE-Fig9 | Fig9 天然备用、最大可行备用、可信备用对照 | `fig9_credible_reserve.pdf` | `export_hourly_max_feasible_and_credible_reserve_all_beta.xlsx`；上游 reserve scan 与 credible screen | 支撑备用能力、最大可行备用能力和可信备用能力的分层对比 | 中文化或重画 | 重点候选 | 当前主线关键结果图 |
-| TSTE-Fig10 | Fig10 代表小时 R-Ts-ma 工作点族 | `fig10_R_Ts_ma.pdf` | `export_hourly_reserve_ts_ma.xlsx`、`export_credible_screen_beta_90_all_hours.xlsx` | 说明不同备用水平下供水温度、风量和工作点重构关系 | 中文化或重画 | 重点候选 | 可支撑“工作点重构”主线 |
-| TSTE-Fig11 | Fig11 不同备用水平下风险传播和舒适边界 | `fig11_error.pdf` | `export_hourly_risk_bounds_and_temperature_trajectories.xlsx`、`export_credible_screen_beta_90_all_hours.xlsx` | 说明备用部署下室温轨迹、风险收紧边界和可信筛选依据 | 中文化或重画 | 重点候选 | 可支撑可信备用筛选 |
-| TSTE-Fig12 | Fig12 逐小时可信备用成本曲面 | `fig12_cost_wall.pdf` | `export_hourly_credible_netcost_surface_all_beta.xlsx` 或 `noRevenue` 版本 | 支撑可信备用成本曲面分析 | 中文化或重画，成本口径需核对 | 重点候选 / 待核对 | holding cost / net cost / noRevenue 需专题确认 |
-| TSTE-Fig13 | Fig13 H10/H12 成本曲线、可行域与可信域 | `fig13_cost_curve_of_H10_H12.pdf` | `export_hourly_feasible_cost_curves_for_origin_all_beta.xlsx`、可能叠加 `export_hourly_credible_cost_curves_for_origin_all_beta.xlsx` | 支撑典型小时备用成本曲线、可行域和可信域关系 | 中文化或重画，成本口径需核对 | 重点候选 / 待核对 | 成本曲线是高优先级候选结果图，但具体采用方式待讨论 |
-| TSTE-Fig14 | Fig14 不同置信度下可信备用与最大可行备用敏感性 | `fig14_credible_vs_max_reserve_blue.png` | `export_hourly_max_feasible_and_credible_reserve_all_beta.xlsx` | 支撑置信度对可信备用能力的影响 | 中文化或重画 | 候选 | TeX 中可能为 inactive，但可作为置信度讨论 |
+| TSTE-Fig1 | Fig1 水-空气耦合 HVAC 系统示意图 | `journal_paper/fig1_schematic.png`; `assets/figures/source/tste/tste_fig01_hvac_schematic.png` | 手工图，无 xlsx | 说明水侧、空气侧、盘管、建筑热区之间的耦合关系 | 重画中文版 | 重点候选 / 需重画 | 可与中期 Dymola 模型图共同参考 |
+| TSTE-Fig2 | Fig2 机理示意或旧图 | `journal_paper/fig2_mechanism.pdf`; `assets/figures/source/tste/tste_fig02_mechanism.pdf` | 无 | 暂不使用 | 不登记为入文候选 | 暂不采用 | 已在 mapping 中排除，但素材副本已保留为排除参考 |
+| TSTE-Fig3 | Fig3 代表日输入与预测相关输入 | `journal_paper/fig3_input.pdf`; `assets/figures/source/tste/tste_fig03_inputs.pdf` | `export_stage1_cqr_prediction_intervals.xlsx`、`export_one_day_outdoor_temp_irradiance.xlsx` 等 | 说明代表日气象、输入剖面或 CQR 预测输入 | 中文化，是否保留待章节结构确定 | 候选 | 可能与中期边界输入图功能重叠 |
+| TSTE-Fig4 | Fig4 代表日真实室温、N4SID 点预测和 90% CQR 区间 | `journal_paper/fig4_Temperature_under_90_converge.pdf`; `assets/figures/source/tste/tste_fig04_temperature_cqr_interval.pdf` | `export_stage1_cqr_prediction_intervals.xlsx`；上游 `Stage1Code_CQR.m`、`stage1_cqr.py` | 支撑 N4SID 点预测与 CQR 区间预测效果 | 中文化或重画 | 重点候选 | 可用于“预测模型与不确定性表征” |
+| TSTE-Fig5 | Fig5 CQR 与 Gaussian 风险边界/安全裕量对比 | `journal_paper/fig5_cqr_vs_gau.pdf`; `assets/figures/source/tste/tste_fig05_cqr_gaussian_comparison.pdf` | `export_cqr_gaussian_risk_bounds_and_margins.xlsx`；上游 `stage1_cqr.py` | 说明 CQR 相比 Gaussian 风险边界的差异和必要性 | 中文化或重画 | 重点候选 | 若 CQR 作为重点方法展开，建议保留 |
+| TSTE-Fig6 | Fig6 协调策略与固定水侧 / air-only 基线控制对比 | `journal_paper/fig6_control_compare.pdf`; `assets/figures/source/tste/tste_fig06_control_comparison.pdf` | `export_baseline_fixedTs_vs_coop.xlsx`；上游 reserve scan 与 fixedTs suite | 支撑水-空气协调对室温、供水温度、风量等运行变量的影响 | 中文化或重画 | 重点候选 | 可用于工作点重构效果分析 |
+| TSTE-Fig7 | Fig7 功率分解对比 | `journal_paper/fig7_Power_breakdown.pdf`; `assets/figures/source/tste/tste_fig07_power_breakdown.pdf` | `baseline_power_breakdown_compare_fixTs_vs_coord_all_beta.xlsx`、`export_baseline_fixedTs_vs_coop.xlsx` | 支撑协调策略对风机、热源或水泵等功率构成的影响 | 中文化或重画 | 候选 | 功率分解口径需后续核对 |
+| TSTE-Fig8 | Fig8 旧自然备用或对比图 | `journal_paper/fig8_nature_compare.pdf`; `assets/figures/source/tste/tste_fig08_natural_reserve_old.pdf` | 可能与 `export_hourly_max_feasible_and_credible_reserve_all_beta.xlsx` 或旧表有关 | 可能支撑自然备用或备用对比 | 先不优先使用 | 待核对 | cleanroom 说明中判断可能是旧图或被 Fig9 替代 |
+| TSTE-Fig9 | Fig9 天然备用、最大可行备用、可信备用对照 | `journal_paper/fig9_credible_reserve.pdf`; `assets/figures/source/tste/tste_fig09_reserve_comparison.pdf` | `export_hourly_max_feasible_and_credible_reserve_all_beta.xlsx`；上游 reserve scan 与 credible screen | 支撑备用能力、最大可行备用能力和可信备用能力的分层对比 | 中文化或重画 | 重点候选 | 当前主线关键结果图 |
+| TSTE-Fig10 | Fig10 代表小时 R-Ts-ma 工作点族 | `journal_paper/fig10_R_Ts_ma.pdf`; `assets/figures/source/tste/tste_fig10_workpoint_family.pdf` | `export_hourly_reserve_ts_ma.xlsx`、`export_credible_screen_beta_90_all_hours.xlsx` | 说明不同备用水平下供水温度、风量和工作点重构关系 | 中文化或重画 | 重点候选 | 可支撑“工作点重构”主线 |
+| TSTE-Fig11 | Fig11 不同备用水平下风险传播和舒适边界 | `journal_paper/fig11_error.pdf`; `assets/figures/source/tste/tste_fig11_risk_boundary_temperature.pdf` | `export_hourly_risk_bounds_and_temperature_trajectories.xlsx`、`export_credible_screen_beta_90_all_hours.xlsx` | 说明备用部署下室温轨迹、风险收紧边界和可信筛选依据 | 中文化或重画 | 重点候选 | 可支撑可信备用筛选 |
+| TSTE-Fig12 | Fig12 逐小时可信备用成本曲面 | `journal_paper/fig12_cost_wall.pdf`; `assets/figures/source/tste/tste_fig12_cost_surface.pdf` | `export_hourly_credible_netcost_surface_all_beta.xlsx` 或 `noRevenue` 版本 | 支撑可信备用成本曲面分析 | 中文化或重画，成本口径需核对 | 重点候选 / 待核对 | holding cost / net cost / noRevenue 需专题确认 |
+| TSTE-Fig13 | Fig13 H10/H12 成本曲线、可行域与可信域 | `journal_paper/fig13_cost_curve_of_H10_H12.pdf`; `assets/figures/source/tste/tste_fig13_cost_curve_typical_hours.pdf` | `export_hourly_feasible_cost_curves_for_origin_all_beta.xlsx`、可能叠加 `export_hourly_credible_cost_curves_for_origin_all_beta.xlsx` | 支撑典型小时备用成本曲线、可行域和可信域关系 | 中文化或重画，成本口径需核对 | 重点候选 / 待核对 | 成本曲线是高优先级候选结果图，但具体采用方式待讨论 |
+| TSTE-Fig14 | Fig14 不同置信度下可信备用与最大可行备用敏感性 | `journal_paper/fig14_credible_vs_max_reserve_blue.png`; `assets/figures/source/tste/tste_fig14_confidence_sensitivity.png` | `export_hourly_max_feasible_and_credible_reserve_all_beta.xlsx` | 支撑置信度对可信备用能力的影响 | 中文化或重画 | 候选 | TeX 中可能为 inactive，但可作为置信度讨论 |
 
 ## 6. cleanroom 仿真数据与图表来源登记
 
@@ -111,17 +111,17 @@
 
 | 候选ID | 中期图表 | 来源 | 可能支撑内容 | 处理建议 | 状态 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
-| MID-Dymola-Struct | Dymola 高保真物理模型结构图 | 中期报告 图1；中期 PPT 相关模块页 | 说明 Dymola 高保真模型总体结构，包括热源、水系统、AHU、建筑热区、边界数据驱动模块 | 参考原图重画 | 重点候选 / 需重画 | 可与 TSTE Fig1 共同整合为本科论文系统结构图 |
-| MID-Boundary-Inputs | 模型校核时段主要边界输入条件图 | 中期报告 图2 | 说明 Dymola 校核所用室外温度、供水温度、辐照度等边界输入 | 视需要重画 | 候选 | 可能用于仿真基础或模型校核说明 |
-| MID-Internal-Gains | ASHRAE Guideline 14 典型内部得热时序设定 | 中期报告 图3 | 说明内部得热设定方式 | 视需要重画或改为文字说明 | 候选 | 若篇幅紧张，可不入图 |
-| MID-Dymola-Calib | 模型回水温度校核结果 | 中期报告 图4；中期 PPT 第8页 | 说明 Dymola 高保真模型与实测回水温度的一致性 | 重画或重新排版 | 重点候选 / 需重画 | 中期报告含 MAE、RMSE、CVRMSE、R2 等指标，数值是否最终采用需确认 |
-| MID-N4SID-Flow | N4SID 状态空间模型辨识流程图 | 中期报告 图5；中期 PPT 第10页 | 说明 N4SID 辨识流程 | 不优先作为正文图；如使用需简化 | 候选 / 非重点 | 当前暂定 N4SID 不作为重点原理展开，因此完整流程图不作为优先入文图表 |
-| MID-N4SID-Fit | N4SID 在验证集上的拟合效果图 | 中期报告 图6；中期 PPT 第11页 | 说明状态空间主模型对室温变化的拟合效果 | 可重画 | 候选 | 可与 TSTE Fig4 功能重叠，后续需二选一或合并 |
-| MID-CQR-Flow | CQR 概率波动表征与鲁棒约束构造流程 | 中期 PPT 第12页 | 说明 CQR 从名义响应、分位学习、保形校准到鲁棒温度约束的流程 | 建议重画为论文技术流程图 | 重点候选 / 需重画 | CQR 需要展开，流程图可能有价值 |
-| MID-CQR-Coverage | 不同目标覆盖率下未来室温区间预测与经验覆盖率 | 中期 PPT 第13页 | 说明 CQR 区间宽度、覆盖率和预测步长之间的关系 | 可重画 | 候选 | 可能与 TSTE Fig4/Fig5/Fig14 共同支撑 CQR 与置信度讨论 |
-| MID-Module-HeatSource | 热源及输配模块图 | 中期 PPT 第4页 | 说明热泵、水泵、供回水管道和边界连接 | 仅作为重画参考 | 候选素材 | 不建议直接作为独立论文图 |
-| MID-Module-Zone-AHU | 建筑热区模块图 | 中期 PPT 第5页 | 说明 Zone、AHU、盘管、风机、混风箱和回风结构 | 仅作为重画参考 | 候选素材 | 可辅助绘制系统结构图 |
-| MID-Data-Input | 数据输入模块图 | 中期 PPT 第6页 | 说明分钟级气象/运行数据表、内部得热和单位转换 | 仅作为重画参考 | 候选素材 | 可辅助绘制数据流图 |
+| MID-Dymola-Struct | Dymola 高保真物理模型结构图 | 中期报告 图1；中期 PPT 相关模块页；`assets/figures/source/midterm/midterm_dymola_system_structure.svg` | 说明 Dymola 高保真模型总体结构，包括热源、水系统、AHU、建筑热区、边界数据驱动模块 | 参考原图重画 | 重点候选 / 需重画 | 可与 TSTE Fig1 共同整合为本科论文系统结构图 |
+| MID-Boundary-Inputs | 模型校核时段主要边界输入条件图 | 中期报告 图2；`assets/figures/source/midterm/midterm_boundary_inputs.png` | 说明 Dymola 校核所用室外温度、供水温度、辐照度等边界输入 | 视需要重画 | 候选 | 可能用于仿真基础或模型校核说明 |
+| MID-Internal-Gains | ASHRAE Guideline 14 典型内部得热时序设定 | 中期报告 图3 | 说明内部得热设定方式 | 视需要重画或改为文字说明 | 候选 | 当前未在图表绘制文件夹中识别到对应独立素材，待核对 |
+| MID-Dymola-Calib | 模型回水温度校核结果 | 中期报告 图4；中期 PPT 第8页；`assets/figures/source/midterm/midterm_dymola_calibration.png`; `assets/figures/source/midterm/midterm_dymola_calibration_source.fig`; `assets/figures/source/midterm/midterm_dymola_calibration_alt_source.fig`; `assets/figures/source/midterm/midterm_dymola_calibration_error.png` | 说明 Dymola 高保真模型与实测回水温度的一致性 | 重画或重新排版 | 重点候选 / 需重画 | 中期报告含 MAE、RMSE、CVRMSE、R2 等指标，数值是否最终采用需确认 |
+| MID-N4SID-Flow | N4SID 状态空间模型辨识流程图 | 中期报告 图5；中期 PPT 第10页；`assets/figures/source/midterm/midterm_all_figures_overview.vsdx` | 说明 N4SID 辨识流程 | 不优先作为正文图；如使用需简化 | 候选 / 非重点 | 当前未识别到独立导出图，可从汇总 Visio 源文件中提取或重画 |
+| MID-N4SID-Fit | N4SID 在验证集上的拟合效果图 | 中期报告 图6；中期 PPT 第11页；`assets/figures/source/midterm/midterm_n4sid_fit.pdf`; `assets/figures/source/midterm/midterm_n4sid_fit.png` | 说明状态空间主模型对室温变化的拟合效果 | 可重画 | 候选 | 可与 TSTE Fig4 功能重叠，后续需二选一或合并 |
+| MID-CQR-Flow | CQR 概率波动表征与鲁棒约束构造流程 | 中期 PPT 第12页；`assets/figures/source/midterm/midterm_all_figures_overview.vsdx` | 说明 CQR 从名义响应、分位学习、保形校准到鲁棒温度约束的流程 | 建议重画为论文技术流程图 | 重点候选 / 需重画 | 当前未识别到独立导出图，可从汇总 Visio 源文件中提取或重画 |
+| MID-CQR-Coverage | 不同目标覆盖率下未来室温区间预测与经验覆盖率 | 中期 PPT 第13页 | 说明 CQR 区间宽度、覆盖率和预测步长之间的关系 | 可重画 | 候选 | 当前未在图表绘制文件夹中识别到对应独立素材，待核对 |
+| MID-Module-HeatSource | 热源及输配模块图 | 中期 PPT 第4页；`assets/figures/source/midterm/midterm_heat_source_module.png` | 说明热泵、水泵、供回水管道和边界连接 | 仅作为重画参考 | 候选素材 | 不建议直接作为独立论文图 |
+| MID-Module-Zone-AHU | 建筑热区模块图 | 中期 PPT 第5页；`assets/figures/source/midterm/midterm_all_figures_overview.vsdx` | 说明 Zone、AHU、盘管、风机、混风箱和回风结构 | 仅作为重画参考 | 候选素材 | 当前未识别到独立导出图，可从汇总 Visio 源文件中提取或重画 |
+| MID-Data-Input | 数据输入模块图 | 中期 PPT 第6页；`assets/figures/source/midterm/midterm_data_input_module.svg` | 说明分钟级气象/运行数据表、内部得热和单位转换 | 仅作为重画参考 | 候选素材 | 可辅助绘制数据流图 |
 | MID-Params-Table | 建筑热区模型主要参数表 | 中期报告 表2 | 说明 Dymola 建筑热区参数 | 是否入文待定 | 候选表 | 参数表可能较长，后续需压缩或选择关键参数 |
 
 ## 8. 可能需要新增绘制的示意图或流程图
@@ -151,7 +151,7 @@
 
 当前图表池仍存在以下缺口：
 
-1. `assets/` 中尚未形成正式候选图、已选图或中文化图源文件。
+1. `assets/figures/source/tste/`、`assets/figures/source/midterm/`、`assets/figures/working/` 和 `assets/figures/final/` 已建立，但 `working/` 与 `final/` 当前仍为空目录，尚未形成正式中文化图源文件。
 
 2. TSTE 图表中文化版本尚未生成，后续需要从 Origin 原图修改或基于 Excel 重新绘制。
 

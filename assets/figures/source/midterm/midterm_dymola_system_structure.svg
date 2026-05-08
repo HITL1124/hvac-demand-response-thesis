@@ -1,0 +1,740 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="-28.55 -28.55 780.1 628.1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="525.128" y="549.079">T</text>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(485.156, 552.214) rotate(-180) translate(0, 0)" x="-7.27768" y="-10.0768" width="14.5554" height="20.1536"/>
+	<rect fill="rgb(0,16,33)" stroke="none" stroke-opacity="1" transform="translate(485.156, 552.214) rotate(-180) translate(0, 0)" x="-7.27768" y="-9.99733" width="14.5554" height="19.9947"/>
+	<rect fill="rgb(0,32,65)" stroke="none" stroke-opacity="1" transform="translate(485.156, 552.214) rotate(-180) translate(0, 0)" x="-7.27768" y="-9.7602" width="14.5554" height="19.5204"/>
+	<rect fill="rgb(0,48,97)" stroke="none" stroke-opacity="1" transform="translate(485.156, 552.214) rotate(-180) translate(0, 0)" x="-7.27768" y="-9.36916" width="14.5554" height="18.7383"/>
+	<rect fill="rgb(0,63,127)" stroke="none" stroke-opacity="1" transform="translate(485.156, 552.214) rotate(-180) translate(0, 0)" x="-7.27768" y="-8.83035" width="14.5554" height="17.6607"/>
+	<rect fill="rgb(0,77,155)" stroke="none" stroke-opacity="1" transform="translate(485.156, 552.214) rotate(-180) translate(0, 0)" x="-7.27768" y="-8.15229" width="14.5554" height="16.3046"/>
+	<rect fill="rgb(0,89,180)" stroke="none" stroke-opacity="1" transform="translate(485.156, 552.214) rotate(-180) translate(0, 0)" x="-7.27768" y="-7.34566" width="14.5554" height="14.6913"/>
+	<rect fill="rgb(0,100,202)" stroke="none" stroke-opacity="1" transform="translate(485.156, 552.214) rotate(-180) translate(0, 0)" x="-7.27768" y="-6.42318" width="14.5554" height="12.8464"/>
+	<rect fill="rgb(0,109,220)" stroke="none" stroke-opacity="1" transform="translate(485.156, 552.214) rotate(-180) translate(0, 0)" x="-7.27768" y="-5.39941" width="14.5554" height="10.7988"/>
+	<rect fill="rgb(0,117,235)" stroke="none" stroke-opacity="1" transform="translate(485.156, 552.214) rotate(-180) translate(0, 0)" x="-7.27768" y="-4.29049" width="14.5554" height="8.58097"/>
+	<rect fill="rgb(0,122,246)" stroke="none" stroke-opacity="1" transform="translate(485.156, 552.214) rotate(-180) translate(0, 0)" x="-7.27768" y="-3.1139" width="14.5554" height="6.2278"/>
+	<rect fill="rgb(0,125,252)" stroke="none" stroke-opacity="1" transform="translate(485.156, 552.214) rotate(-180) translate(0, 0)" x="-7.27768" y="-1.8882" width="14.5554" height="3.7764"/>
+	<rect fill="rgb(0,127,255)" stroke="none" stroke-opacity="1" transform="translate(485.156, 552.214) rotate(-180) translate(0, 0)" x="-7.27768" y="-0.632727" width="14.5554" height="1.26545"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,0,255)" stroke-opacity="1" transform=" rotate(-180, 504.75, 552.214)" cx="504.75" cy="552.214" rx="17.9143" ry="17.9143"/>
+	<polygon fill="rgb(0,0,255)" stroke="rgb(0,0,255)" stroke-opacity="1" points="513.707,536.539 486.836,552.214 513.707,567.441 513.707,536.539"/>
+	<text fill="rgb(255,0,0)" font-size="12" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="504.526" y="551.99">m</text>
+	<ellipse fill="rgb(255,0,0)" stroke="rgb(255,0,0)" stroke-opacity="1" transform=" rotate(-180, 505.198, 546.392)" cx="505.198" cy="546.392" rx="0.895714" ry="0.895714"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="502.735" y="523.104">WatSou</text>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="285.3" y="528.926">AirSink</text>
+	<ellipse fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="17.9143" ry="17.9143"/>
+	<ellipse fill="rgb(0,10,21)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="17.8562" ry="17.8562"/>
+	<ellipse fill="rgb(0,20,41)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="17.6823" ry="17.6823"/>
+	<ellipse fill="rgb(0,31,62)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="17.3937" ry="17.3937"/>
+	<ellipse fill="rgb(0,41,82)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="16.9924" ry="16.9924"/>
+	<ellipse fill="rgb(0,51,102)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="16.4808" ry="16.4808"/>
+	<ellipse fill="rgb(0,60,121)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="15.8623" ry="15.8623"/>
+	<ellipse fill="rgb(0,69,139)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="15.141" ry="15.141"/>
+	<ellipse fill="rgb(0,78,156)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="14.3214" ry="14.3214"/>
+	<ellipse fill="rgb(0,86,172)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="13.409" ry="13.409"/>
+	<ellipse fill="rgb(0,93,187)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="12.4097" ry="12.4097"/>
+	<ellipse fill="rgb(0,100,201)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="11.3298" ry="11.3298"/>
+	<ellipse fill="rgb(0,106,213)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="10.1765" ry="10.1765"/>
+	<ellipse fill="rgb(0,111,224)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="8.95714" ry="8.95714"/>
+	<ellipse fill="rgb(0,116,233)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="7.67972" ry="7.67972"/>
+	<ellipse fill="rgb(0,120,241)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="6.35249" ry="6.35249"/>
+	<ellipse fill="rgb(0,123,247)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="4.98407" ry="4.98407"/>
+	<ellipse fill="rgb(0,125,251)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="3.58332" ry="3.58332"/>
+	<ellipse fill="rgb(0,126,254)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="2.15933" ry="2.15933"/>
+	<ellipse fill="rgb(0,127,255)" stroke="none" stroke-opacity="1" cx="285.3" cy="552.214" rx="0.721336" ry="0.721336"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="370.169" y="474.511">heaPum</text>
+	<rect fill="rgb(95,95,95)" stroke="none" stroke-opacity="1" transform="translate(370.393, 502.95) translate(0, 0) scale(1,-1)" x="-15.675" y="-17.9143" width="31.35" height="35.8286"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(370.617, 489.738) translate(0, 0) scale(1,-1)" x="-12.7639" y="-2.01536" width="25.5279" height="4.03071"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(370.617, 516.61) translate(0, 0) scale(1,-1)" x="-12.7639" y="-2.01536" width="25.5279" height="4.03071"/>
+	<rect fill="rgb(0,0,255)" stroke="none" stroke-opacity="1" transform="translate(369.833, 489.738) translate(0, 0) scale(1,-1)" x="-22.5048" y="-1.11964" width="45.0096" height="2.23929"/>
+	<rect fill="rgb(255,0,0)" stroke="none" stroke-opacity="1" x="369.945" y="488.619" width="22.3929" height="2.23929"/>
+	<rect fill="rgb(0,0,255)" stroke="none" stroke-opacity="1" transform="translate(370.281, 516.61) translate(0, 0) scale(1,-1)" x="-22.5048" y="-1.11964" width="45.0096" height="2.23929"/>
+	<rect fill="rgb(0,0,127)" stroke="none" stroke-opacity="1" x="348" y="515.49" width="22.3929" height="2.23929"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-opacity="1" points="360.988,502.95 358.749,505.637 363.227,505.637 360.988,502.95"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-opacity="1" points="360.988,502.95 358.749,500.711 363.227,500.711 360.988,502.95"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(360.988, 496.232) translate(0, 0) scale(1,-1)" x="-0.447857" y="-4.47857" width="0.895714" height="8.95714"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(360.988, 510.116) translate(0, 0) scale(1,-1)" x="-0.447857" y="-4.47857" width="0.895714" height="8.95714"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(379.35, 503.174) translate(0, 0) scale(1,-1)" x="-0.447857" y="-11.4204" width="0.895714" height="22.8407"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="379.35" cy="502.726" rx="4.92643" ry="4.7025"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-opacity="1" points="379.35,498.024 375.319,505.189 383.381,505.189 379.35,498.024"/>
+	<polyline fill="none" stroke="rgb(0,0,255)" stroke-opacity="1" points="370.393,487.723 370.393,482.796 390.546,482.796 392.786,482.796"/>
+	<polyline fill="none" stroke="rgb(0,0,255)" stroke-opacity="1" points="370.393,518.625 370.393,523.104 392.786,523.104"/>
+	<polyline fill="none" stroke="rgb(0,0,255)" stroke-opacity="1" points="384.276,502.95 392.786,502.95"/>
+	<text fill="rgb(0,0,127)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="343.521" y="472.72"><title>TCon</title>…</text>
+	<polyline fill="none" stroke="rgb(0,0,255)" stroke-opacity="1" points="348,482.796 352.479,482.796 352.479,484.14 388.307,484.14 388.307,488.619"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="462.36" y="512.758"><title>senHPOut</title>senHP…</text>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="470.355,482.349 471.295,480.154 472.549,478.273 474.117,477.333 475.998,476.706 477.565,476.706"/>
+	<polyline fill="none" stroke="rgb(0,128,255)" stroke-opacity="1" points="446.529,491.754 476.625,491.754"/>
+	<ellipse fill="rgb(191,0,0)" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" cx="462.204" cy="497.867" rx="3.135" ry="2.97825"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="455.934,482.349 460.323,482.349"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="455.934,487.051 460.323,487.051"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="455.934,491.754 460.323,491.754"/>
+	<rect fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(462.204, 488.932) translate(0, 0) scale(1,-1)" x="-1.881" y="-6.5835" width="3.762" height="13.167"/>
+	<polygon fill="none" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" points="460.323,482.349 460.323,479.214 460.636,478.273 461.263,477.96 462.204,477.646 463.144,477.96 463.771,478.273 464.085,479.214 464.085,482.349 460.323,482.349"/>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="468.787" y="473.727">T</text>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" points="460.323,482.349 460.323,495.672"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" points="464.085,482.349 464.085,495.516"/>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="462.204,476.079 462.204,483.916"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" transform="translate(561.314, 451.76) rotate(-270)">expVes</text>
+	<rect fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(542.818, 451.446) rotate(-270) translate(0, 0) scale(1,-1)" x="-12.54" y="-12.54" width="25.08" height="25.08"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(542.818, 451.603) rotate(-270) translate(0, 0) scale(1,-1)" x="-10.8158" y="-10.9725" width="21.6315" height="21.945"/>
+	<polygon fill="rgb(0,0,255)" stroke="rgb(0,0,255)" stroke-opacity="1" points="545.639,440.787 545.65,440.798 545.683,440.831 545.738,440.886 545.815,440.963 545.914,441.062 546.034,441.182 546.177,441.325 546.342,441.49 546.528,441.676 546.737,441.885 546.737,441.885 546.737,441.885 546.933,442.114 547.081,442.361 547.183,442.628 547.238,442.913 547.246,443.217 547.207,443.54 547.121,443.882 546.987,444.242 546.807,444.622 546.58,445.02 546.58,445.02 546.58,445.02 546.353,445.429 546.172,445.841 546.039,446.256 545.953,446.675 545.914,447.097 545.922,447.521 545.976,447.949 546.078,448.38 546.227,448.815 546.423,449.252 546.423,449.252 546.423,449.252 546.621,449.689 546.774,450.123 546.884,450.555 546.95,450.982 546.972,451.407 546.95,451.829 546.884,452.247 546.774,452.663 546.621,453.075 546.423,453.484 546.423,453.484 546.423,453.484 546.227,453.887 546.078,454.28 545.976,454.665 545.922,455.039 545.914,455.404 545.953,455.76 546.039,456.107 546.172,456.444 546.353,456.771 546.58,457.089 546.58,457.089 546.58,457.089 546.807,457.406 546.987,457.729 547.121,458.058 547.207,458.394 547.246,458.735 547.238,459.083 547.183,459.438 547.081,459.798 546.933,460.165 546.737,460.538 546.737,460.538 546.737,460.538 546.528,460.895 546.342,461.215 546.177,461.497 546.034,461.742 545.914,461.949 545.815,462.118 545.738,462.25 545.683,462.344 545.65,462.4 545.639,462.419 545.639,462.419 545.639,462.419 545.57,462.419 545.363,462.419 545.019,462.419 544.536,462.419 543.915,462.419 543.156,462.419 542.26,462.419 541.225,462.419 540.053,462.419 538.742,462.419 538.742,462.419 538.742,462.419 537.432,462.419 536.259,462.419 535.225,462.419 534.328,462.419 533.57,462.419 532.949,462.419 532.466,462.419 532.121,462.419 531.914,462.419 531.845,462.419 531.845,462.419 531.845,462.419 531.845,462.311 531.845,461.986 531.845,461.446 531.845,460.688 531.845,459.715 531.845,458.525 531.845,457.119 531.845,455.497 531.845,453.658 531.845,451.603 531.845,451.603 531.845,451.603 531.845,449.548 531.845,447.71 531.845,446.087 531.845,444.681 531.845,443.491 531.845,442.518 531.845,441.761 531.845,441.22 531.845,440.896 531.845,440.787 531.845,440.787 531.845,440.787 531.914,440.787 532.121,440.787 532.466,440.787 532.949,440.787 533.57,440.787 534.328,440.787 535.225,440.787 536.259,440.787 537.432,440.787 538.742,440.787 538.742,440.787 538.742,440.787 540.053,440.787 541.225,440.787 542.26,440.787 543.156,440.787 543.915,440.787 544.536,440.787 545.019,440.787 545.363,440.787 545.57,440.787 545.639,440.787 545.639,440.787"/>
+	<rect fill="rgb(0,0,127)" stroke="none" stroke-opacity="1" transform="translate(529.494, 451.446) rotate(-270) translate(0, 0) scale(-1,-1)" x="-0.3135" y="-0.78375" width="0.627" height="1.5675"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" transform="translate(546.669, 350.499) rotate(-90)">WatPum</text>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="510.124,350.679 510.124,332.764"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="506.541,350.679 506.541,332.764"/>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-2.86629" width="35.8286" height="5.73257"/>
+	<rect fill="rgb(0,10,21)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-2.85699" width="35.8286" height="5.71398"/>
+	<rect fill="rgb(0,20,41)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-2.82917" width="35.8286" height="5.65834"/>
+	<rect fill="rgb(0,31,62)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-2.783" width="35.8286" height="5.56599"/>
+	<rect fill="rgb(0,41,82)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-2.71878" width="35.8286" height="5.43755"/>
+	<rect fill="rgb(0,51,102)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-2.63692" width="35.8286" height="5.27385"/>
+	<rect fill="rgb(0,60,121)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-2.53797" width="35.8286" height="5.07594"/>
+	<rect fill="rgb(0,69,139)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-2.42256" width="35.8286" height="4.84511"/>
+	<rect fill="rgb(0,78,156)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-2.29143" width="35.8286" height="4.58286"/>
+	<rect fill="rgb(0,86,172)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-2.14545" width="35.8286" height="4.29089"/>
+	<rect fill="rgb(0,93,187)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-1.98555" width="35.8286" height="3.97109"/>
+	<rect fill="rgb(0,100,201)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-1.81277" width="35.8286" height="3.62554"/>
+	<rect fill="rgb(0,106,213)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-1.62824" width="35.8286" height="3.25647"/>
+	<rect fill="rgb(0,111,224)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-1.43314" width="35.8286" height="2.86629"/>
+	<rect fill="rgb(0,116,233)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-1.22876" width="35.8286" height="2.45751"/>
+	<rect fill="rgb(0,120,241)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-1.0164" width="35.8286" height="2.0328"/>
+	<rect fill="rgb(0,123,247)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-0.797451" width="35.8286" height="1.5949"/>
+	<rect fill="rgb(0,125,251)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-0.573331" width="35.8286" height="1.14666"/>
+	<rect fill="rgb(0,126,254)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-0.345493" width="35.8286" height="0.690985"/>
+	<rect fill="rgb(0,127,255)" stroke="none" stroke-opacity="1" transform="translate(522.664, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-17.9143" y="-0.115414" width="35.8286" height="0.230827"/>
+	<ellipse fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 350.679)" cx="522.664" cy="350.679" rx="10.3903" ry="10.3903"/>
+	<ellipse fill="rgb(0,13,25)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 350.679)" cx="522.664" cy="350.679" rx="10.3084" ry="10.3084"/>
+	<ellipse fill="rgb(0,25,51)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 350.679)" cx="522.664" cy="350.679" rx="10.0639" ry="10.0639"/>
+	<ellipse fill="rgb(0,38,76)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 350.679)" cx="522.664" cy="350.679" rx="9.66064" ry="9.66064"/>
+	<ellipse fill="rgb(0,49,99)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 350.679)" cx="522.664" cy="350.679" rx="9.10508" ry="9.10508"/>
+	<ellipse fill="rgb(0,60,121)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 350.679)" cx="522.664" cy="350.679" rx="8.40592" ry="8.40592"/>
+	<ellipse fill="rgb(0,70,140)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 350.679)" cx="522.664" cy="350.679" rx="7.57419" ry="7.57419"/>
+	<ellipse fill="rgb(0,79,157)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 350.679)" cx="522.664" cy="350.679" rx="6.62302" ry="6.62302"/>
+	<ellipse fill="rgb(0,86,172)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 350.679)" cx="522.664" cy="350.679" rx="5.56739" ry="5.56739"/>
+	<ellipse fill="rgb(0,92,183)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 350.679)" cx="522.664" cy="350.679" rx="4.42397" ry="4.42397"/>
+	<ellipse fill="rgb(0,96,192)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 350.679)" cx="522.664" cy="350.679" rx="3.21077" ry="3.21077"/>
+	<ellipse fill="rgb(0,99,197)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 350.679)" cx="522.664" cy="350.679" rx="1.94695" ry="1.94695"/>
+	<ellipse fill="rgb(0,100,199)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 350.679)" cx="522.664" cy="350.679" rx="0.652411" ry="0.652411"/>
+	<polygon fill="rgb(255,255,255)" stroke="none" stroke-opacity="1" points="513.707,350.679 531.621,350.679 522.664,341.005 513.707,350.679"/>
+	<ellipse fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 347.096)" cx="522.664" cy="347.096" rx="2.86629" ry="2.86629"/>
+	<ellipse fill="rgb(0,38,76)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 347.096)" cx="522.664" cy="347.096" rx="2.69343" ry="2.69343"/>
+	<ellipse fill="rgb(0,70,140)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 347.096)" cx="522.664" cy="347.096" rx="2.1957" ry="2.1957"/>
+	<ellipse fill="rgb(0,92,183)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 347.096)" cx="522.664" cy="347.096" rx="1.43314" ry="1.43314"/>
+	<ellipse fill="rgb(0,100,199)" stroke="none" stroke-opacity="1" transform=" rotate(-90, 522.664, 347.096)" cx="522.664" cy="347.096" rx="0.497725" ry="0.497725"/>
+	<text fill="rgb(0,0,127)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" transform="translate(504.929, 334.735) rotate(-90)">P</text>
+	<text fill="rgb(0,0,127)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" transform="translate(508.512, 338.676) rotate(-90)"><title>y_actual</title></text>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="504.75,350.679 513.707,350.679"/>
+	<rect fill="rgb(135,135,135)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(510.124, 350.499) rotate(-90) translate(0, 0)" x="-5.91171" y="-5.37429" width="11.8234" height="10.7486"/>
+	<ellipse fill="rgb(135,135,135)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-90, 510.124, 350.499)" cx="510.124" cy="350.499" rx="5.91171" ry="5.37429"/>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" font-weight="bold" text-anchor="middle" dominant-baseline="central" transform="translate(510.303, 350.499) rotate(-90)">M</text>
+	<text fill="rgb(0,0,127)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" transform="translate(504.571, 368.593) rotate(-90)"><title>m_flow</title>m…</text>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="370.169" y="223.711">heaCoi</text>
+	<rect fill="rgb(95,95,95)" stroke="none" stroke-opacity="1" transform="translate(370.393, 252.15) translate(0, 0) scale(1,-1)" x="-15.675" y="-17.9143" width="31.35" height="35.8286"/>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(378.902, 252.15) translate(0, 0) scale(1,-1)" x="-0.447857" y="-17.9143" width="0.895714" height="35.8286"/>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(361.884, 252.15) translate(0, 0) scale(1,-1)" x="-0.447857" y="-17.9143" width="0.895714" height="35.8286"/>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(370.393, 252.15) translate(0, 0) scale(1,-1)" x="-0.447857" y="-17.9143" width="0.895714" height="35.8286"/>
+	<rect fill="rgb(0,127,0)" stroke="none" stroke-opacity="1" transform="translate(370.505, 265.586) translate(0, 0) scale(1,-1)" x="-22.5048" y="-1.11964" width="45.0096" height="2.23929"/>
+	<rect fill="rgb(0,0,255)" stroke="none" stroke-opacity="1" transform="translate(370.953, 238.714) translate(0, 0) scale(1,-1)" x="-22.5048" y="-1.11964" width="45.0096" height="2.23929"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" transform="translate(299.587, 344.117) rotate(-270)">res</text>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-6.27" width="31.35" height="12.54"/>
+	<rect fill="rgb(17,17,17)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-6.24476" width="31.35" height="12.4895"/>
+	<rect fill="rgb(35,35,35)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-6.16924" width="31.35" height="12.3385"/>
+	<rect fill="rgb(52,52,52)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-6.04405" width="31.35" height="12.0881"/>
+	<rect fill="rgb(69,69,69)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-5.87019" width="31.35" height="11.7404"/>
+	<rect fill="rgb(85,85,85)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-5.64907" width="31.35" height="11.2981"/>
+	<rect fill="rgb(101,101,101)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-5.38247" width="31.35" height="10.7649"/>
+	<rect fill="rgb(115,115,115)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-5.07254" width="31.35" height="10.1451"/>
+	<rect fill="rgb(129,129,129)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-4.72176" width="31.35" height="9.44352"/>
+	<rect fill="rgb(141,141,141)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-4.33296" width="31.35" height="8.66593"/>
+	<rect fill="rgb(153,153,153)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-3.90928" width="31.35" height="7.81856"/>
+	<rect fill="rgb(163,163,163)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-3.45412" width="31.35" height="6.90825"/>
+	<rect fill="rgb(171,171,171)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-2.97116" width="31.35" height="5.94231"/>
+	<rect fill="rgb(179,179,179)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-2.46427" width="31.35" height="4.92853"/>
+	<rect fill="rgb(184,184,184)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-1.93754" width="31.35" height="3.87507"/>
+	<rect fill="rgb(188,188,188)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-1.39521" width="31.35" height="2.79041"/>
+	<rect fill="rgb(191,191,191)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-0.841643" width="31.35" height="1.68329"/>
+	<rect fill="rgb(192,192,192)" stroke="none" stroke-opacity="1" transform="translate(278.582, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-0.281302" width="31.35" height="0.562605"/>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-3.60525" width="31.35" height="7.2105"/>
+	<rect fill="rgb(0,11,23)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-3.59074" width="31.35" height="7.18147"/>
+	<rect fill="rgb(0,23,46)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-3.54731" width="31.35" height="7.09462"/>
+	<rect fill="rgb(0,34,69)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-3.47533" width="31.35" height="6.95065"/>
+	<rect fill="rgb(0,45,92)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-3.37536" width="31.35" height="6.75072"/>
+	<rect fill="rgb(0,56,113)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-3.24822" width="31.35" height="6.49644"/>
+	<rect fill="rgb(0,66,134)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-3.09492" width="31.35" height="6.18985"/>
+	<rect fill="rgb(0,76,153)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-2.91671" width="31.35" height="5.83342"/>
+	<rect fill="rgb(0,85,171)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-2.71501" width="31.35" height="5.43002"/>
+	<rect fill="rgb(0,93,188)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-2.49145" width="31.35" height="4.98291"/>
+	<rect fill="rgb(0,101,203)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-2.24784" width="31.35" height="4.49567"/>
+	<rect fill="rgb(0,107,216)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-1.98612" width="31.35" height="3.97224"/>
+	<rect fill="rgb(0,113,228)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-1.70841" width="31.35" height="3.41683"/>
+	<rect fill="rgb(0,118,237)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-1.41695" width="31.35" height="2.83391"/>
+	<rect fill="rgb(0,122,245)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-1.11408" width="31.35" height="2.22817"/>
+	<rect fill="rgb(0,124,250)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-0.802244" width="31.35" height="1.60449"/>
+	<rect fill="rgb(0,126,253)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-0.483944" width="31.35" height="0.967889"/>
+	<rect fill="rgb(0,127,255)" stroke="none" stroke-opacity="1" transform="translate(278.739, 343.961) rotate(-270) translate(0, 0)" x="-15.675" y="-0.161749" width="31.35" height="0.323498"/>
+	<rect fill="rgb(255,0,0)" stroke="none" stroke-opacity="1" transform="translate(277.015, 328.286) rotate(-270) translate(0, 0)" x="0" y="0" width="0" height="0"/>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(277.015, 328.286) rotate(-270) translate(0, 0)" x="0" y="0" width="0" height="0"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="305.61" y="512.758">senHPIn</text>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="313.605,482.349 314.545,480.154 315.799,478.273 317.367,477.333 319.248,476.706 320.815,476.706"/>
+	<polyline fill="none" stroke="rgb(0,128,255)" stroke-opacity="1" points="289.779,491.754 319.875,491.754"/>
+	<ellipse fill="rgb(191,0,0)" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" cx="305.454" cy="497.867" rx="3.135" ry="2.97825"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="299.184,482.349 303.573,482.349"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="299.184,487.051 303.573,487.051"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="299.184,491.754 303.573,491.754"/>
+	<rect fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(305.454, 488.932) translate(0, 0) scale(1,-1)" x="-1.881" y="-6.5835" width="3.762" height="13.167"/>
+	<polygon fill="none" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" points="303.573,482.349 303.573,479.214 303.886,478.273 304.513,477.96 305.454,477.646 306.394,477.96 307.021,478.273 307.335,479.214 307.335,482.349 303.573,482.349"/>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="312.037" y="473.727">T</text>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" points="303.573,482.349 303.573,495.672"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" points="307.335,482.349 307.335,495.516"/>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="305.454,476.079 305.454,483.916"/>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="144.494" y="186.942">T</text>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="164.379" y="166.161">AmbBou</text>
+	<ellipse fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="17.9143" ry="17.9143"/>
+	<ellipse fill="rgb(0,10,21)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="17.8562" ry="17.8562"/>
+	<ellipse fill="rgb(0,20,41)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="17.6823" ry="17.6823"/>
+	<ellipse fill="rgb(0,31,62)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="17.3937" ry="17.3937"/>
+	<ellipse fill="rgb(0,41,82)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="16.9924" ry="16.9924"/>
+	<ellipse fill="rgb(0,51,102)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="16.4808" ry="16.4808"/>
+	<ellipse fill="rgb(0,60,121)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="15.8623" ry="15.8623"/>
+	<ellipse fill="rgb(0,69,139)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="15.141" ry="15.141"/>
+	<ellipse fill="rgb(0,78,156)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="14.3214" ry="14.3214"/>
+	<ellipse fill="rgb(0,86,172)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="13.409" ry="13.409"/>
+	<ellipse fill="rgb(0,93,187)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="12.4097" ry="12.4097"/>
+	<ellipse fill="rgb(0,100,201)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="11.3298" ry="11.3298"/>
+	<ellipse fill="rgb(0,106,213)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="10.1765" ry="10.1765"/>
+	<ellipse fill="rgb(0,111,224)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="8.95714" ry="8.95714"/>
+	<ellipse fill="rgb(0,116,233)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="7.67972" ry="7.67972"/>
+	<ellipse fill="rgb(0,120,241)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="6.35249" ry="6.35249"/>
+	<ellipse fill="rgb(0,123,247)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="4.98407" ry="4.98407"/>
+	<ellipse fill="rgb(0,125,251)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="3.58332" ry="3.58332"/>
+	<ellipse fill="rgb(0,126,254)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="2.15933" ry="2.15933"/>
+	<ellipse fill="rgb(0,127,255)" stroke="none" stroke-opacity="1" cx="164.379" cy="189.45" rx="0.721336" ry="0.721336"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="251.711,210.141 251.711,227.607"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="251.711,216.545 263.355,216.545"/>
+	<rect fill="rgb(135,135,135)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(252.002, 216.545) translate(0, 0) scale(1,-1)" x="-9.60654" y="-8.73321" width="19.2131" height="17.4664"/>
+	<ellipse fill="rgb(135,135,135)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="252.002" cy="216.545" rx="9.60654" ry="8.73321"/>
+	<text fill="rgb(0,0,0)" font-size="11" font-family="Arial" font-weight="bold" text-anchor="middle" dominant-baseline="central" x="252.002" y="216.836">M</text>
+	<rect fill="rgb(0,0,255)" stroke="rgb(0,0,255)" stroke-opacity="1" x="224.347" y="196.168" width="53.5637" height="3.49329"/>
+	<rect fill="rgb(0,0,255)" stroke="rgb(0,0,255)" stroke-opacity="1" x="224.347" y="176.955" width="55.3104" height="3.49329"/>
+	<rect fill="rgb(0,0,255)" stroke="rgb(0,0,255)" stroke-opacity="1" x="250.546" y="179.866" width="2.91107" height="18.0486"/>
+	<polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-opacity="1" points="226.675,192.675 233.08,203.154 238.32,203.154 231.333,192.675 226.675,192.675"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-opacity="1" points="265.684,199.661 272.088,197.915 265.684,196.168 265.684,199.661"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-opacity="1" x="272.67" y="178.119" width="5.82214" height="1.16443"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-opacity="1" points="272.67,180.448 265.684,178.701 272.67,176.955 272.67,180.448"/>
+	<text fill="rgb(0,0,127)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="261.899" y="231.392">y</text>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-opacity="1" x="259.862" y="197.332" width="5.82214" height="1.16443"/>
+	<polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-opacity="1" points="230.169,174.044 236.573,184.524 241.813,184.524 234.827,174.044 230.169,174.044"/>
+	<polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-opacity="1" points="245.889,184.524 252.293,195.003 257.533,195.003 250.546,184.524 245.889,184.524"/>
+	<rect fill="rgb(0,0,255)" stroke="rgb(0,0,255)" stroke-opacity="1" x="274.417" y="199.079" width="3.49329" height="16.302"/>
+	<rect fill="rgb(0,0,255)" stroke="rgb(0,0,255)" stroke-opacity="1" x="224.347" y="198.497" width="3.49329" height="16.8842"/>
+	<polyline fill="none" stroke="rgb(0,0,255)" stroke-opacity="1" points="251.711,207.812 251.711,199.079 251.711,199.661"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="251.42" y="164.728"><title>MixBox</title>Mix…</text>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="469.101" y="258.241">SupFan</text>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="468.921,221.696 486.836,221.696"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="468.921,218.113 486.836,218.113"/>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(468.921, 234.236) translate(0, 0) scale(1,-1)" x="-17.9143" y="-2.86629" width="35.8286" height="5.73257"/>
+	<rect fill="rgb(0,48,97)" stroke="none" stroke-opacity="1" transform="translate(468.921, 234.236) translate(0, 0) scale(1,-1)" x="-17.9143" y="-2.69343" width="35.8286" height="5.38686"/>
+	<rect fill="rgb(0,89,180)" stroke="none" stroke-opacity="1" transform="translate(468.921, 234.236) translate(0, 0) scale(1,-1)" x="-17.9143" y="-2.1957" width="35.8286" height="4.3914"/>
+	<rect fill="rgb(0,117,235)" stroke="none" stroke-opacity="1" transform="translate(468.921, 234.236) translate(0, 0) scale(1,-1)" x="-17.9143" y="-1.43314" width="35.8286" height="2.86629"/>
+	<rect fill="rgb(0,127,255)" stroke="none" stroke-opacity="1" transform="translate(468.921, 234.236) translate(0, 0) scale(1,-1)" x="-17.9143" y="-0.497725" width="35.8286" height="0.995451"/>
+	<ellipse fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" cx="468.921" cy="234.236" rx="10.3903" ry="10.3903"/>
+	<ellipse fill="rgb(0,13,25)" stroke="none" stroke-opacity="1" cx="468.921" cy="234.236" rx="10.3084" ry="10.3084"/>
+	<ellipse fill="rgb(0,25,51)" stroke="none" stroke-opacity="1" cx="468.921" cy="234.236" rx="10.0639" ry="10.0639"/>
+	<ellipse fill="rgb(0,38,76)" stroke="none" stroke-opacity="1" cx="468.921" cy="234.236" rx="9.66064" ry="9.66064"/>
+	<ellipse fill="rgb(0,49,99)" stroke="none" stroke-opacity="1" cx="468.921" cy="234.236" rx="9.10508" ry="9.10508"/>
+	<ellipse fill="rgb(0,60,121)" stroke="none" stroke-opacity="1" cx="468.921" cy="234.236" rx="8.40592" ry="8.40592"/>
+	<ellipse fill="rgb(0,70,140)" stroke="none" stroke-opacity="1" cx="468.921" cy="234.236" rx="7.57419" ry="7.57419"/>
+	<ellipse fill="rgb(0,79,157)" stroke="none" stroke-opacity="1" cx="468.921" cy="234.236" rx="6.62302" ry="6.62302"/>
+	<ellipse fill="rgb(0,86,172)" stroke="none" stroke-opacity="1" cx="468.921" cy="234.236" rx="5.56739" ry="5.56739"/>
+	<ellipse fill="rgb(0,92,183)" stroke="none" stroke-opacity="1" cx="468.921" cy="234.236" rx="4.42397" ry="4.42397"/>
+	<ellipse fill="rgb(0,96,192)" stroke="none" stroke-opacity="1" cx="468.921" cy="234.236" rx="3.21077" ry="3.21077"/>
+	<ellipse fill="rgb(0,99,197)" stroke="none" stroke-opacity="1" cx="468.921" cy="234.236" rx="1.94695" ry="1.94695"/>
+	<ellipse fill="rgb(0,100,199)" stroke="none" stroke-opacity="1" cx="468.921" cy="234.236" rx="0.652411" ry="0.652411"/>
+	<polygon fill="rgb(255,255,255)" stroke="none" stroke-opacity="1" points="468.921,225.279 468.921,243.193 478.595,234.236 468.921,225.279"/>
+	<ellipse fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" cx="472.504" cy="234.236" rx="2.86629" ry="2.86629"/>
+	<ellipse fill="rgb(0,38,76)" stroke="none" stroke-opacity="1" cx="472.504" cy="234.236" rx="2.69343" ry="2.69343"/>
+	<ellipse fill="rgb(0,70,140)" stroke="none" stroke-opacity="1" cx="472.504" cy="234.236" rx="2.1957" ry="2.1957"/>
+	<ellipse fill="rgb(0,92,183)" stroke="none" stroke-opacity="1" cx="472.504" cy="234.236" rx="1.43314" ry="1.43314"/>
+	<ellipse fill="rgb(0,100,199)" stroke="none" stroke-opacity="1" cx="472.504" cy="234.236" rx="0.497725" ry="0.497725"/>
+	<text fill="rgb(0,0,127)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="484.865" y="216.501">P</text>
+	<text fill="rgb(0,0,127)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="480.924" y="220.083"><title>y_actual</title></text>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="468.921,216.321 468.921,225.279"/>
+	<rect fill="rgb(135,135,135)" stroke="rgb(0,0,0)" stroke-opacity="1" x="463.189" y="216.321" width="11.8234" height="10.7486"/>
+	<ellipse fill="rgb(135,135,135)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="469.101" cy="221.696" rx="5.91171" ry="5.37429"/>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" font-weight="bold" text-anchor="middle" dominant-baseline="central" x="469.101" y="221.875">M</text>
+	<text fill="rgb(0,0,127)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="451.007" y="216.142"><title>m_flow</title>m…</text>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="551.932" y="253.001">senSup</text>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="559.926,222.591 560.866,220.397 562.12,218.516 563.688,217.575 565.569,216.948 567.136,216.948"/>
+	<polyline fill="none" stroke="rgb(0,128,255)" stroke-opacity="1" points="536.1,231.996 566.196,231.996"/>
+	<ellipse fill="rgb(191,0,0)" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" cx="551.775" cy="238.11" rx="3.135" ry="2.97825"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="545.505,222.591 549.894,222.591"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="545.505,227.294 549.894,227.294"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="545.505,231.996 549.894,231.996"/>
+	<rect fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(551.775, 229.175) translate(0, 0) scale(1,-1)" x="-1.881" y="-6.5835" width="3.762" height="13.167"/>
+	<polygon fill="none" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" points="549.894,222.591 549.894,219.456 550.207,218.516 550.834,218.202 551.775,217.889 552.716,218.202 553.342,218.516 553.656,219.456 553.656,222.591 549.894,222.591"/>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="558.359" y="213.97">T</text>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" points="549.894,222.591 549.894,235.915"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" points="553.656,222.591 553.656,235.758"/>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="551.775,216.321 551.775,224.159"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" transform="translate(648.915, 191.533) rotate(-90)">res1</text>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-6.27" width="31.35" height="12.54"/>
+	<rect fill="rgb(17,17,17)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-6.24476" width="31.35" height="12.4895"/>
+	<rect fill="rgb(35,35,35)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-6.16924" width="31.35" height="12.3385"/>
+	<rect fill="rgb(52,52,52)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-6.04405" width="31.35" height="12.0881"/>
+	<rect fill="rgb(69,69,69)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-5.87019" width="31.35" height="11.7404"/>
+	<rect fill="rgb(85,85,85)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-5.64907" width="31.35" height="11.2981"/>
+	<rect fill="rgb(101,101,101)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-5.38247" width="31.35" height="10.7649"/>
+	<rect fill="rgb(115,115,115)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-5.07254" width="31.35" height="10.1451"/>
+	<rect fill="rgb(129,129,129)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-4.72176" width="31.35" height="9.44352"/>
+	<rect fill="rgb(141,141,141)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-4.33296" width="31.35" height="8.66593"/>
+	<rect fill="rgb(153,153,153)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-3.90928" width="31.35" height="7.81856"/>
+	<rect fill="rgb(163,163,163)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-3.45412" width="31.35" height="6.90825"/>
+	<rect fill="rgb(171,171,171)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-2.97116" width="31.35" height="5.94231"/>
+	<rect fill="rgb(179,179,179)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-2.46427" width="31.35" height="4.92853"/>
+	<rect fill="rgb(184,184,184)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-1.93754" width="31.35" height="3.87507"/>
+	<rect fill="rgb(188,188,188)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-1.39521" width="31.35" height="2.79041"/>
+	<rect fill="rgb(191,191,191)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-0.841643" width="31.35" height="1.68329"/>
+	<rect fill="rgb(192,192,192)" stroke="none" stroke-opacity="1" transform="translate(627.911, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-0.281302" width="31.35" height="0.562605"/>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-3.60525" width="31.35" height="7.2105"/>
+	<rect fill="rgb(0,11,23)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-3.59074" width="31.35" height="7.18147"/>
+	<rect fill="rgb(0,23,46)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-3.54731" width="31.35" height="7.09462"/>
+	<rect fill="rgb(0,34,69)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-3.47533" width="31.35" height="6.95065"/>
+	<rect fill="rgb(0,45,92)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-3.37536" width="31.35" height="6.75072"/>
+	<rect fill="rgb(0,56,113)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-3.24822" width="31.35" height="6.49644"/>
+	<rect fill="rgb(0,66,134)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-3.09492" width="31.35" height="6.18985"/>
+	<rect fill="rgb(0,76,153)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-2.91671" width="31.35" height="5.83342"/>
+	<rect fill="rgb(0,85,171)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-2.71501" width="31.35" height="5.43002"/>
+	<rect fill="rgb(0,93,188)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-2.49145" width="31.35" height="4.98291"/>
+	<rect fill="rgb(0,101,203)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-2.24784" width="31.35" height="4.49567"/>
+	<rect fill="rgb(0,107,216)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-1.98612" width="31.35" height="3.97224"/>
+	<rect fill="rgb(0,113,228)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-1.70841" width="31.35" height="3.41683"/>
+	<rect fill="rgb(0,118,237)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-1.41695" width="31.35" height="2.83391"/>
+	<rect fill="rgb(0,122,245)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-1.11408" width="31.35" height="2.22817"/>
+	<rect fill="rgb(0,124,250)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-0.802244" width="31.35" height="1.60449"/>
+	<rect fill="rgb(0,126,253)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-0.483944" width="31.35" height="0.967889"/>
+	<rect fill="rgb(0,127,255)" stroke="none" stroke-opacity="1" transform="translate(628.067, 191.689) rotate(-90) translate(0, 0) scale(1,-1)" x="-15.675" y="-0.161749" width="31.35" height="0.323498"/>
+	<rect fill="rgb(255,0,0)" stroke="none" stroke-opacity="1" transform="translate(626.343, 207.364) rotate(-90) translate(0, 0)" x="0" y="0" width="0" height="0"/>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(626.343, 207.364) rotate(-90) translate(0, 0)" x="0" y="0" width="0" height="0"/>
+	<rect fill="rgb(215,215,215)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(576.407, 95.4) translate(0, 0) scale(1,-1)" x="-53.7429" y="-40.3071" width="107.486" height="80.6143"/>
+	<rect fill="rgb(230,230,230)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(576.407, 95.4) translate(0, 0) scale(1,-1)" x="-51.5036" y="-38.0679" width="103.007" height="76.1357"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="525.799,133.468 548.64,111.971 548.64,78.3814 524.904,57.3321"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="548.64,78.3814 576.855,78.3814 604.174,78.3814 627.911,57.3321"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="604.174,78.3814 604.174,111.971 627.911,133.468"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="548.64,111.971 604.174,111.971"/>
+	<text fill="rgb(0,0,255)" font-size="17" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="549.984" y="45.24">Zone</text>
+	<text fill="rgb(0,0,0)" font-size="26" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="575.287" y="95.8479">1</text>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="475.483" y="172.387">senRet</text>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="467.488,141.977 466.548,139.783 465.294,137.902 463.726,136.961 461.845,136.334 460.278,136.334"/>
+	<polyline fill="none" stroke="rgb(0,128,255)" stroke-opacity="1" points="491.314,151.382 461.218,151.382"/>
+	<ellipse fill="rgb(191,0,0)" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" transform=" rotate(-180, 475.639, 157.495)" cx="475.639" cy="157.495" rx="3.135" ry="2.97825"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="481.909,141.977 477.52,141.977"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="481.909,146.68 477.52,146.68"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="481.909,151.382 477.52,151.382"/>
+	<rect fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(475.639, 148.561) rotate(-180) translate(0, 0)" x="-1.881" y="-6.5835" width="3.762" height="13.167"/>
+	<polygon fill="none" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" points="477.52,141.977 477.52,138.842 477.207,137.902 476.58,137.588 475.639,137.275 474.699,137.588 474.072,137.902 473.758,138.842 473.758,141.977 477.52,141.977"/>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="469.056" y="133.356">T</text>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" points="477.52,141.977 477.52,155.301"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-width="2" stroke-opacity="1" points="473.758,141.977 473.758,155.144"/>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="475.639,135.707 475.639,143.545"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="401.564" y="177.627">RetFan</text>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="401.743,141.081 383.829,141.081"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="401.743,137.499 383.829,137.499"/>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(401.743, 153.621) rotate(-180) translate(0, 0)" x="-17.9143" y="-2.86629" width="35.8286" height="5.73257"/>
+	<rect fill="rgb(0,48,97)" stroke="none" stroke-opacity="1" transform="translate(401.743, 153.621) rotate(-180) translate(0, 0)" x="-17.9143" y="-2.69343" width="35.8286" height="5.38686"/>
+	<rect fill="rgb(0,89,180)" stroke="none" stroke-opacity="1" transform="translate(401.743, 153.621) rotate(-180) translate(0, 0)" x="-17.9143" y="-2.1957" width="35.8286" height="4.3914"/>
+	<rect fill="rgb(0,117,235)" stroke="none" stroke-opacity="1" transform="translate(401.743, 153.621) rotate(-180) translate(0, 0)" x="-17.9143" y="-1.43314" width="35.8286" height="2.86629"/>
+	<rect fill="rgb(0,127,255)" stroke="none" stroke-opacity="1" transform="translate(401.743, 153.621) rotate(-180) translate(0, 0)" x="-17.9143" y="-0.497725" width="35.8286" height="0.995451"/>
+	<ellipse fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 401.743, 153.621)" cx="401.743" cy="153.621" rx="10.3903" ry="10.3903"/>
+	<ellipse fill="rgb(0,13,25)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 401.743, 153.621)" cx="401.743" cy="153.621" rx="10.3084" ry="10.3084"/>
+	<ellipse fill="rgb(0,25,51)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 401.743, 153.621)" cx="401.743" cy="153.621" rx="10.0639" ry="10.0639"/>
+	<ellipse fill="rgb(0,38,76)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 401.743, 153.621)" cx="401.743" cy="153.621" rx="9.66064" ry="9.66064"/>
+	<ellipse fill="rgb(0,49,99)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 401.743, 153.621)" cx="401.743" cy="153.621" rx="9.10508" ry="9.10508"/>
+	<ellipse fill="rgb(0,60,121)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 401.743, 153.621)" cx="401.743" cy="153.621" rx="8.40592" ry="8.40592"/>
+	<ellipse fill="rgb(0,70,140)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 401.743, 153.621)" cx="401.743" cy="153.621" rx="7.57419" ry="7.57419"/>
+	<ellipse fill="rgb(0,79,157)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 401.743, 153.621)" cx="401.743" cy="153.621" rx="6.62302" ry="6.62302"/>
+	<ellipse fill="rgb(0,86,172)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 401.743, 153.621)" cx="401.743" cy="153.621" rx="5.56739" ry="5.56739"/>
+	<ellipse fill="rgb(0,92,183)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 401.743, 153.621)" cx="401.743" cy="153.621" rx="4.42397" ry="4.42397"/>
+	<ellipse fill="rgb(0,96,192)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 401.743, 153.621)" cx="401.743" cy="153.621" rx="3.21077" ry="3.21077"/>
+	<ellipse fill="rgb(0,99,197)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 401.743, 153.621)" cx="401.743" cy="153.621" rx="1.94695" ry="1.94695"/>
+	<ellipse fill="rgb(0,100,199)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 401.743, 153.621)" cx="401.743" cy="153.621" rx="0.652411" ry="0.652411"/>
+	<polygon fill="rgb(255,255,255)" stroke="none" stroke-opacity="1" points="401.743,144.664 401.743,162.579 392.069,153.621 401.743,144.664"/>
+	<ellipse fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 398.16, 153.621)" cx="398.16" cy="153.621" rx="2.86629" ry="2.86629"/>
+	<ellipse fill="rgb(0,38,76)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 398.16, 153.621)" cx="398.16" cy="153.621" rx="2.69343" ry="2.69343"/>
+	<ellipse fill="rgb(0,70,140)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 398.16, 153.621)" cx="398.16" cy="153.621" rx="2.1957" ry="2.1957"/>
+	<ellipse fill="rgb(0,92,183)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 398.16, 153.621)" cx="398.16" cy="153.621" rx="1.43314" ry="1.43314"/>
+	<ellipse fill="rgb(0,100,199)" stroke="none" stroke-opacity="1" transform=" rotate(-180, 398.16, 153.621)" cx="398.16" cy="153.621" rx="0.497725" ry="0.497725"/>
+	<text fill="rgb(0,0,127)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="385.799" y="135.886">P</text>
+	<text fill="rgb(0,0,127)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="389.74" y="139.469"><title>y_actual</title></text>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="401.743,135.707 401.743,144.664"/>
+	<rect fill="rgb(135,135,135)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(401.564, 141.081) rotate(-180) translate(0, 0) scale(1,-1)" x="-5.91171" y="-5.37429" width="11.8234" height="10.7486"/>
+	<ellipse fill="rgb(135,135,135)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 401.564, 141.081)" cx="401.564" cy="141.081" rx="5.91171" ry="5.37429"/>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" font-weight="bold" text-anchor="middle" dominant-baseline="central" x="401.564" y="141.261">M</text>
+	<text fill="rgb(0,0,127)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="419.657" y="135.528"><title>m_flow</title>m…</text>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="327.69" y="134.856">res2</text>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(327.846, 155.861) rotate(-180) translate(0, 0) scale(1,-1)" x="-15.675" y="-6.27" width="31.35" height="12.54"/>
+	<rect fill="rgb(37,37,37)" stroke="none" stroke-opacity="1" transform="translate(327.846, 155.861) rotate(-180) translate(0, 0) scale(1,-1)" x="-15.675" y="-6.16324" width="31.35" height="12.3265"/>
+	<rect fill="rgb(73,73,73)" stroke="none" stroke-opacity="1" transform="translate(327.846, 155.861) rotate(-180) translate(0, 0) scale(1,-1)" x="-15.675" y="-5.8466" width="31.35" height="11.6932"/>
+	<rect fill="rgb(106,106,106)" stroke="none" stroke-opacity="1" transform="translate(327.846, 155.861) rotate(-180) translate(0, 0) scale(1,-1)" x="-15.675" y="-5.33086" width="31.35" height="10.6617"/>
+	<rect fill="rgb(135,135,135)" stroke="none" stroke-opacity="1" transform="translate(327.846, 155.861) rotate(-180) translate(0, 0) scale(1,-1)" x="-15.675" y="-4.63359" width="31.35" height="9.26717"/>
+	<rect fill="rgb(159,159,159)" stroke="none" stroke-opacity="1" transform="translate(327.846, 155.861) rotate(-180) translate(0, 0) scale(1,-1)" x="-15.675" y="-3.77852" width="31.35" height="7.55704"/>
+	<rect fill="rgb(177,177,177)" stroke="none" stroke-opacity="1" transform="translate(327.846, 155.861) rotate(-180) translate(0, 0) scale(1,-1)" x="-15.675" y="-2.79478" width="31.35" height="5.58956"/>
+	<rect fill="rgb(188,188,188)" stroke="none" stroke-opacity="1" transform="translate(327.846, 155.861) rotate(-180) translate(0, 0) scale(1,-1)" x="-15.675" y="-1.71587" width="31.35" height="3.43173"/>
+	<rect fill="rgb(192,192,192)" stroke="none" stroke-opacity="1" transform="translate(327.846, 155.861) rotate(-180) translate(0, 0) scale(1,-1)" x="-15.675" y="-0.578523" width="31.35" height="1.15705"/>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(327.846, 155.704) rotate(-180) translate(0, 0) scale(1,-1)" x="-15.675" y="-3.60525" width="31.35" height="7.2105"/>
+	<rect fill="rgb(0,39,78)" stroke="none" stroke-opacity="1" transform="translate(327.846, 155.704) rotate(-180) translate(0, 0) scale(1,-1)" x="-15.675" y="-3.45921" width="31.35" height="6.91842"/>
+	<rect fill="rgb(0,74,149)" stroke="none" stroke-opacity="1" transform="translate(327.846, 155.704) rotate(-180) translate(0, 0) scale(1,-1)" x="-15.675" y="-3.03293" width="31.35" height="6.06586"/>
+	<rect fill="rgb(0,102,206)" stroke="none" stroke-opacity="1" transform="translate(327.846, 155.704) rotate(-180) translate(0, 0) scale(1,-1)" x="-15.675" y="-2.36094" width="31.35" height="4.72187"/>
+	<rect fill="rgb(0,120,242)" stroke="none" stroke-opacity="1" transform="translate(327.846, 155.704) rotate(-180) translate(0, 0) scale(1,-1)" x="-15.675" y="-1.49767" width="31.35" height="2.99535"/>
+	<rect fill="rgb(0,127,255)" stroke="none" stroke-opacity="1" transform="translate(327.846, 155.704) rotate(-180) translate(0, 0) scale(1,-1)" x="-15.675" y="-0.513081" width="31.35" height="1.02616"/>
+	<rect fill="rgb(255,0,0)" stroke="none" stroke-opacity="1" transform="translate(343.521, 157.428) rotate(-180) translate(0, 0)" x="0" y="0" width="0" height="0"/>
+	<rect fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" transform="translate(343.521, 157.428) rotate(-180) translate(0, 0)" x="0" y="0" width="0" height="0"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" x="12.1071" y="10.3071" width="44.7857" height="44.7857"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="34.5" y="3.58929">DataTab</text>
+	<polygon fill="rgb(192,192,192)" stroke="rgb(192,192,192)" stroke-opacity="1" points="16.5857,12.5464 14.7943,17.4729 18.3771,17.4729 16.5857,12.5464"/>
+	<polyline fill="none" stroke="rgb(192,192,192)" stroke-opacity="1" points="16.5857,17.4729 16.5857,50.6143"/>
+	<polyline fill="none" stroke="rgb(192,192,192)" stroke-opacity="1" points="14.3464,48.375 52.8621,48.375"/>
+	<polygon fill="rgb(192,192,192)" stroke="rgb(192,192,192)" stroke-opacity="1" points="54.6536,48.375 49.7271,46.5836 49.7271,50.1664 54.6536,48.375"/>
+	<rect fill="rgb(255,215,136)" stroke="rgb(255,255,255)" stroke-opacity="1" x="23.7514" y="17.025" width="11.1964" height="26.8714"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="23.7514,43.8964 23.7514,17.025 46.1443,17.025 46.1443,43.8964 23.7514,43.8964 23.7514,37.1786 46.1443,37.1786 46.1443,30.4607 23.7514,30.4607 23.7514,23.7429 46.1443,23.7429 46.1443,17.025 34.9479,17.025 34.9479,44.1204"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" x="101.679" y="10.3071" width="44.7857" height="44.7857"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="124.071" y="3.58929">IntGains</text>
+	<polygon fill="rgb(192,192,192)" stroke="rgb(192,192,192)" stroke-opacity="1" points="106.157,12.5464 104.366,17.4729 107.949,17.4729 106.157,12.5464"/>
+	<polyline fill="none" stroke="rgb(192,192,192)" stroke-opacity="1" points="106.157,17.4729 106.157,50.6143"/>
+	<polyline fill="none" stroke="rgb(192,192,192)" stroke-opacity="1" points="103.918,48.375 142.434,48.375"/>
+	<polygon fill="rgb(192,192,192)" stroke="rgb(192,192,192)" stroke-opacity="1" points="144.225,48.375 139.299,46.5836 139.299,50.1664 144.225,48.375"/>
+	<rect fill="rgb(255,215,136)" stroke="rgb(255,255,255)" stroke-opacity="1" x="113.323" y="17.025" width="11.1964" height="26.8714"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="113.323,43.8964 113.323,17.025 135.716,17.025 135.716,43.8964 113.323,43.8964 113.323,37.1786 135.716,37.1786 135.716,30.4607 113.323,30.4607 113.323,23.7429 135.716,23.7429 135.716,17.025 124.519,17.025 124.519,44.1204"/>
+	<rect fill="rgb(235,235,235)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(455.486, 352.918) translate(0, 0) scale(1,-1)" x="-13.4357" y="-6.27" width="26.8714" height="12.54"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="441.643" y="346.241" width="0.406667" height="12.9467"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="441.643" y="359.188" width="27.2781" height="0.406667"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="468.921" y="346.648" width="0.406667" height="12.9467"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="442.05" y="346.241" width="27.2781" height="0.406667"/>
+	<rect fill="rgb(255,255,255)" stroke="none" x="442.05" y="346.648" width="0.61" height="12.54"/>
+	<rect fill="rgb(255,255,255)" stroke="none" x="442.05" y="346.648" width="26.8714" height="0.61"/>
+	<rect fill="rgb(113,111,100)" stroke="none" x="468.515" y="346.648" width="0.406667" height="12.54"/>
+	<rect fill="rgb(113,111,100)" stroke="none" x="442.05" y="358.781" width="26.8714" height="0.406667"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="468.108" y="347.055" width="0.406667" height="11.7267"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="442.457" y="358.375" width="26.0581" height="0.406667"/>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="455.486" y="352.918"><title>DataTab.y[4]</title>Da…</text>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="455.486" y="341.945">mDot</text>
+	<rect fill="rgb(235,235,235)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(244.993, 433.532) translate(0, 0) scale(1,-1)" x="-13.4357" y="-6.27" width="26.8714" height="12.54"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="231.15" y="426.855" width="0.406667" height="12.9467"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="231.15" y="439.802" width="27.2781" height="0.406667"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="258.429" y="427.262" width="0.406667" height="12.9467"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="231.557" y="426.855" width="27.2781" height="0.406667"/>
+	<rect fill="rgb(255,255,255)" stroke="none" x="231.557" y="427.262" width="0.61" height="12.54"/>
+	<rect fill="rgb(255,255,255)" stroke="none" x="231.557" y="427.262" width="26.8714" height="0.61"/>
+	<rect fill="rgb(113,111,100)" stroke="none" x="258.022" y="427.262" width="0.406667" height="12.54"/>
+	<rect fill="rgb(113,111,100)" stroke="none" x="231.557" y="439.395" width="26.8714" height="0.406667"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="257.615" y="427.669" width="0.406667" height="11.7267"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="231.964" y="438.989" width="26.0581" height="0.406667"/>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="244.993" y="433.532"><title>DataTab.y[2] + 273.15</title>Da…</text>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="244.993" y="422.56">TSup</text>
+	<rect fill="rgb(159,159,223)" stroke="none" stroke-opacity="1" transform="translate(426.375, 93.1607) translate(0, 0) scale(1,-1)" x="-11.1964" y="-11.1964" width="22.3929" height="22.3929"/>
+	<polyline fill="none" stroke="rgb(191,0,0)" stroke-width="2" stroke-opacity="1" points="414.955,93.1607 433.541,93.1607"/>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="420.777" y="98.7589">K</text>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="426.375" y="78.6054"><title>preTem</title>preT…</text>
+	<polygon fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" points="431.973,95.4 431.973,90.9214 436.452,93.1607 431.973,95.4"/>
+	<rect fill="rgb(235,235,235)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(25.5429, 93.1607) translate(0, 0) scale(1,-1)" x="-13.4357" y="-6.27" width="26.8714" height="12.54"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="11.7005" y="86.484" width="0.406667" height="12.9467"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="11.7005" y="99.4307" width="27.2781" height="0.406667"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="38.9786" y="86.8907" width="0.406667" height="12.9467"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="12.1071" y="86.484" width="27.2781" height="0.406667"/>
+	<rect fill="rgb(255,255,255)" stroke="none" x="12.1071" y="86.8907" width="0.61" height="12.54"/>
+	<rect fill="rgb(255,255,255)" stroke="none" x="12.1071" y="86.8907" width="26.8714" height="0.61"/>
+	<rect fill="rgb(113,111,100)" stroke="none" x="38.5719" y="86.8907" width="0.406667" height="12.54"/>
+	<rect fill="rgb(113,111,100)" stroke="none" x="12.1071" y="99.024" width="26.8714" height="0.406667"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="38.1652" y="87.2974" width="0.406667" height="11.7267"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="12.5138" y="98.6174" width="26.0581" height="0.406667"/>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="25.5429" y="93.1607"><title>DataTab.y[1] + 273.15</title>Da…</text>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="25.5429" y="82.1882">TOut</text>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" x="191.25" y="252.15" width="26.8714" height="26.8714"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="204.686" y="248.119">beta</text>
+	<polyline fill="none" stroke="rgb(192,192,192)" stroke-opacity="1" points="193.937,256.449 193.937,276.334"/>
+	<polygon fill="rgb(192,192,192)" stroke="rgb(192,192,192)" stroke-opacity="1" points="193.937,253.494 192.862,256.449 195.012,256.449 193.937,253.494"/>
+	<polyline fill="none" stroke="rgb(192,192,192)" stroke-opacity="1" points="192.594,274.991 215.703,274.991"/>
+	<polygon fill="rgb(192,192,192)" stroke="rgb(192,192,192)" stroke-opacity="1" points="216.778,274.991 213.822,273.916 213.822,276.066 216.778,274.991"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="193.937,265.586 215.434,265.586"/>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="204.686" y="283.052">k=0.3</text>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" transform="translate(549.536, 180.493) rotate(-180) translate(0, 0) scale(1,-1)" x="-13.4357" y="-13.4357" width="26.8714" height="26.8714"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="549.536" y="163.026">supflow</text>
+	<polyline fill="none" stroke="rgb(192,192,192)" stroke-opacity="1" points="560.284,171.357 560.284,191.241"/>
+	<polygon fill="rgb(192,192,192)" stroke="rgb(192,192,192)" stroke-opacity="1" points="560.284,168.401 561.359,171.357 559.209,171.357 560.284,168.401"/>
+	<polyline fill="none" stroke="rgb(192,192,192)" stroke-opacity="1" points="561.628,189.898 538.518,189.898"/>
+	<polygon fill="rgb(192,192,192)" stroke="rgb(192,192,192)" stroke-opacity="1" points="537.444,189.898 540.399,188.823 540.399,190.973 537.444,189.898"/>
+	<polyline fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" points="560.284,180.493 538.787,180.493"/>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="549.536" y="197.959">k=15</text>
+	<polyline fill="none" stroke="rgb(191,0,0)" stroke-width="2" stroke-opacity="1" points="704.494,82.86 688.819,82.86"/>
+	<polyline fill="none" stroke="rgb(191,0,0)" stroke-width="2" stroke-opacity="1" points="704.494,76.59 688.819,76.59"/>
+	<polyline fill="none" stroke="rgb(191,0,0)" stroke-width="2" stroke-opacity="1" points="707.629,79.725 704.494,82.86"/>
+	<polyline fill="none" stroke="rgb(191,0,0)" stroke-width="2" stroke-opacity="1" points="707.629,79.725 704.494,76.59"/>
+	<polygon fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" points="688.819,79.725 688.819,73.455 684.117,76.59 688.819,79.725"/>
+	<polygon fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" points="688.819,85.995 688.819,79.725 684.117,82.86 688.819,85.995"/>
+	<rect fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(682.549, 79.725) rotate(-180) translate(0, 0)" x="-1.5675" y="-6.27" width="3.135" height="12.54"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="695.089" y="67.185">qIntConv</text>
+	<polyline fill="none" stroke="rgb(191,0,0)" stroke-width="2" stroke-opacity="1" points="704.494,55.9886 688.819,55.9886"/>
+	<polyline fill="none" stroke="rgb(191,0,0)" stroke-width="2" stroke-opacity="1" points="704.494,49.7186 688.819,49.7186"/>
+	<polyline fill="none" stroke="rgb(191,0,0)" stroke-width="2" stroke-opacity="1" points="707.629,52.8536 704.494,55.9886"/>
+	<polyline fill="none" stroke="rgb(191,0,0)" stroke-width="2" stroke-opacity="1" points="707.629,52.8536 704.494,49.7186"/>
+	<polygon fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" points="688.819,52.8536 688.819,46.5836 684.117,49.7186 688.819,52.8536"/>
+	<polygon fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" points="688.819,59.1236 688.819,52.8536 684.117,55.9886 688.819,59.1236"/>
+	<rect fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(682.549, 52.8536) rotate(-180) translate(0, 0)" x="-1.5675" y="-6.27" width="3.135" height="12.54"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="695.089" y="40.3136">qIntRad</text>
+	<rect fill="rgb(235,235,235)" stroke="rgb(0,0,0)" stroke-opacity="1" transform="translate(437.571, 61.8107) translate(0, 0) scale(1,-1)" x="-13.4357" y="-6.27" width="26.8714" height="12.54"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="423.729" y="55.134" width="0.406667" height="12.9467"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="423.729" y="68.0807" width="27.2781" height="0.406667"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="451.007" y="55.5407" width="0.406667" height="12.9467"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="424.136" y="55.134" width="27.2781" height="0.406667"/>
+	<rect fill="rgb(255,255,255)" stroke="none" x="424.136" y="55.5407" width="0.61" height="12.54"/>
+	<rect fill="rgb(255,255,255)" stroke="none" x="424.136" y="55.5407" width="26.8714" height="0.61"/>
+	<rect fill="rgb(113,111,100)" stroke="none" x="450.6" y="55.5407" width="0.406667" height="12.54"/>
+	<rect fill="rgb(113,111,100)" stroke="none" x="424.136" y="67.674" width="26.8714" height="0.406667"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="450.194" y="55.9474" width="0.406667" height="11.7267"/>
+	<rect fill="rgb(172,168,153)" stroke="none" x="424.542" y="67.2674" width="26.0581" height="0.406667"/>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="437.571" y="61.8107"><title>DataTab.y[5]</title>Da…</text>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="437.571" y="50.8382">Sol</text>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" x="289.779" y="417.857" width="31.35" height="31.35"/>
+	<text fill="rgb(0,0,255)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="305.454" y="413.155">firstOrder</text>
+	<polyline fill="none" stroke="rgb(192,192,192)" stroke-opacity="1" points="292.914,421.306 292.914,447.64"/>
+	<polygon fill="rgb(192,192,192)" stroke="rgb(192,192,192)" stroke-opacity="1" points="292.914,419.425 291.66,422.873 294.168,422.873 292.914,419.425"/>
+	<polyline fill="none" stroke="rgb(192,192,192)" stroke-opacity="1" points="291.346,446.072 318.307,446.072"/>
+	<polygon fill="rgb(192,192,192)" stroke="rgb(192,192,192)" stroke-opacity="1" points="319.561,446.072 316.113,444.818 316.113,447.326 319.561,446.072"/>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="317.994,425.695 313.291,426.243 312.389,426.349 311.562,426.447 310.811,426.537 310.136,426.618 309.537,426.692 309.014,426.758 308.566,426.816 308.195,426.866 307.899,426.908 307.679,426.942 307.679,426.942 307.679,426.942 307.498,426.972 307.318,427.005 307.14,427.039 306.962,427.074 306.786,427.111 306.611,427.15 306.437,427.19 306.265,427.232 306.094,427.276 305.924,427.321 305.924,427.321 305.924,427.321 305.755,427.368 305.588,427.416 305.422,427.466 305.257,427.517 305.093,427.571 304.931,427.625 304.77,427.682 304.61,427.74 304.451,427.799 304.294,427.86 304.294,427.86 304.294,427.86 304.137,427.923 303.983,427.987 303.829,428.053 303.677,428.121 303.526,428.19 303.376,428.26 303.227,428.333 303.08,428.407 302.934,428.482 302.789,428.559 302.789,428.559 302.789,428.559 302.645,428.638 302.503,428.718 302.362,428.8 302.222,428.884 302.083,428.969 301.946,429.055 301.81,429.144 301.675,429.234 301.542,429.325 301.409,429.418 301.409,429.418 301.409,429.418 301.278,429.513 301.149,429.609 301.02,429.707 300.893,429.807 300.767,429.908 300.642,430.01 300.518,430.115 300.396,430.221 300.275,430.328 300.155,430.437 300.155,430.437 300.155,430.437 300.037,430.548 299.92,430.66 299.804,430.774 299.689,430.889 299.575,431.007 299.463,431.125 299.352,431.245 299.243,431.367 299.134,431.491 299.027,431.616 299.027,431.616 299.027,431.616 298.921,431.743 298.816,431.871 298.713,432.001 298.61,432.132 298.51,432.265 298.41,432.4 298.311,432.536 298.214,432.674 298.118,432.813 298.024,432.955 298.024,432.955 298.024,432.955 297.93,433.097 297.838,433.241 297.747,433.387 297.657,433.535 297.569,433.684 297.482,433.834 297.396,433.987 297.311,434.141 297.228,434.296 297.146,434.453 297.146,434.453 297.146,434.453 297.065,434.612 296.985,434.772 296.907,434.934 296.83,435.097 296.754,435.262 296.679,435.429 296.606,435.597 296.534,435.767 296.463,435.938 296.393,436.111 296.393,436.111 296.393,436.111 296.328,436.277 296.269,436.424 296.218,436.555 296.173,436.668 296.135,436.763 296.104,436.842 296.08,436.902 296.062,436.946 296.052,436.972 296.049,436.981 296.049,436.981 296.049,436.981 296.033,437.026 295.986,437.162 295.907,437.39 295.798,437.708 295.657,438.117 295.484,438.617 295.28,439.208 295.045,439.89 294.779,440.663 294.481,441.526 294.481,441.526 292.914,446.072"/>
+	<text fill="rgb(192,192,192)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="310.156" y="438.235">PT1</text>
+	<text fill="rgb(0,0,0)" font-size="10" font-family="Arial" text-anchor="middle" dominant-baseline="central" x="305.454" y="453.91">T=240 s</text>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="477.879,552.214 406.221,552.214 406.221,516.386 392.786,516.386"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="477.879,552.214 406.221,552.214 406.221,516.386 392.786,516.386"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="348,516.386 343.521,516.386 343.521,552.214 303.214,552.214"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="348,516.386 343.521,516.386 343.521,552.214 303.214,552.214"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="321.129,491.754 321.129,489.514 348,489.514"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="321.129,491.754 321.129,489.514 348,489.514"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="446.529,491.754 446.529,493.993 401.743,493.993 401.743,489.514 392.786,489.514"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="446.529,491.754 446.529,493.993 401.743,493.993 401.743,489.514 392.786,489.514"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="392.786,265.586 522.664,265.586 522.664,332.764"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="392.786,265.586 522.664,265.586 522.664,332.764"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="348,265.586 278.582,265.586 278.582,328.286"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="348,265.586 278.582,265.586 278.582,328.286"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="278.582,359.636 276.343,359.636 276.343,491.754 289.779,491.754"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="278.582,359.636 276.343,359.636 276.343,491.754 289.779,491.754"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="182.293,191.241 213.643,191.241 213.643,213.634 222.6,213.634"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="182.293,191.241 213.643,191.241 213.643,213.634 222.6,213.634"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="280.821,213.634 334.564,213.634 334.564,238.714 348,238.714"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="280.821,213.634 334.564,213.634 334.564,238.714 348,238.714"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="392.786,238.714 437.571,238.714 437.571,234.236 451.007,234.236"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="392.786,238.714 437.571,238.714 437.571,234.236 451.007,234.236"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="486.836,234.236 522.664,234.236 522.664,231.996 536.1,231.996"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="486.836,234.236 522.664,234.236 522.664,231.996 536.1,231.996"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="567.45,231.996 627.911,231.996 627.911,207.364"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="567.45,231.996 627.911,231.996 627.911,207.364"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="459.964,151.382 433.093,151.382 433.093,153.621 419.657,153.621"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="459.964,151.382 433.093,151.382 433.093,153.621 419.657,153.621"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="383.829,153.621 379.35,155.861 343.521,155.861"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="383.829,153.621 379.35,155.861 343.521,155.861"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="312.171,155.861 289.779,155.861 289.779,178.701 280.821,178.701"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="312.171,155.861 289.779,155.861 289.779,178.701 280.821,178.701"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="222.6,178.701 191.25,178.701 191.25,187.659 182.293,187.659"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="222.6,178.701 191.25,178.701 191.25,187.659 182.293,187.659"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="40.3221,93.1607 412.939,93.1607"/>
+	<polyline fill="none" stroke="rgb(238,46,47)" stroke-opacity="1" points="40.3221,93.1607 412.939,93.1607"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="437.571,93.1607 482.357,93.1607 482.357,104.357 522.664,104.357"/>
+	<polyline fill="none" stroke="rgb(191,0,0)" stroke-opacity="1" points="437.571,93.1607 482.357,93.1607 482.357,104.357 522.664,104.357"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="219.465,265.586 251.711,265.586 251.711,231.101"/>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="219.465,265.586 251.711,265.586 251.711,231.101"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="40.3221,93.1607 128.55,93.1607 128.55,182.284 142.881,182.284"/>
+	<polyline fill="none" stroke="rgb(238,46,47)" stroke-opacity="1" points="40.3221,93.1607 128.55,93.1607 128.55,182.284 142.881,182.284"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="534.756,180.493 442.05,180.493 442.05,117.793 401.743,117.793 401.743,132.124"/>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="534.756,180.493 442.05,180.493 442.05,117.793 401.743,117.793 401.743,132.124"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="534.756,180.493 468.921,180.493 468.921,212.739"/>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="534.756,180.493 468.921,180.493 468.921,212.739"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="477.879,491.754 477.879,493.993 527.143,493.993 527.143,451.446"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="477.879,491.754 477.879,493.993 527.143,493.993 527.143,451.446"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="527.143,451.446 527.143,453.686 522.664,453.686 522.664,368.593"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="527.143,451.446 527.143,453.686 522.664,453.686 522.664,368.593"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="679.414,52.8536 639.107,52.8536 639.107,77.4857 630.15,77.4857"/>
+	<polyline fill="none" stroke="rgb(191,0,0)" stroke-opacity="1" points="679.414,52.8536 639.107,52.8536 639.107,77.4857 630.15,77.4857"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="679.414,79.725 639.107,79.725 639.107,86.4429 630.15,86.4429"/>
+	<polyline fill="none" stroke="rgb(191,0,0)" stroke-opacity="1" points="679.414,79.725 639.107,79.725 639.107,86.4429 630.15,86.4429"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="452.351,61.8107 520.425,61.8107"/>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="452.351,61.8107 520.425,61.8107"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="148.704,32.7 724.2,32.7 724.2,52.8536 710.764,52.8536"/>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="148.704,32.7 724.2,32.7 724.2,52.8536 710.764,52.8536"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="148.704,32.7 724.2,32.7 724.2,79.725 710.764,79.725"/>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="148.704,32.7 724.2,32.7 724.2,79.725 710.764,79.725"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="470.265,352.918 470.265,350.679 501.167,350.679"/>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="470.265,352.918 470.265,350.679 501.167,350.679"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="491.314,151.382 608.288,151.382 608.288,135.595"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="491.314,151.382 608.288,151.382 608.288,135.595"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="627.911,176.014 627.911,144.664 611.705,144.664 611.705,135.595"/>
+	<polyline fill="none" stroke="rgb(0,127,255)" stroke-opacity="1" points="627.911,176.014 627.911,144.664 611.705,144.664 611.705,135.595"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="437.571,93.1607 477.879,93.1607 477.879,90.9214 522.664,90.9214 522.664,86.4429"/>
+	<polyline fill="none" stroke="rgb(191,0,0)" stroke-opacity="1" points="437.571,93.1607 477.879,93.1607 477.879,90.9214 522.664,90.9214 522.664,86.4429"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="259.772,433.532 286.644,433.532"/>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="259.772,433.532 286.644,433.532"/>
+	<polyline fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="322.696,433.532 322.696,435.771 343.521,435.771 343.521,482.796"/>
+	<polyline fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="322.696,433.532 322.696,435.771 343.521,435.771 343.521,482.796"/>
+	<ellipse fill="rgb(238,46,47)" stroke="rgb(238,46,47)" cx="128.55" cy="93.1607" rx="3" ry="3"/>
+	<ellipse fill="rgb(191,0,0)" stroke="rgb(191,0,0)" cx="477.879" cy="93.1607" rx="3" ry="3"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" cx="527.143" cy="453.686" rx="3" ry="3"/>
+	<ellipse fill="rgb(0,0,127)" stroke="rgb(0,0,127)" cx="468.921" cy="180.493" rx="3" ry="3"/>
+	<ellipse fill="white" stroke="rgb(0,0,127)" cx="724.2" cy="52.8536" rx="3" ry="3"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform="translate(477.879, 552.214) rotate(-180) translate(0, 0) scale(1,-1)" x="-2.23929" y="-8.95714" width="4.47857" height="17.9143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 477.879, 558.036)" cx="477.879" cy="558.036" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 477.879, 552.214)" cx="477.879" cy="552.214" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 477.879, 546.392)" cx="477.879" cy="546.392" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 477.879, 552.214)" cx="477.879" cy="552.214" rx="1.34357" ry="1.34357"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 477.879, 558.036)" cx="477.879" cy="558.036" rx="1.34357" ry="1.34357"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 477.879, 546.392)" cx="477.879" cy="546.392" rx="1.34357" ry="1.34357"/>
+	<polygon fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="531.621,538.779 522.664,543.257 531.621,547.736 531.621,538.779"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" x="301.423" y="545.049" width="3.58286" height="14.3314"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="303.214" cy="556.872" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="303.214" cy="552.214" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="303.214" cy="547.557" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="303.214" cy="552.214" rx="1.07486" ry="1.07486"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="303.214" cy="556.872" rx="1.07486" ry="1.07486"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="303.214" cy="547.557" rx="1.07486" ry="1.07486"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="348" cy="489.514" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="348" cy="489.514" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 392.786, 489.514)" cx="392.786" cy="489.514" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 392.786, 489.514)" cx="392.786" cy="489.514" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 392.786, 489.514)" cx="392.786" cy="489.514" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="392.786" cy="516.386" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="392.786" cy="516.386" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 348, 516.386)" cx="348" cy="516.386" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 348, 516.386)" cx="348" cy="516.386" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 348, 516.386)" cx="348" cy="516.386" rx="1.79143" ry="1.79143"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="392.786,480.557 397.264,482.796 392.786,485.036 392.786,480.557"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="392.786,500.711 397.264,502.95 392.786,505.189 392.786,500.711"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="392.786,520.864 397.264,523.104 392.786,525.343 392.786,520.864"/>
+	<polygon fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="339.043,478.318 348,482.796 339.043,487.275 339.043,478.318"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="446.529" cy="491.754" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="446.529" cy="491.754" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 477.879, 491.754)" cx="477.879" cy="491.754" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 477.879, 491.754)" cx="477.879" cy="491.754" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 477.879, 491.754)" cx="477.879" cy="491.754" rx="1.254" ry="1.254"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="463.771,476.079 462.204,472.944 460.636,476.079 463.771,476.079"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-270, 527.143, 451.446)" cx="527.143" cy="451.446" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-270, 527.143, 451.446)" cx="527.143" cy="451.446" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-90, 522.664, 368.593)" cx="522.664" cy="368.593" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-90, 522.664, 368.593)" cx="522.664" cy="368.593" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-270, 522.664, 332.764)" cx="522.664" cy="332.764" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-270, 522.664, 332.764)" cx="522.664" cy="332.764" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-270, 522.664, 332.764)" cx="522.664" cy="332.764" rx="1.43314" ry="1.43314"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="508.333,332.764 510.124,329.181 511.916,332.764 508.333,332.764"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="504.75,332.764 506.541,329.181 508.333,332.764 504.75,332.764"/>
+	<rect fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(534.846, 350.679) rotate(-90) translate(0, 0) scale(1,-1)" x="-1.79143" y="-1.79143" width="3.58286" height="3.58286"/>
+	<polygon fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="497.584,347.096 504.75,350.679 497.584,354.261 497.584,347.096"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="511.916,332.764 513.707,329.181 515.499,332.764 511.916,332.764"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="348" cy="238.714" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="348" cy="238.714" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 392.786, 238.714)" cx="392.786" cy="238.714" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 392.786, 238.714)" cx="392.786" cy="238.714" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 392.786, 238.714)" cx="392.786" cy="238.714" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="392.786" cy="265.586" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="392.786" cy="265.586" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 348, 265.586)" cx="348" cy="265.586" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 348, 265.586)" cx="348" cy="265.586" rx="2.23929" ry="2.23929"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 348, 265.586)" cx="348" cy="265.586" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-270, 278.582, 328.286)" cx="278.582" cy="328.286" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-270, 278.582, 328.286)" cx="278.582" cy="328.286" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-90, 278.582, 359.636)" cx="278.582" cy="359.636" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-90, 278.582, 359.636)" cx="278.582" cy="359.636" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-90, 278.582, 359.636)" cx="278.582" cy="359.636" rx="1.254" ry="1.254"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="289.779" cy="491.754" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="289.779" cy="491.754" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 321.129, 491.754)" cx="321.129" cy="491.754" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 321.129, 491.754)" cx="321.129" cy="491.754" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 321.129, 491.754)" cx="321.129" cy="491.754" rx="1.254" ry="1.254"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="307.021,476.079 305.454,472.944 303.886,476.079 307.021,476.079"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" x="180.501" y="182.284" width="3.58286" height="14.3314"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="182.293" cy="194.108" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="182.293" cy="189.45" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="182.293" cy="184.792" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="182.293" cy="189.45" rx="1.07486" ry="1.07486"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="182.293" cy="194.108" rx="1.07486" ry="1.07486"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="182.293" cy="184.792" rx="1.07486" ry="1.07486"/>
+	<polygon fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="139.299,178.701 146.464,182.284 139.299,185.867 139.299,178.701"/>
+	<polygon fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="257.533,236.923 251.711,225.279 245.889,236.923 257.533,236.923"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="263.355,219.456 269.177,216.545 263.355,213.634 263.355,219.456"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="222.6" cy="213.634" rx="2.91107" ry="2.91107"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="222.6" cy="213.634" rx="2.91107" ry="2.91107"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 222.6, 178.701)" cx="222.6" cy="178.701" rx="2.91107" ry="2.91107"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 222.6, 178.701)" cx="222.6" cy="178.701" rx="2.91107" ry="2.91107"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 222.6, 178.701)" cx="222.6" cy="178.701" rx="2.32886" ry="2.32886"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 280.821, 178.701)" cx="280.821" cy="178.701" rx="2.91107" ry="2.91107"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 280.821, 178.701)" cx="280.821" cy="178.701" rx="2.91107" ry="2.91107"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 280.821, 213.634)" cx="280.821" cy="213.634" rx="2.91107" ry="2.91107"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 280.821, 213.634)" cx="280.821" cy="213.634" rx="2.91107" ry="2.91107"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 280.821, 213.634)" cx="280.821" cy="213.634" rx="2.32886" ry="2.32886"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="451.007" cy="234.236" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="451.007" cy="234.236" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 486.836, 234.236)" cx="486.836" cy="234.236" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 486.836, 234.236)" cx="486.836" cy="234.236" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 486.836, 234.236)" cx="486.836" cy="234.236" rx="1.43314" ry="1.43314"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="486.836,219.904 490.419,221.696 486.836,223.487 486.836,219.904"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="486.836,216.321 490.419,218.113 486.836,219.904 486.836,216.321"/>
+	<rect fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(468.921, 246.417) translate(0, 0) scale(1,-1)" x="-1.79143" y="-1.79143" width="3.58286" height="3.58286"/>
+	<polygon fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="472.504,209.156 468.921,216.321 465.339,209.156 472.504,209.156"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="486.836,223.487 490.419,225.279 486.836,227.07 486.836,223.487"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="536.1" cy="231.996" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="536.1" cy="231.996" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 567.45, 231.996)" cx="567.45" cy="231.996" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 567.45, 231.996)" cx="567.45" cy="231.996" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 567.45, 231.996)" cx="567.45" cy="231.996" rx="1.254" ry="1.254"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="553.342,216.321 551.775,213.186 550.207,216.321 553.342,216.321"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-90, 627.911, 207.364)" cx="627.911" cy="207.364" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-90, 627.911, 207.364)" cx="627.911" cy="207.364" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-270, 627.911, 176.014)" cx="627.911" cy="176.014" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-270, 627.911, 176.014)" cx="627.911" cy="176.014" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-270, 627.911, 176.014)" cx="627.911" cy="176.014" rx="1.254" ry="1.254"/>
+	<polygon fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="518.186,59.5714 522.664,61.8107 518.186,64.05 518.186,59.5714"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="630.15,57.3321 634.629,59.5714 630.15,61.8107 630.15,57.3321"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="630.15,66.2893 634.629,68.5286 630.15,70.7679 630.15,66.2893"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform="translate(609.996, 135.595) translate(0, 0) scale(1,-1)" x="-6.82982" y="-1.79143" width="13.6596" height="3.58286"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="605.625" cy="135.595" rx="1.63916" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="609.996" cy="135.595" rx="1.63916" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="614.368" cy="135.595" rx="1.63916" ry="1.79143"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="605.625" cy="135.62" rx="0.956175" ry="1.03679"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="609.996" cy="135.62" rx="0.956175" ry="1.03679"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="614.368" cy="135.611" rx="0.956175" ry="1.03679"/>
+	<rect fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(522.664, 104.357) translate(0, 0) scale(1,-1)" x="-2.23929" y="-2.23929" width="4.47857" height="4.47857"/>
+	<rect fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(522.664, 86.4429) translate(0, 0) scale(1,-1)" x="-2.23929" y="-2.23929" width="4.47857" height="4.47857"/>
+	<rect fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(630.15, 86.4429) translate(0, 0) scale(1,-1)" x="-2.23929" y="-2.23929" width="4.47857" height="4.47857"/>
+	<rect fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(630.15, 77.4857) translate(0, 0) scale(1,-1)" x="-2.23929" y="-2.23929" width="4.47857" height="4.47857"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 491.314, 151.382)" cx="491.314" cy="151.382" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 491.314, 151.382)" cx="491.314" cy="151.382" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="459.964" cy="151.382" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="459.964" cy="151.382" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="459.964" cy="151.382" rx="1.254" ry="1.254"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="474.072,135.707 475.639,132.572 477.207,135.707 474.072,135.707"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 419.657, 153.621)" cx="419.657" cy="153.621" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 419.657, 153.621)" cx="419.657" cy="153.621" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="383.829" cy="153.621" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="383.829" cy="153.621" rx="1.79143" ry="1.79143"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="383.829" cy="153.621" rx="1.43314" ry="1.43314"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="383.829,139.29 380.246,141.081 383.829,142.873 383.829,139.29"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="383.829,135.707 380.246,137.499 383.829,139.29 383.829,135.707"/>
+	<rect fill="rgb(191,0,0)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(401.743, 165.803) rotate(-180) translate(0, 0)" x="-1.79143" y="-1.79143" width="3.58286" height="3.58286"/>
+	<polygon fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="398.16,128.541 401.743,135.707 405.326,128.541 398.16,128.541"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="383.829,142.873 380.246,144.664 383.829,146.456 383.829,142.873"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" transform=" rotate(-180, 343.521, 155.861)" cx="343.521" cy="155.861" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" transform=" rotate(-180, 343.521, 155.861)" cx="343.521" cy="155.861" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="312.171" cy="155.861" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="312.171" cy="155.861" rx="1.5675" ry="1.5675"/>
+	<ellipse fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="312.171" cy="155.861" rx="1.254" ry="1.254"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="56.8929,30.4607 61.3714,32.7 56.8929,34.9393 56.8929,30.4607"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="146.464,30.4607 150.943,32.7 146.464,34.9393 146.464,30.4607"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="468.921,351.35 471.609,352.918 468.921,354.485 468.921,351.35"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="258.429,431.965 261.116,433.532 258.429,435.1 258.429,431.965"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(437.571, 93.1607) translate(0, 0) scale(1,-1)" x="-1.11964" y="-1.11964" width="2.23929" height="2.23929"/>
+	<polygon fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="410.7,90.9214 415.179,93.1607 410.7,95.4 410.7,90.9214"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="38.9786,91.5932 41.6657,93.1607 38.9786,94.7282 38.9786,91.5932"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="218.121,264.242 220.809,265.586 218.121,266.929 218.121,264.242"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="536.1,179.149 533.413,180.493 536.1,181.836 536.1,179.149"/>
+	<polygon fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="713.899,82.86 707.629,79.725 713.899,76.59 713.899,82.86"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(679.414, 79.725) rotate(-180) translate(0, 0)" x="-1.5675" y="-1.5675" width="3.135" height="3.135"/>
+	<polygon fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="713.899,55.9886 707.629,52.8536 713.899,49.7186 713.899,55.9886"/>
+	<rect fill="rgb(255,255,255)" stroke="rgb(191,0,0)" stroke-opacity="1" transform="translate(679.414, 52.8536) rotate(-180) translate(0, 0)" x="-1.5675" y="-1.5675" width="3.135" height="3.135"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="451.007,60.2432 453.694,61.8107 451.007,63.3782 451.007,60.2432"/>
+	<polygon fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="283.509,430.397 289.779,433.532 283.509,436.667 283.509,430.397"/>
+	<polygon fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="321.129,431.965 324.264,433.532 321.129,435.1 321.129,431.965"/>
+</svg>
