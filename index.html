@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#f7efeb" />
+  <title>给雯雯小朋友的一封信</title>
+  <style>
+    :root{
+      --bg:#f7efeb;
+      --paper:#fffaf7;
+      --text:#4d403d;
+      --muted:#917d76;
+      --accent:#d88f88;
+      --accent-soft:#efd0c8;
+      --line:rgba(77,64,61,.10);
+      --shadow:0 20px 65px rgba(93,69,61,.12);
+    }
+
+    *{box-sizing:border-box}
+
+    html{scroll-behavior:smooth}
+
+    body{
+      margin:0;
+      background:
+        radial-gradient(circle at 18% 10%, rgba(255,255,255,.8), transparent 25%),
+        radial-gradient(circle at 84% 20%, rgba(239,208,200,.24), transparent 28%),
+        linear-gradient(180deg,#faf4f0 0%,#f5ebe6 100%);
+      color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+      overflow-x:hidden;
+    }
+
+    body.locked{overflow:hidden}
+
+    body::before{
+      content:"";
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      opacity:.16;
+      background-image:
+        linear-gradient(rgba(255,255,255,.5) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(255,255,255,.34) 1px,transparent 1px);
+      background-size:24px 24px;
+      mask-image:linear-gradient(to bottom,black,transparent 90%);
+    }
+
+    button{font:inherit}
+
+    .gate{
+      position:fixed;
+      inset:0;
+      z-index:50;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:28px 22px max(28px, env(safe-area-inset-bottom));
+      background:
+        radial-gradient(circle at 22% 18%, rgba(255,255,255,.88), transparent 30%),
+        radial-gradient(circle at 78% 10%, rgba(239,208,200,.3), transparent 28%),
+        linear-gradient(180deg,#faf3ef 0%,#f5ebe6 100%);
+      transition:opacity .65s ease, transform .65s ease;
+    }
+
+    .gate.hide{
+      opacity:0;
+      transform:translateY(-16px) scale(.99);
+      pointer-events:none;
+    }
+
+    .gate-card{
+      width:min(100%,480px);
+      text-align:center;
+      position:relative;
+      padding:34px 20px 20px;
+    }
+
+    .tiny{
+      color:var(--accent);
+      font-size:12px;
+      font-weight:700;
+      letter-spacing:.22em;
+      margin-bottom:18px;
+    }
+
+    .gate h1{
+      margin:0;
+      font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;
+      font-size:clamp(30px,8vw,42px);
+      line-height:1.42;
+      font-weight:700;
+    }
+
+    .gate p{
+      margin:18px auto 0;
+      max-width:360px;
+      color:var(--muted);
+      font-size:15px;
+      line-height:1.9;
+    }
+
+    .choice-area{
+      position:relative;
+      height:190px;
+      margin-top:26px;
+    }
+
+    .yes{
+      position:absolute;
+      left:50%;
+      bottom:22px;
+      transform:translateX(-50%) scale(1);
+      border:0;
+      border-radius:999px;
+      background:var(--text);
+      color:white;
+      padding:15px 22px;
+      min-width:172px;
+      min-height:52px;
+      cursor:pointer;
+      box-shadow:0 12px 28px rgba(77,64,61,.18);
+      transition:transform .22s ease, min-width .22s ease, font-size .22s ease;
+      z-index:3;
+      white-space:nowrap;
+    }
+
+    .yes.bump{
+      animation:bump .55s ease;
+    }
+
+    .no{
+      position:absolute;
+      left:50%;
+      top:15px;
+      transform:translateX(-50%) scale(1);
+      border:1px solid var(--line);
+      border-radius:999px;
+      background:rgba(255,255,255,.72);
+      color:var(--muted);
+      padding:12px 20px;
+      cursor:pointer;
+      transition:
+        left .28s cubic-bezier(.22,.8,.24,1),
+        top .28s cubic-bezier(.22,.8,.24,1),
+        transform .24s ease,
+        opacity .24s ease;
+      z-index:4;
+      white-space:nowrap;
+      backdrop-filter:blur(6px);
+    }
+
+    .scroll-hint{
+      opacity:0;
+      transform:translateY(8px);
+      transition:.6s ease .25s;
+      margin-top:10px;
+      color:var(--muted);
+      font-size:12px;
+      letter-spacing:.08em;
+    }
+
+    .scroll-hint.show{
+      opacity:.8;
+      transform:none;
+    }
+
+    main{
+      width:min(100%,620px);
+      margin:0 auto;
+      padding:0 20px 90px;
+    }
+
+    .letter{
+      padding-top:max(56px, env(safe-area-inset-top));
+    }
+
+    .paper{
+      background:rgba(255,250,247,.86);
+      border:1px solid rgba(255,255,255,.75);
+      box-shadow:var(--shadow);
+      border-radius:30px;
+      padding:34px 24px;
+      backdrop-filter:blur(9px);
+    }
+
+    .opening{
+      min-height:86svh;
+      display:flex;
+      align-items:center;
+    }
+
+    .closing{
+      min-height:78svh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding-bottom:30px;
+    }
+
+    p{
+      margin:0 0 20px;
+      color:#5c4d49;
+      font-size:17px;
+      line-height:2.05;
+      letter-spacing:.01em;
+    }
+
+    .soft{
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.9;
+    }
+
+    .statement{
+      margin:40px 0;
+      padding:28px 16px;
+      text-align:center;
+      font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;
+      font-size:28px;
+      line-height:1.72;
+      color:var(--text);
+      position:relative;
+    }
+
+    .statement::before,
+    .statement::after{
+      content:"";
+      display:block;
+      width:42px;
+      height:1px;
+      margin:0 auto 20px;
+      background:var(--accent-soft);
+    }
+
+    .statement::after{
+      margin:20px auto 0;
+    }
+
+    .em{
+      color:var(--accent);
+      font-weight:700;
+    }
+
+    .thought{
+      margin:26px 0;
+      padding:19px 18px;
+      border-left:3px solid var(--accent-soft);
+      background:rgba(255,255,255,.5);
+      border-radius:0 18px 18px 0;
+      color:#685651;
+      font-size:16px;
+      line-height:1.95;
+    }
+
+    .beat{
+      height:24px;
+    }
+
+    .reveal{
+      opacity:0;
+      transform:translateY(14px);
+      transition:opacity .7s ease, transform .7s ease;
+    }
+
+    .reveal.show{
+      opacity:1;
+      transform:none;
+    }
+
+    .heart{
+      width:70px;
+      height:70px;
+      margin:4px auto 28px;
+      position:relative;
+      transform:rotate(45deg);
+      background:var(--accent-soft);
+      border-radius:15px;
+      animation:pulse 1.9s infinite ease-in-out;
+    }
+
+    .heart::before,.heart::after{
+      content:"";
+      position:absolute;
+      width:70px;
+      height:70px;
+      background:var(--accent-soft);
+      border-radius:50%;
+    }
+
+    .heart::before{left:-35px;top:0}
+    .heart::after{top:-35px;left:0}
+
+    .ending{
+      font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;
+      font-size:31px;
+      line-height:1.7;
+      margin:20px 0 8px;
+    }
+
+    .signature{
+      margin-top:26px;
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    .last-actions{
+      display:flex;
+      justify-content:center;
+      gap:12px;
+      flex-wrap:wrap;
+      margin-top:28px;
+    }
+
+    .last-actions button{
+      border-radius:999px;
+      padding:12px 18px;
+      min-height:44px;
+      cursor:pointer;
+    }
+
+    .ghost{
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.5);
+      color:var(--muted);
+    }
+
+    .save{
+      border:0;
+      background:var(--text);
+      color:white;
+      box-shadow:0 8px 22px rgba(77,64,61,.14);
+    }
+
+    .toast{
+      position:fixed;
+      left:50%;
+      bottom:max(26px, env(safe-area-inset-bottom));
+      transform:translate(-50%,12px);
+      width:min(calc(100% - 40px),420px);
+      padding:14px 16px;
+      border-radius:18px;
+      background:#4d403d;
+      color:white;
+      text-align:center;
+      font-size:14px;
+      opacity:0;
+      pointer-events:none;
+      z-index:90;
+      transition:.3s ease;
+    }
+
+    .toast.show{
+      opacity:1;
+      transform:translate(-50%,0);
+    }
+
+    .sparkle{
+      position:fixed;
+      pointer-events:none;
+      z-index:89;
+      font-size:18px;
+      animation:floatUp 1.6s ease forwards;
+    }
+
+
+    .companion{
+      position:absolute;
+      right:10px;
+      top:-4px;
+      width:92px;
+      height:92px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      z-index:2;
+      pointer-events:none;
+      filter:drop-shadow(0 8px 16px rgba(77,64,61,.08));
+    }
+
+    .face{
+      font-size:58px;
+      line-height:1;
+      transform-origin:center bottom;
+      animation:faceIdle 2.6s ease-in-out infinite;
+      transition:transform .22s ease, filter .22s ease;
+    }
+
+    .face.react{
+      animation:faceReact .55s ease;
+    }
+
+    .face-caption{
+      position:absolute;
+      top:78px;
+      right:0;
+      width:108px;
+      text-align:center;
+      color:var(--muted);
+      font-size:11px;
+      line-height:1.4;
+      opacity:.9;
+    }
+
+    .heart-burst{
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+      z-index:2;
+    }
+
+    .mini-heart{
+      position:absolute;
+      left:50%;
+      bottom:42px;
+      font-size:24px;
+      color:var(--accent);
+      opacity:0;
+      transform:translate(-50%,0) scale(.45);
+      animation:heartPop 1.05s cubic-bezier(.18,.72,.2,1) forwards;
+      text-shadow:
+        0 4px 16px rgba(216,143,136,.28),
+        0 0 10px rgba(216,143,136,.18);
+      filter:drop-shadow(0 3px 6px rgba(216,143,136,.16));
+    }
+
+    @keyframes faceIdle{
+      0%,100%{transform:translateY(0) rotate(0deg)}
+      50%{transform:translateY(-4px) rotate(-2deg)}
+    }
+
+    @keyframes faceReact{
+      0%{transform:scale(1) rotate(0deg)}
+      28%{transform:scale(.88) rotate(-7deg)}
+      58%{transform:scale(1.08) rotate(5deg)}
+      100%{transform:scale(1) rotate(0deg)}
+    }
+
+    @keyframes heartPop{
+      0%{
+        opacity:0;
+        transform:translate(-50%,6px) scale(.35) rotate(0deg);
+      }
+      12%{
+        opacity:1;
+        transform:translate(-50%,0) scale(1.15) rotate(0deg);
+      }
+      45%{
+        opacity:1;
+      }
+      100%{
+        opacity:0;
+        transform:
+          translate(
+            calc(-50% + var(--x)),
+            var(--y)
+          )
+          scale(1.45)
+          rotate(var(--r));
+      }
+    }
+
+    @keyframes bump{
+      0%,100%{transform:translateX(-50%) scale(var(--yes-scale,1))}
+      35%{transform:translateX(-50%) scale(calc(var(--yes-scale,1) * 1.12))}
+      65%{transform:translateX(-50%) scale(calc(var(--yes-scale,1) * .98))}
+    }
+
+    @keyframes pulse{
+      0%,100%{transform:rotate(45deg) scale(.94)}
+      50%{transform:rotate(45deg) scale(1)}
+    }
+
+    @keyframes floatUp{
+      0%{opacity:0;transform:translateY(0) scale(.75)}
+      18%{opacity:1}
+      100%{opacity:0;transform:translateY(-120px) scale(1.25)}
+    }
+
+    @media (max-width:420px){
+      main{padding-left:14px;padding-right:14px}
+      .paper{padding:30px 20px;border-radius:26px}
+      p{font-size:16px;line-height:2}
+      .statement{font-size:25px;padding-left:8px;padding-right:8px}
+      .choice-area{height:180px}
+    }
+  </style>
+</head>
+
+<body class="locked">
+  <section class="gate" id="gate">
+    <div class="gate-card">
+      <div class="tiny">只给雯雯小朋友</div>
+      <h1>有些话直接发给你，<br>我怕你嫌太长。</h1>
+      <p>所以这个木头想了半天，偷偷换了一种方式说。</p>
+
+      <div class="choice-area" id="choiceArea">
+        <div class="companion">
+          <div class="face" id="face">🙂</div>
+          <div class="face-caption" id="faceCaption">我准备好了</div>
+        </div>
+
+        <button class="no" id="noBtn">不了</button>
+
+        <div class="heart-burst" id="heartBurst"></div>
+        <button class="yes" id="yesBtn">那我勉强看看</button>
+      </div>
+
+      <div class="scroll-hint" id="scrollHint">往下慢慢看就好</div>
+    </div>
+  </section>
+
+  <main id="letter">
+    <div class="letter">
+
+      <section class="opening reveal">
+        <div class="paper">
+          <p>嘻嘻。想了半天的措辞，还是没理好头绪，那就想到什么说什么好了。</p>
+
+          <p>我呀，小朋友呀，没能参与你之前的日子，是我的遗憾。但又很庆幸能够遇到你。</p>
+
+          <p>你的出现改变了我很多。你的活泼可爱带给我欢乐，你的温柔体贴让我觉得生活并不是那么糟糕。</p>
+
+          <div class="statement">谢谢你带给我的一切美好。</div>
+
+          <p>我也在想，为什么不能早点遇到你。这样或许每一个值得纪念的日子，都可以刚刚好地卡在时间窗口上。</p>
+
+          <p>不敢说我做得有多好，但我会<span class="em">认认真真地爱你</span>。</p>
+        </div>
+      </section>
+
+      <div class="beat"></div>
+
+      <section class="reveal">
+        <div class="paper">
+          <p>当我看到你因为我们之间的事情不开心的样子，我觉得气愤，又心疼。</p>
+
+          <div class="thought">气愤我这个木头，为什么很多事情不能早点意识到。</div>
+
+          <div class="thought">也心疼你这么好的女孩子，却还要因为我们的事情想这么多。</div>
+
+          <p>本来我一直在纠结。我怕再提起这些事情，会让你想起那些不好的回忆。</p>
+
+          <p>但我也觉得，如果我什么都不说，也没什么行动，那我的存在好像也没什么意义，甚至会有一种在糊弄你的嫌疑。</p>
+
+          <div class="statement">所以这一次，<br>我还是想认真一点。</div>
+
+          <p class="soft" style="text-align:center">不是为了把事情轻轻翻过去，而是因为你的感受值得我认真对待。</p>
+        </div>
+      </section>
+
+      <div class="beat"></div>
+
+      <section class="reveal">
+        <div class="paper">
+          <p>我希望可以陪你很久很久。</p>
+
+          <p>不止是单纯的陪伴。我想带给你快乐，我也想我能够带给你一些美好。</p>
+
+          <p>每个与你相见的日子，我都想给足加倍的认真与仪式感。</p>
+
+          <p>所以不管你有什么事情，都可以跟我倾诉。开心的、不开心的，甚至只是鸡毛蒜皮的小事，我也乐得倾听。</p>
+
+          <p>我会尽我所能爱护你，照顾你。</p>
+
+          <div class="statement">希望在我这里，<br>你可以一直做那个<br>无忧无虑的小朋友。</div>
+        </div>
+      </section>
+
+      <section class="closing reveal">
+        <div>
+          <div class="heart"></div>
+          <div class="ending">嗯……没词了。</div>
+          <p style="text-align:center;margin-bottom:4px;">那就祝你好梦。</p>
+          <div class="ending">雯雯小朋友～</div>
+          <div class="signature">—— 这个还在努力进步的木头</div>
+
+          <div class="last-actions">
+            <button class="ghost" onclick="toast('谢谢你愿意认真看完。')">看完啦</button>
+            <button class="save" onclick="rescue()">木头还有救</button>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <div class="toast" id="toast"></div>
+
+<script>
+  const body = document.body;
+  const gate = document.getElementById('gate');
+  const noBtn = document.getElementById('noBtn');
+  const yesBtn = document.getElementById('yesBtn');
+  const choiceArea = document.getElementById('choiceArea');
+  const scrollHint = document.getElementById('scrollHint');
+  const face = document.getElementById('face');
+  const faceCaption = document.getElementById('faceCaption');
+  const heartBurst = document.getElementById('heartBurst');
+
+  let noClicks = 0;
+  let yesScale = 1;
+
+  const faceStates = [
+    {emoji:'🙂', text:'我准备好了'},
+    {emoji:'🥺', text:'真的不看嘛…'},
+    {emoji:'😟', text:'啊？再考虑一下？'},
+    {emoji:'😣', text:'吃瘪了…'},
+    {emoji:'😭', text:'真的要哭了'},
+    {emoji:'😔', text:'那我再等等…'},
+    {emoji:'🥹', text:'就看一点点嘛'},
+    {emoji:'😖', text:'木头受到了打击'},
+    {emoji:'👀', text:'我还在期待'},
+    {emoji:'🥲', text:'最后再争取一下'}
+  ];
+
+  function updateFace(){
+    const state = faceStates[Math.min(noClicks, faceStates.length - 1)];
+    face.textContent = state.emoji;
+    faceCaption.textContent = state.text;
+
+    face.classList.remove('react');
+    void face.offsetWidth;
+    face.classList.add('react');
+  }
+
+  function burstHearts(){
+    const count = Math.min(28, 14 + noClicks * 2);
+    for(let i = 0; i < count; i++){
+      const h = document.createElement('span');
+      h.className = 'mini-heart';
+      h.textContent = Math.random() > .22 ? '♥' : '♡';
+
+      const angle = (Math.PI * 2 * i / count) + (Math.random() * .28 - .14);
+      const distance = 58 + Math.random() * 74;
+      const x = Math.cos(angle) * distance;
+      const y = -48 + Math.sin(angle) * distance;
+
+      h.style.setProperty('--x', x.toFixed(1) + 'px');
+      h.style.setProperty('--y', y.toFixed(1) + 'px');
+      h.style.setProperty('--r', (Math.random()*70 - 35).toFixed(1) + 'deg');
+      h.style.animationDelay = (Math.random()*.11).toFixed(2) + 's';
+      h.style.fontSize = (20 + Math.random()*12).toFixed(1) + 'px';
+
+      heartBurst.appendChild(h);
+      setTimeout(()=>h.remove(), 1250);
+    }
+  }
+
+  function placeNoRandomly(){
+    const area = choiceArea.getBoundingClientRect();
+    const btn = noBtn.getBoundingClientRect();
+
+    const padding = 6;
+    const maxX = Math.max(padding, area.width - btn.width - padding);
+    const maxY = Math.max(padding, area.height - btn.height - padding);
+
+    const x = padding + Math.random() * Math.max(1, maxX - padding);
+    const y = padding + Math.random() * Math.max(1, maxY - padding);
+
+    noBtn.style.left = x + 'px';
+    noBtn.style.top = y + 'px';
+    noBtn.style.transform = `scale(${Math.max(.42, 1 - noClicks * .12)})`;
+  }
+
+  noBtn.addEventListener('click', () => {
+    noClicks++;
+
+    // “不了”越点越小、越躲越远
+    placeNoRandomly();
+
+    // 表情跟着越来越委屈 / 吃瘪 / 期待
+    updateFace();
+
+    // “那我勉强看看”越来越显眼，并在周围冒出爱心
+    yesScale = Math.min(1.48, yesScale + .09);
+    yesBtn.style.setProperty('--yes-scale', yesScale);
+    yesBtn.style.transform = `translateX(-50%) scale(${yesScale})`;
+    yesBtn.style.minWidth = Math.min(230, 172 + noClicks * 10) + 'px';
+    yesBtn.style.fontSize = Math.min(19, 16 + noClicks * .45) + 'px';
+
+    yesBtn.classList.remove('bump');
+    void yesBtn.offsetWidth;
+    yesBtn.classList.add('bump');
+
+    burstHearts();
+  });
+
+  yesBtn.addEventListener('click', () => {
+    burstHearts();
+    face.textContent = '🥰';
+    faceCaption.textContent = '嘿嘿，抓到你了';
+    scrollHint.classList.add('show');
+    gate.classList.add('hide');
+    body.classList.remove('locked');
+
+    setTimeout(() => {
+      gate.style.display = 'none';
+      window.scrollTo({top:0, behavior:'instant'});
+      document.querySelector('.opening').classList.add('show');
+    }, 680);
+  });
+
+  // 后面的文字不需要再点任何“继续”，只要自然往下滑。
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('show');
+      }
+    });
+  }, {threshold:.12});
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  function toast(text){
+    const t = document.getElementById('toast');
+    t.textContent = text;
+    t.classList.add('show');
+    clearTimeout(window.__toastTimer);
+    window.__toastTimer = setTimeout(()=>t.classList.remove('show'),1800);
+  }
+
+  function rescue(){
+    toast('收到。以后继续努力。');
+    for(let i=0;i<18;i++){
+      const s = document.createElement('div');
+      s.className = 'sparkle';
+      s.textContent = Math.random() > .42 ? '♡' : '✦';
+      s.style.left = (12 + Math.random()*76) + 'vw';
+      s.style.top = (58 + Math.random()*24) + 'vh';
+      s.style.animationDelay = (Math.random()*.28) + 's';
+      document.body.appendChild(s);
+      setTimeout(()=>s.remove(),1900);
+    }
+  }
+</script>
+</body>
+</html>
