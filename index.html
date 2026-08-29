@@ -24,9 +24,10 @@
     body{
       margin:0;
       background:
-        radial-gradient(circle at 18% 10%, rgba(255,255,255,.8), transparent 25%),
-        radial-gradient(circle at 84% 20%, rgba(239,208,200,.24), transparent 28%),
-        linear-gradient(180deg,#faf4f0 0%,#f5ebe6 100%);
+        radial-gradient(circle at 14% 8%, rgba(255,255,255,.92), transparent 26%),
+        radial-gradient(circle at 82% 16%, rgba(245,190,190,.25), transparent 30%),
+        radial-gradient(circle at 58% 78%, rgba(242,210,224,.20), transparent 28%),
+        linear-gradient(180deg,#fff8f6 0%,#f8eeeb 46%,#f8eff2 100%);
       color:var(--text);
       font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
       overflow-x:hidden;
@@ -45,6 +46,431 @@
         linear-gradient(90deg,rgba(255,255,255,.34) 1px,transparent 1px);
       background-size:24px 24px;
       mask-image:linear-gradient(to bottom,black,transparent 90%);
+    }
+
+
+    .ambient{
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      overflow:hidden;
+      z-index:0;
+    }
+
+    .ambient::before,
+    .ambient::after{
+      content:"";
+      position:absolute;
+      width:62vw;
+      height:62vw;
+      max-width:520px;
+      max-height:520px;
+      border-radius:50%;
+      filter:blur(56px);
+      opacity:.30;
+      animation:driftGlow 11s ease-in-out infinite alternate;
+    }
+
+    .ambient::before{
+      left:-16vw;
+      top:10vh;
+      background:radial-gradient(circle,rgba(247,191,195,.62),rgba(247,191,195,0) 68%);
+    }
+
+    .ambient::after{
+      right:-20vw;
+      top:54vh;
+      background:radial-gradient(circle,rgba(230,197,221,.58),rgba(230,197,221,0) 70%);
+      animation-delay:-4s;
+    }
+
+    .star-field{
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      z-index:1;
+      overflow:hidden;
+    }
+
+    .star{
+      position:absolute;
+      width:4px;
+      height:4px;
+      border-radius:50%;
+      background:rgba(255,255,255,.92);
+      box-shadow:0 0 10px rgba(255,255,255,.82);
+      animation:twinkle var(--d,3.2s) ease-in-out infinite;
+      opacity:.55;
+    }
+
+    .float-heart-bg{
+      position:absolute;
+      color:rgba(215,132,140,.18);
+      font-size:var(--s,16px);
+      animation:floatRomance var(--t,9s) linear infinite;
+      filter:blur(.1px);
+    }
+
+    @keyframes driftGlow{
+      0%{transform:translate3d(0,0,0) scale(.96)}
+      100%{transform:translate3d(5vw,-3vh,0) scale(1.08)}
+    }
+
+    @keyframes twinkle{
+      0%,100%{opacity:.18;transform:scale(.7)}
+      45%{opacity:.9;transform:scale(1.25)}
+    }
+
+    @keyframes floatRomance{
+      0%{transform:translateY(110vh) rotate(0deg);opacity:0}
+      12%{opacity:.20}
+      85%{opacity:.14}
+      100%{transform:translateY(-16vh) rotate(24deg);opacity:0}
+    }
+
+    .romantic-rule{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      margin:34px auto;
+      color:rgba(216,143,136,.55);
+      font-size:13px;
+      letter-spacing:.14em;
+    }
+
+    .romantic-rule::before,
+    .romantic-rule::after{
+      content:"";
+      width:64px;
+      height:1px;
+      background:linear-gradient(90deg,transparent,rgba(216,143,136,.38));
+    }
+
+    .romantic-rule::after{
+      background:linear-gradient(90deg,rgba(216,143,136,.38),transparent);
+    }
+
+    .love-note{
+      position:relative;
+      margin:32px 0;
+      padding:24px 20px 22px;
+      border-radius:22px;
+      background:
+        linear-gradient(135deg,rgba(255,255,255,.72),rgba(255,247,247,.50));
+      border:1px solid rgba(255,255,255,.88);
+      box-shadow:
+        0 12px 34px rgba(119,83,77,.08),
+        inset 0 1px 0 rgba(255,255,255,.85);
+    }
+
+    .love-note::before{
+      content:"♡";
+      position:absolute;
+      right:16px;
+      top:10px;
+      font-size:34px;
+      color:rgba(216,143,136,.18);
+      transform:rotate(12deg);
+    }
+
+    .love-note p:last-child{margin-bottom:0}
+
+    .opening .paper::before{
+      content:"For You";
+      display:block;
+      margin-bottom:18px;
+      text-align:right;
+      color:rgba(216,143,136,.56);
+      font-family:"Songti SC","STSong",serif;
+      font-style:italic;
+      font-size:14px;
+      letter-spacing:.08em;
+    }
+
+
+    .envelope-wrap{
+      position:absolute;
+      left:50%;
+      top:50%;
+      transform:translate(-50%,-50%);
+      width:min(88vw,390px);
+      height:246px;
+      pointer-events:none;
+      opacity:.22;
+      z-index:0;
+    }
+
+    .envelope-back{
+      position:absolute;
+      inset:0;
+      border-radius:20px;
+      background:
+        linear-gradient(145deg,rgba(255,255,255,.92),rgba(247,226,221,.76));
+      border:1px solid rgba(216,143,136,.18);
+      box-shadow:0 24px 60px rgba(107,73,68,.08);
+      overflow:hidden;
+    }
+
+    .envelope-back::before{
+      content:"";
+      position:absolute;
+      left:0; right:0; top:0;
+      height:58%;
+      background:
+        linear-gradient(150deg,transparent 49.3%,rgba(227,182,176,.26) 50%,transparent 50.7%),
+        linear-gradient(210deg,transparent 49.3%,rgba(227,182,176,.24) 50%,transparent 50.7%);
+    }
+
+    .envelope-back::after{
+      content:"";
+      position:absolute;
+      left:0; right:0; bottom:0;
+      height:52%;
+      background:
+        linear-gradient(35deg,transparent 49.4%,rgba(227,182,176,.20) 50%,transparent 50.6%),
+        linear-gradient(-35deg,transparent 49.4%,rgba(227,182,176,.20) 50%,transparent 50.6%);
+    }
+
+    .paper{
+      isolation:isolate;
+    }
+
+    .paper-fold{
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+      z-index:0;
+      opacity:.34;
+      background:
+        linear-gradient(90deg,transparent 49.75%,rgba(130,100,92,.045) 50%,transparent 50.25%),
+        linear-gradient(180deg,transparent 31%,rgba(130,100,92,.035) 31.2%,transparent 31.4%),
+        linear-gradient(180deg,transparent 66%,rgba(130,100,92,.025) 66.2%,transparent 66.4%);
+      mix-blend-mode:multiply;
+    }
+
+    .paper-corner{
+      position:absolute;
+      width:48px;
+      height:48px;
+      border-color:rgba(216,143,136,.15);
+      pointer-events:none;
+      z-index:1;
+    }
+
+    .paper-corner.tl{
+      left:16px;top:16px;
+      border-left:1px solid;
+      border-top:1px solid;
+      border-radius:14px 0 0 0;
+    }
+
+    .paper-corner.br{
+      right:16px;bottom:16px;
+      border-right:1px solid;
+      border-bottom:1px solid;
+      border-radius:0 0 14px 0;
+    }
+
+    .hand-note{
+      margin:10px 0 24px;
+      text-align:right;
+      color:rgba(193,119,122,.78);
+      font-family:"Kaiti SC","STKaiti","KaiTi","Songti SC",serif;
+      font-size:17px;
+      line-height:1.7;
+      transform:rotate(-2.2deg);
+      letter-spacing:.02em;
+    }
+
+    .hand-note.left{
+      text-align:left;
+      transform:rotate(1.7deg);
+    }
+
+    .hand-underline{
+      position:relative;
+      display:inline;
+      background:
+        linear-gradient(transparent 72%,rgba(238,188,185,.34) 72%,rgba(238,188,185,.34) 91%,transparent 91%);
+      padding:0 .08em;
+    }
+
+    .love-dropcap::first-letter{
+      float:left;
+      font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;
+      font-size:50px;
+      line-height:.92;
+      padding:8px 8px 0 0;
+      color:rgba(184,108,111,.88);
+    }
+
+    .letter-date{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-end;
+      gap:18px;
+      margin:0 0 28px;
+      padding-bottom:12px;
+      border-bottom:1px solid rgba(216,143,136,.12);
+      color:var(--muted);
+      font-size:12px;
+      letter-spacing:.08em;
+    }
+
+    .letter-date .to{
+      font-family:"Kaiti SC","STKaiti","KaiTi","Songti SC",serif;
+      font-size:17px;
+      color:#6a5651;
+      letter-spacing:.04em;
+    }
+
+    .seal-wrap{
+      margin:30px auto 8px;
+      width:86px;
+      height:86px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      position:relative;
+    }
+
+    .wax-seal{
+      width:68px;
+      height:68px;
+      border-radius:48% 52% 45% 55% / 50% 45% 55% 50%;
+      background:
+        radial-gradient(circle at 34% 28%,rgba(255,255,255,.22),transparent 28%),
+        linear-gradient(145deg,#c97878,#a95359);
+      box-shadow:
+        0 7px 15px rgba(116,55,60,.20),
+        inset 0 1px 1px rgba(255,255,255,.18),
+        inset 0 -3px 7px rgba(91,38,43,.15);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#f7d7d6;
+      font-family:"Songti SC","STSong",serif;
+      font-size:25px;
+      transform:rotate(-7deg);
+      position:relative;
+    }
+
+    .wax-seal::after{
+      content:"";
+      position:absolute;
+      inset:8px;
+      border:1px solid rgba(249,221,220,.42);
+      border-radius:50%;
+    }
+
+    .wax-seal small{
+      font-size:10px;
+      position:absolute;
+      bottom:10px;
+      letter-spacing:.08em;
+      opacity:.78;
+    }
+
+    .margin-note{
+      position:relative;
+      margin:28px 0 28px 16px;
+      padding:2px 0 2px 18px;
+      border-left:1px solid rgba(216,143,136,.28);
+      color:#765d58;
+      font-family:"Kaiti SC","STKaiti","KaiTi","Songti SC",serif;
+      font-size:16px;
+      line-height:1.9;
+    }
+
+    .margin-note::before{
+      content:"♡";
+      position:absolute;
+      left:-8px;
+      top:-7px;
+      color:rgba(216,143,136,.58);
+      background:rgba(255,250,247,.92);
+      padding:0 2px;
+      font-family:serif;
+    }
+
+    .ps-note{
+      margin:34px auto 4px;
+      max-width:360px;
+      padding:18px 18px 16px;
+      border-radius:18px;
+      background:rgba(255,247,244,.62);
+      border:1px dashed rgba(216,143,136,.28);
+      font-family:"Kaiti SC","STKaiti","KaiTi","Songti SC",serif;
+      color:#715954;
+      font-size:16px;
+      line-height:1.85;
+      transform:rotate(-1deg);
+      box-shadow:0 8px 22px rgba(97,63,57,.05);
+    }
+
+    .ps-note strong{
+      color:var(--accent);
+      font-weight:600;
+    }
+
+    .signature-line{
+      width:150px;
+      height:1px;
+      margin:10px 0 9px auto;
+      background:linear-gradient(90deg,transparent,rgba(123,91,83,.30));
+    }
+
+    .postmark{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      width:78px;
+      height:78px;
+      margin-top:16px;
+      border:2px solid rgba(190,118,120,.20);
+      border-radius:50%;
+      color:rgba(181,103,108,.42);
+      font-family:serif;
+      font-size:11px;
+      line-height:1.2;
+      letter-spacing:.09em;
+      text-transform:uppercase;
+      transform:rotate(9deg);
+      position:relative;
+    }
+
+    .postmark::after{
+      content:"";
+      position:absolute;
+      left:-18px;
+      width:108px;
+      height:28px;
+      border-top:1px solid rgba(190,118,120,.15);
+      border-bottom:1px solid rgba(190,118,120,.12);
+      transform:rotate(-8deg);
+    }
+
+    .closing-letter{
+      width:min(100%,480px);
+      margin:0 auto;
+      padding:34px 24px 26px;
+      border-radius:28px;
+      background:
+        linear-gradient(180deg,rgba(255,253,251,.76),rgba(255,247,246,.66));
+      border:1px solid rgba(255,255,255,.78);
+      box-shadow:0 20px 60px rgba(105,72,66,.08);
+      position:relative;
+      overflow:hidden;
+    }
+
+    .closing-letter::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+      background:
+        linear-gradient(90deg,transparent 49.7%,rgba(98,73,68,.03) 50%,transparent 50.3%);
     }
 
     button{font:inherit}
@@ -177,12 +603,34 @@
     }
 
     .paper{
-      background:rgba(255,250,247,.86);
-      border:1px solid rgba(255,255,255,.75);
-      box-shadow:var(--shadow);
-      border-radius:30px;
-      padding:34px 24px;
-      backdrop-filter:blur(9px);
+      position:relative;
+      overflow:hidden;
+      background:
+        linear-gradient(180deg,rgba(255,253,251,.92),rgba(255,249,248,.84));
+      border:1px solid rgba(255,255,255,.90);
+      box-shadow:
+        0 22px 70px rgba(93,69,61,.12),
+        0 2px 14px rgba(222,160,162,.06),
+        inset 0 1px 0 rgba(255,255,255,.92);
+      border-radius:32px;
+      padding:36px 26px;
+      backdrop-filter:blur(14px);
+    }
+
+    .paper::after{
+      content:"";
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+      border-radius:inherit;
+      background:
+        radial-gradient(circle at 12% 10%,rgba(255,255,255,.60),transparent 24%),
+        linear-gradient(135deg,rgba(242,190,191,.035),transparent 34%);
+    }
+
+    .paper > *{
+      position:relative;
+      z-index:1;
     }
 
     .opening{
@@ -215,14 +663,15 @@
     }
 
     .statement{
-      margin:40px 0;
-      padding:28px 16px;
+      margin:42px 0;
+      padding:30px 18px;
       text-align:center;
       font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;
-      font-size:28px;
+      font-size:29px;
       line-height:1.72;
       color:var(--text);
       position:relative;
+      text-shadow:0 2px 14px rgba(216,143,136,.06);
     }
 
     .statement::before,
@@ -270,14 +719,26 @@
       transform:none;
     }
 
+    .reveal.show .paper{
+      animation:letterSettle .78s cubic-bezier(.2,.75,.2,1) both;
+    }
+
+    @keyframes letterSettle{
+      from{transform:translateY(8px) rotate(.25deg);filter:blur(.2px)}
+      to{transform:translateY(0) rotate(0deg);filter:none}
+    }
+
     .heart{
       width:70px;
       height:70px;
       margin:4px auto 28px;
       position:relative;
       transform:rotate(45deg);
-      background:var(--accent-soft);
+      background:linear-gradient(135deg,#efb8b4,#e9a6ad);
       border-radius:15px;
+      box-shadow:
+        0 0 0 10px rgba(232,164,170,.06),
+        0 0 34px rgba(225,139,150,.24);
       animation:pulse 1.9s infinite ease-in-out;
     }
 
@@ -286,7 +747,7 @@
       position:absolute;
       width:70px;
       height:70px;
-      background:var(--accent-soft);
+      background:linear-gradient(135deg,#efb8b4,#e9a6ad);
       border-radius:50%;
     }
 
@@ -305,6 +766,7 @@
       color:var(--muted);
       font-size:14px;
     }
+
 
     .aigc-note{
       display:inline-flex;
@@ -395,6 +857,7 @@
       font-size:18px;
       animation:floatUp 1.6s ease forwards;
     }
+
 
     .companion{
       position:absolute;
@@ -520,11 +983,17 @@
 </head>
 
 <body class="locked">
+  <div class="ambient"></div>
+  <div class="star-field" id="starField"></div>
   <section class="gate" id="gate">
+    <div class="envelope-wrap" aria-hidden="true">
+      <div class="envelope-back"></div>
+    </div>
     <div class="gate-card">
       <div class="tiny">只给雯雯小朋友</div>
       <h1>有些话直接发给你，<br>我怕你嫌太长。</h1>
       <p>所以这个木头想了半天，偷偷换了一种方式说。</p>
+      <div class="hand-note" style="text-align:center;transform:rotate(-1.5deg);margin-top:10px;">像拆一封信一样，慢慢看。</div>
 
       <div class="choice-area" id="choiceArea">
         <div class="companion">
@@ -547,7 +1016,15 @@
 
       <section class="opening reveal">
         <div class="paper">
-          <p>嘻嘻。想了半天的措辞，还是没理好头绪，那就想到什么说什么好了。</p>
+          <div class="paper-fold"></div>
+          <div class="paper-corner tl"></div>
+          <div class="paper-corner br"></div>
+          <div class="letter-date">
+            <span class="to">To：雯雯小朋友</span>
+            <span></span>
+          </div>
+          <div class="hand-note">“有些话，还是写成信比较认真。”</div>
+          <p class="love-dropcap">嘻嘻。想了半天的措辞，还是没理好头绪，那就想到什么说什么好了。</p>
 
           <p>我呀，小朋友呀，没能参与你之前的日子，是我的遗憾。但又很庆幸能够遇到你。</p>
 
@@ -557,19 +1034,24 @@
 
           <p>我也在想，为什么不能早点遇到你。这样或许每一个值得纪念的日子，都可以刚刚好地卡在时间窗口上。</p>
 
-          <p>不敢说我做得有多好，但我会<span class="em">认认真真地爱你</span>。</p>
+          <p>不敢说我做得有多好，但我会<span class="em hand-underline">认认真真地爱你</span>。</p>
+
         </div>
       </section>
 
-      <div class="beat"></div>
+      <div class="romantic-rule reveal">♡</div>
 
       <section class="reveal">
         <div class="paper">
-          <p>当我看到你因为我们之间的事情不开心的样子，我觉得气愤，又心疼。</p>
+          <div class="paper-fold"></div>
+          <div class="paper-corner tl"></div>
+          <div class="paper-corner br"></div>
+          <div class="love-note">
+            <p>当我看到你因为我们之间的事情不开心的样子，我觉得气愤，又心疼。</p>
+            <div class="thought">气愤我这个木头，为什么很多事情不能早点意识到。</div>
+            <div class="thought">也心疼你这么好的女孩子，却还要因为我们的事情想这么多。</div>
+          </div>
 
-          <div class="thought">气愤我这个木头，为什么很多事情不能早点意识到。</div>
-
-          <div class="thought">也心疼你这么好的女孩子，却还要因为我们的事情想这么多。</div>
 
           <p>本来我一直在纠结。我怕再提起这些事情，会让你想起那些不好的回忆。</p>
 
@@ -581,10 +1063,13 @@
         </div>
       </section>
 
-      <div class="beat"></div>
+      <div class="romantic-rule reveal">♡</div>
 
       <section class="reveal">
         <div class="paper">
+          <div class="paper-fold"></div>
+          <div class="paper-corner tl"></div>
+          <div class="paper-corner br"></div>
           <p>我希望可以陪你很久很久。</p>
 
           <p>不止是单纯的陪伴。我想带给你快乐，我也想我能够带给你一些美好。</p>
@@ -596,16 +1081,26 @@
           <p>我会尽我所能爱护你，照顾你。</p>
 
           <div class="statement">希望在我这里，<br>你可以一直做那个<br>无忧无虑的小朋友。</div>
+          <div class="ps-note">
+            <strong>P.S.</strong> 以后如果我又木头了，你可以直接敲醒我。<br>
+            我会改，但你不许一个人偷偷难过太久。
+          </div>
         </div>
       </section>
 
       <section class="closing reveal">
-        <div>
+        <div class="closing-letter">
           <div class="heart"></div>
           <div class="ending">嗯……没词了。</div>
           <p style="text-align:center;margin-bottom:4px;">那就祝你好梦。</p>
           <div class="ending">雯雯小朋友～</div>
+          <div class="soft" style="text-align:center;margin-top:16px;letter-spacing:.12em;">愿以后每一次见面，都值得期待 ♡</div>
+          <div class="signature-line"></div>
           <div class="signature">—— 这个还在努力进步的木头</div>
+          <div class="seal-wrap">
+            <div class="wax-seal">雯<small>ONLY</small></div>
+          </div>
+          <div class="postmark">FOR<br>YOU<br>♡</div>
           <div class="aigc-note"><span class="wink">🤫</span><span>小声说：内容 AIGC 为 0 哦～</span></div>
 
           <div class="last-actions">
@@ -699,9 +1194,13 @@
   noBtn.addEventListener('click', () => {
     noClicks++;
 
+    // “不了”越点越小、越躲越远
     placeNoRandomly();
+
+    // 表情跟着越来越委屈 / 吃瘪 / 期待
     updateFace();
 
+    // “那我勉强看看”越来越显眼，并在周围冒出爱心
     yesScale = Math.min(1.48, yesScale + .09);
     yesBtn.style.setProperty('--yes-scale', yesScale);
     yesBtn.style.transform = `translateX(-50%) scale(${yesScale})`;
@@ -727,6 +1226,7 @@
     face.classList.add('react');
     scrollHint.classList.add('show');
 
+    // 先停留一下，让开心表情和爱心完整显示，再进入正文。
     setTimeout(() => {
       gate.classList.add('hide');
       body.classList.remove('locked');
@@ -739,6 +1239,7 @@
     }, 1000);
   });
 
+  // 后面的文字不需要再点任何“继续”，只要自然往下滑。
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if(entry.isIntersecting){
@@ -770,6 +1271,36 @@
       setTimeout(()=>s.remove(),1900);
     }
   }
+  // 轻量浪漫背景：小星点 + 极少量漂浮心形
+  (function romanticAtmosphere(){
+    const field = document.getElementById('starField');
+    if(!field) return;
+
+    for(let i=0;i<26;i++){
+      const s = document.createElement('span');
+      s.className = 'star';
+      s.style.left = (Math.random()*100).toFixed(1) + 'vw';
+      s.style.top = (Math.random()*100).toFixed(1) + 'vh';
+      s.style.setProperty('--d', (2.4 + Math.random()*3.6).toFixed(2) + 's');
+      s.style.animationDelay = (-Math.random()*4).toFixed(2) + 's';
+      const size = 2 + Math.random()*3;
+      s.style.width = size + 'px';
+      s.style.height = size + 'px';
+      field.appendChild(s);
+    }
+
+    for(let i=0;i<7;i++){
+      const h = document.createElement('span');
+      h.className = 'float-heart-bg';
+      h.textContent = Math.random()>.35 ? '♡' : '♥';
+      h.style.left = (6 + Math.random()*88).toFixed(1) + 'vw';
+      h.style.setProperty('--s', (13 + Math.random()*11).toFixed(1) + 'px');
+      h.style.setProperty('--t', (9 + Math.random()*8).toFixed(1) + 's');
+      h.style.animationDelay = (-Math.random()*12).toFixed(2) + 's';
+      field.appendChild(h);
+    }
+  })();
+
 </script>
 </body>
 </html>
