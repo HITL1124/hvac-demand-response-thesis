@@ -690,18 +690,28 @@
   });
 
   yesBtn.addEventListener('click', () => {
+    yesBtn.disabled = true;
+    noBtn.disabled = true;
+
     burstHearts();
     face.textContent = '🥰';
     faceCaption.textContent = '嘿嘿，抓到你了';
+    face.classList.remove('react');
+    void face.offsetWidth;
+    face.classList.add('react');
     scrollHint.classList.add('show');
-    gate.classList.add('hide');
-    body.classList.remove('locked');
 
+    // 先停留一下，让开心表情和爱心完整显示，再进入正文。
     setTimeout(() => {
-      gate.style.display = 'none';
-      window.scrollTo({top:0, behavior:'instant'});
-      document.querySelector('.opening').classList.add('show');
-    }, 680);
+      gate.classList.add('hide');
+      body.classList.remove('locked');
+
+      setTimeout(() => {
+        gate.style.display = 'none';
+        window.scrollTo({top:0, behavior:'instant'});
+        document.querySelector('.opening').classList.add('show');
+      }, 680);
+    }, 1000);
   });
 
   // 后面的文字不需要再点任何“继续”，只要自然往下滑。
